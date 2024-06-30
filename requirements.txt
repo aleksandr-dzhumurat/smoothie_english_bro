@@ -1,0 +1,7 @@
+python-telegram-bot
+openai
+langchain
+langchain_community
+jinja2
+beautifulsoup4
+langchain-openai
