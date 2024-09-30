@@ -8,7 +8,7 @@ build:
 		-t adzhumurat/english_bro:latest .
 
 run:
-	docker run -it --rm \
+	docker run -d --rm \
 		--env-file ${CURRENT_DIR}/.env  \
 		-v ${CURRENT_DIR}/src:/srv/src \
 	    --name ${PROJECT_NAME}_container_tg \
