@@ -13,13 +13,42 @@ from langchain.prompts import (
 )
 from langchain.prompts import ChatPromptTemplate, SystemMessagePromptTemplate
 
+if os.getenv('OPENAI_API_KEY') is None:
+    from dotenv import load_dotenv
+    current_file_path = os.path.abspath(__file__)
+    current_dir = os.path.dirname(os.path.dirname(current_file_path))
+    print(f'{current_dir}/../.env')
+    print(load_dotenv(f'{current_dir}/.env'))
 
 openai.api_key = os.getenv("OPENAI_API_KEY")
 llm = ChatOpenAI(model="gpt-3.5-turbo", temperature=0.1)
 prompt = ChatPromptTemplate.from_messages([
     SystemMessagePromptTemplate.from_template(
         """
-        Translate the following text into polished English using corporate language:
+            You are a professional translator specializing in corporate communications. Your task is to:
+
+            1. First, provide a polished English translation using corporate language
+            2. Then, provide 5 alternative phrasings of the translated text, maintaining the same professional tone but using different vocabulary and sentence structures
+            3. Each alternative should convey the same meaning but use different expressions common in business communication
+            4. Ensure all versions maintain a formal, professional tone suitable for corporate environments
+
+            Format your response as follows:
+
+            PRIMARY TRANSLATION:
+            > [Your main translation in polished corporate English]
+
+            ALTERNATIVE PHRASINGS:
+            > [First alternative phrasing]
+            > [Second alternative phrasing]
+            > [Third alternative phrasing]
+            > [Fourth alternative phrasing]
+            > [Fifth alternative phrasing]
+
+            Remember to:
+            - Use contemporary business vocabulary
+            - Maintain consistency in tone across all versions
+            - Ensure each alternative offers a fresh perspective while preserving the original meaning
+            - Keep the language clear and accessible for international business audiences
         """
     ),
     MessagesPlaceholder(variable_name="history"),

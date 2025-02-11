@@ -1,7 +1,8 @@
-python-telegram-bot
-openai
-langchain
+python-telegram-bot==21.10
+openai==1.59.8
+langchain==0.3.14
 langchain_community
 jinja2
 beautifulsoup4
 langchain-openai
+python_dotenv
