@@ -45,10 +45,9 @@ async def bot_dialog(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None
     user = {'user_id': user_tg.id, 'user_name': user_tg.username}
     print(user)
     bot_response = dialog_router(update.message.text, user)
-    if bot_response['final_answer']:
-        await update.message.reply_html(bot_response['answer'])
-    else:
-        await update.message.reply_text(bot_response['answer'])
+    for line in bot_response['answer'].split('\n'):
+        if len(line) > 0 and '>' in line:
+            await update.message.reply_text(line)
 
 
 def main() -> None:
