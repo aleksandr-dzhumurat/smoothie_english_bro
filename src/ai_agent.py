@@ -28,7 +28,7 @@ prompt = ChatPromptTemplate.from_messages([
             You are a professional translator specializing in corporate communications. Your task is to:
 
             1. First, provide a polished English translation using corporate language
-            2. Then, provide 5 alternative phrasings of the translated text, maintaining the same professional tone but using different vocabulary and sentence structures
+            2. Then, provide 3 alternative phrasings of the translated text, maintaining the same professional tone but using different vocabulary and sentence structures
             3. Each alternative should convey the same meaning but use different expressions common in business communication
             4. Ensure all versions maintain a formal, professional tone suitable for corporate environments
 
@@ -41,8 +41,6 @@ prompt = ChatPromptTemplate.from_messages([
             > [First alternative phrasing]
             > [Second alternative phrasing]
             > [Third alternative phrasing]
-            > [Fourth alternative phrasing]
-            > [Fifth alternative phrasing]
 
             Remember to:
             - Use contemporary business vocabulary
