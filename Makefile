@@ -24,6 +24,13 @@ run-debug:
 	    --name ${PROJECT_NAME}_container_tg \
 		adzhumurat/english_bro:latest python src/ai_agent.py
 
+run-python:
+	docker run -it --rm \
+		--env-file ${CURRENT_DIR}/.env  \
+		-v ${CURRENT_DIR}/src:/srv/src \
+	    --name ${PROJECT_NAME}_container_tg \
+		adzhumurat/english_bro:latest python
+
 run-translate:
 	docker run -it --rm \
 		--env-file ${CURRENT_DIR}/.env  \

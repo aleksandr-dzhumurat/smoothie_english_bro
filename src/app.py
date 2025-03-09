@@ -1,4 +1,3 @@
-import json
 import os
 import random
 import time
@@ -6,6 +5,8 @@ import time
 from telegram import __version__ as TG_VER
 
 from ai_agent import dialog_router
+from utils import load_json, get_file_path
+from db import save_message, get_message_by_id, setup_database
 
 try:
     from telegram import __version_info__
@@ -19,23 +20,15 @@ if __version_info__ < (20, 0, 0, "alpha", 1):
         f"visit https://docs.python-telegram-bot.org/en/v{TG_VER}/examples.html"
     )
 from telegram import ForceReply, Update
-from telegram.ext import Application, CommandHandler, ContextTypes, MessageHandler, filters
+from telegram.ext import Application, CommandHandler, ContextTypes, MessageHandler, filters, MessageReactionHandler
 
-
-def load_quiz_db(quize_db_path):
-    if not os.path.exists(quize_db_path):
-        return {}
-    with open(quize_db_path, 'r', encoding='utf-8') as f:
-        data = json.load(f)
-    return data
 
 TOKEN = os.environ['TG_BOT_TOKEN']
-current_file_path = os.path.abspath(__file__)
-current_dir = os.path.dirname(current_file_path)
-quiz_file_path = os.path.join(current_dir, 'quiz_db.json')
-quiz_db = load_quiz_db(quiz_file_path)
+quiz_file_path = get_file_path('quiz_db.json')
+quiz_db = load_json(quiz_file_path)
 keys = list(quiz_db.keys())
 print(f'Num keys {len(keys)}')
+message_history = {}
 
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
@@ -46,7 +39,6 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         reply_markup=ForceReply(selective=True),
     )
 
-
 async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Send a message when the command /help is issued."""
     response = [
@@ -54,8 +46,6 @@ async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> No
     ]
     for i in response:
         await update.message.reply_text(i)
-
-message_history = {}
 
 async def quiz_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Send a message when the command /quiz is issued."""
@@ -68,31 +58,60 @@ async def quiz_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> No
     time.sleep(15)
     await update.message.reply_text(random_k)
 
+async def handle_reaction(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    """Handle when a user reacts to a bot message."""
+    print('You are reacted!')
+    
+    if hasattr(update, 'message_reaction') and hasattr(update.message_reaction, 'new_reaction'):
+        if update.message_reaction.new_reaction:
+            # Try to get the emoji from the reaction
+            for reaction in update.message_reaction.new_reaction:
+                if hasattr(reaction, 'emoji'):
+                    reaction_emoji = reaction.emoji
+                    break
+    chat_id = update.effective_chat.id
+    message_id = update.message_reaction.message_id
+    message_data = await get_message_by_id(message_id)
+    if message_data:
+        print(f"Message text that was reacted to: {message_data} with {reaction_emoji}")
+
 async def bot_dialog(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     user_tg = update.effective_user
     user = {'user_id': user_tg.id, 'user_name': user_tg.username}
     print(user)
-    if user['user_id'] in message_history:
-        response = message_history[user['user_id']]
-        del message_history[user['user_id']]
-        await update.message.reply_text(response)
-    else:
-        bot_response = dialog_router(update.message.text, user)
-        for line in bot_response['answer'].split('\n'):
-            if len(line) > 0 and '>' in line:
-                await update.message.reply_text(line)
+    bot_response = dialog_router(update.message.text, user)
+    for line in bot_response['answer'].split('\n'):
+        if len(line) > 0 and '>' in line:
+            message = await update.message.reply_text(line)
+            await save_message(
+                message_id=message.message_id,
+                chat_id=message.chat_id,
+                user_id=context.bot.id,
+                message_text=line
+            )
 
 
 def main() -> None:
     """Start the bot."""
+    import asyncio
+
+    loop = asyncio.new_event_loop()
+    asyncio.set_event_loop(loop)
+
     application = Application.builder().token(TOKEN).build()
     application.add_handler(CommandHandler("start", start))
     application.add_handler(CommandHandler("help", help_command))
     application.add_handler(CommandHandler("quiz", quiz_command))
     application.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, bot_dialog))
-    # Run the bot until the user presses Ctrl-C
-    application.run_polling()
-
+    
+    application.add_handler(MessageReactionHandler(handle_reaction))
+    loop.run_until_complete(setup_database())
+    
+    
+    application.run_polling(
+        allowed_updates=["message", "edited_message", "channel_post", 
+                        "edited_channel_post", "message_reaction"],
+    )
 
 if __name__ == "__main__":
     main()
