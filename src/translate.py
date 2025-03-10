@@ -1,6 +1,5 @@
 import os
 import random
-import os
 
 from utils import load_json, dump_json, create_translator
 

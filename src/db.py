@@ -28,6 +28,13 @@ async def setup_database():
             FOREIGN KEY (message_id) REFERENCES messages (message_id)
         )
         ''')
+
+        await db.execute('''
+        CREATE TABLE IF NOT EXISTS translations (
+            english_message TEXT NOT NULL,
+            russian_message TEXT NOT NULL
+        )
+        ''')
         
         await db.commit()
 

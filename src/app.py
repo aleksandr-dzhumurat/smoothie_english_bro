@@ -4,8 +4,8 @@ import time
 
 from telegram import __version__ as TG_VER
 
-from ai_agent import dialog_router
-from utils import load_json, get_file_path
+from ai_agent import dialog_router, english_to_russian
+from utils import load_json, get_file_path, dump_json
 from db import save_message, get_message_by_id, setup_database
 
 try:
@@ -61,18 +61,17 @@ async def quiz_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> No
 async def handle_reaction(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Handle when a user reacts to a bot message."""
     print('You are reacted!')
-    
     if hasattr(update, 'message_reaction') and hasattr(update.message_reaction, 'new_reaction'):
         if update.message_reaction.new_reaction:
-            # Try to get the emoji from the reaction
             for reaction in update.message_reaction.new_reaction:
                 if hasattr(reaction, 'emoji'):
                     reaction_emoji = reaction.emoji
                     break
-    chat_id = update.effective_chat.id
     message_id = update.message_reaction.message_id
     message_data = await get_message_by_id(message_id)
     if message_data:
+        quiz_db.update({message_data['message_text']: english_to_russian(message_data['message_text'])})
+        dump_json(quiz_db, quiz_file_path)
         print(f"Message text that was reacted to: {message_data} with {reaction_emoji}")
 
 async def bot_dialog(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
@@ -87,7 +86,7 @@ async def bot_dialog(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None
                 message_id=message.message_id,
                 chat_id=message.chat_id,
                 user_id=context.bot.id,
-                message_text=line
+                message_text=line[2:]
             )
 
 

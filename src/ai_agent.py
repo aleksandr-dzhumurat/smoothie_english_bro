@@ -1,17 +1,17 @@
 import os
 
 import openai
-from langchain.chat_models import ChatOpenAI
+# from langchain.chat_models import ChatOpenAI
 
-from langchain.memory import ConversationBufferMemory
-from langchain.chains import ConversationChain
-from langchain.chat_models import ChatOpenAI
-from langchain.prompts import (
-    ChatPromptTemplate,
-    HumanMessagePromptTemplate,
-    MessagesPlaceholder,
-)
-from langchain.prompts import ChatPromptTemplate, SystemMessagePromptTemplate
+# from langchain.memory import ConversationBufferMemory
+# from langchain.chains import ConversationChain
+# from langchain.chat_models import ChatOpenAI
+# from langchain.prompts import (
+#     ChatPromptTemplate,
+#     HumanMessagePromptTemplate,
+#     MessagesPlaceholder,
+# )
+# from langchain.prompts import ChatPromptTemplate, SystemMessagePromptTemplate
 
 from utils import create_translator
 
@@ -25,6 +25,7 @@ if os.getenv('OPENAI_API_KEY') is None:
 
 openai.api_key = os.getenv("OPENAI_API_KEY")
 corrector = create_translator(source_lang="English", target_lang="English")
+english_to_russian = create_translator(source_lang="English", target_lang="Russian")
 # llm = ChatOpenAI(model="gpt-3.5-turbo", temperature=0.1)
 # prompt = ChatPromptTemplate.from_messages([
 #     SystemMessagePromptTemplate.from_template(

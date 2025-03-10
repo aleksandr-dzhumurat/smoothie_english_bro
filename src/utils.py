@@ -21,18 +21,6 @@ def get_file_path(file_name):
     return file_path
 
 def create_translator(api_key=None, source_lang="English", target_lang="Russian", model="gpt-3.5-turbo"):
-    """
-    Creates a translator function that uses direct OpenAI API calls.
-    
-    Args:
-        api_key (str, optional): OpenAI API key. Defaults to environment variable.
-        source_lang (str, optional): Source language. Defaults to "English".
-        target_lang (str, optional): Target language. Defaults to "Russian".
-        model (str, optional): OpenAI model to use. Defaults to "gpt-3.5-turbo".
-        
-    Returns:
-        function: A translation function
-    """
     openai_api_key = api_key or os.getenv("OPENAI_API_KEY")
     if not openai_api_key:
         raise ValueError("OpenAI API key must be provided or set as OPENAI_API_KEY environment variable")
@@ -40,7 +28,7 @@ def create_translator(api_key=None, source_lang="English", target_lang="Russian"
         system_message =         """
             You are a professional translator specializing in corporate communications. Your task is to:
 
-            1. First, provide a polished English translation using corporate language
+            1. First, provide an English translation with just fixing errors in the original message.
             2. Then, provide 3 alternative phrasings of the translated text, maintaining the same professional tone but using different vocabulary and sentence structures
             3. Each alternative should convey the same meaning but use different expressions common in business communication
             4. Ensure all versions maintain a formal, professional tone suitable for corporate environments
