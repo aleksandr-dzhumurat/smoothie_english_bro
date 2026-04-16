@@ -1,2 +1,15 @@
 .env
 .history/
+data
+.venv
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+*.env
+.DS_Store
+.idea/
+.vscode/

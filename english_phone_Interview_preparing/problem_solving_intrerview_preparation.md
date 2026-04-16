@@ -396,3 +396,105 @@ Review Revolut's five values one final time and prepare a mental checklist for d
 The difference is not analytical horsepower — you already have that. **The difference is visible structure and decisive communication.** Revolut's interviewers are evaluating whether they'd trust you to run a room with engineers, data scientists, and business stakeholders. That trust comes from watching you take an ambiguous, messy problem and, in real-time, turn it into a clear framework, test hypotheses efficiently, and deliver a recommendation that sounds like a plan someone could execute tomorrow morning.
 
 The interviewers aren't looking for the "right" answer. They're looking for a thinking process they can follow, a recommendation they can challenge, and a candidate who responds to pushback by refining their position rather than abandoning it. Every hour of practice this week should serve that goal: structure visibly, recommend decisively, own the outcome completely.
+
+# Revolut — Problem Solving Interview: Candidate Prep Guide
+
+---
+
+## Why is problem solving important at Revolut?
+
+At Revolut, we place a strong emphasis on problem-solving, considering it a core value that underpins our entire company culture. Our "Think Deeper" value encourages our team members to approach challenges with a critical eye and an unwavering determination to dive deeper into issues to uncover unique solutions. We firmly believe that our ability to solve complex problems distinguishes us from our competitors and enables us to develop innovative financial solutions that serve our customers' needs.
+
+Our relentless focus on problem-solving has been an integral part of Revolut's DNA from its inception. Despite being told that the problem they were attempting to solve was impossible to achieve, our founding team refused to give up. Instead, they approached the problem from first principles, questioning every assumption and analysing every detail with a rigorous process that ultimately led to the creation of the now-famous Revolut solution.
+
+As we strive to build the world's first financial superapp, we continue to push the boundaries of what is achievable in the industry. Of course, this ambitious goal presents significant challenges, but our employees confront them head-on every day with a commitment to problem-solving that has become a hallmark of our company.
+
+---
+
+## What to expect at the interview?
+
+The problem you will encounter during the interview is a hypothetical challenge inspired by genuine obstacles that our company has successfully surmounted. Unlike a traditional exam, there are no right or wrong answers — our goal is to gauge your ability to analyse the issue, prioritise actions, and articulate your proposed solutions.
+
+This interview represents an excellent chance for you to engage with us, ask insightful questions, and exhibit your creativity, analytical thinking, and practical problem-solving capabilities. We are eager to witness your problem-solving abilities in action and excited to learn from the unique perspectives and approaches that you bring to the table.
+
+---
+
+## Our Culture & Values
+
+> We believe brilliant people in an empowered culture produce unbelievable success.
+
+Revolut's unique culture is built on five core values. By working to these values every day, we create a fertile environment for success. Our values define 'the Revolut way', and we put them into practice every day across our organisation. They keep us on the right path, motivate us and ensure we hire the best people.
+
+**The five values:** Never Settle · Dream Team · Think Deeper · Get \*\*It Done · Deliver Wow
+
+---
+
+## 1. Never Settle
+
+> We constantly push, rethink, and rework to get 10x further from where we are now. We aren't afraid to be ambitious — and we're always looking for the next big thing.
+
+### Shoot for the moon
+
+- Relentlessly push to become number one in the world. Look for ways to disrupt, scale, reinvent.
+- Come up with ideas that are new, better and unique. Be creative — reiterate, simplify, move beyond the traditional way. Connect the dots from different areas, industries, and products.
+- Vigorously set ambitious, bold, and rational goals to guide your way.
+
+### Push the envelope
+
+- Constantly change your lens. Challenge solutions from all angles to deliver the best. Run toward critique to advance it even further.
+- Recognise and celebrate those who challenge the status quo for the better.
+- Pull at every thread. Don't just meet the ask, go above and beyond when solving a problem and never leave loose ends.
+
+### Jump in with both feet
+
+- Enjoy the challenge, celebrate achievements, and have fun.
+- Show initiative, inspire others. Enjoy taking on stretch assignments even if they're outside of your core responsibilities.
+- Share optimism and confidence. Remain positive and energised when facing adversity.
+
+### Never lose 'North'
+
+- Always think beyond the task at hand, keep the bigger picture in mind. Think several steps ahead. (e.g. Will our solution create more problems? What will the next problem be once we solve this one?). Look for ways to create scalable frameworks and tools to increase the impact.
+- Avoid 'analysis paralysis' so that we move toward solutions.
+- Focus on the outcome and continue checking your compass along the way (i.e. Are we still going in the right direction?). If not, take courage to start from scratch.
+
+### Be open minded — listen, probe, adjust
+
+- Invite criticism and alternative views to tackle problems better. Constantly challenge assumptions in your thinking. Do not follow any previously agreed upon approach blindly.
+- Take turns speaking and listening. Consider all feedback regardless of the person's title. There is no place for politics in Revolut.
+- Think through your recommendation, don't say "yes" or "no" too quickly.
+
+---
+
+## 2. Get \*\*It Done
+
+> We believe that ideas are great, but execution is everything. That's why respect at Revolut comes from sweat and stretch.
+
+### Act like an owner
+
+- Own your work and the tasks required end-to-end. Look for answers and solutions, not excuses.
+- Assume full responsibility and accountability beyond your role or over expectations. Don't wait for guidance, self-direct.
+- It is never "someone else's job or problem".
+
+### Commit and execute
+
+- Bring a can-do attitude at all times. Keep calm when facing challenging work.
+- Unblock roadblocks. Break walls. Persevere until the project is finished. Completion is a must. And then iterate.
+- Deliver on commitments, instil trust in your go-getter attitude.
+
+---
+
+## 3. Deliver Wow
+
+> We believe that everything we do should solve our customers' needs. To create awe and inspire, we pay attention to every single detail.
+
+### Put customer first
+
+- Put yourself in the shoes of the customer (external or internal) and understand how they are using the product or process, be curious.
+- Focus on, and think through every single detail.
+- Don't ship anything unless it's ready, fully-baked, tested, and reviewed.
+
+### Keep it simple
+
+- Simplify everything — minimise any friction for the customer. Save time for your customers, your manager, and your stakeholders.
+- Make decisions on what to build and what to kill.
+- Use language everyone can easily understand. Extract the essence. Lead with the most important information. Bottom line up front.

@@ -7,3 +7,4 @@ beautifulsoup4
 langchain-openai
 python_dotenv
 aiosqlite
+google-genai
