@@ -6,8 +6,7 @@ from dotenv import load_dotenv
 from google import genai
 from google.genai import types
 
-# Load environment variables from .env file
-load_dotenv()
+print(f'Load environment variables from .env file: {load_dotenv()}')
 
 def save_binary_file(file_name, data):
     with open(file_name, "wb") as f:
@@ -70,6 +69,7 @@ def generate_text(system_prompt, user_prompt, model="gemini-2.0-flash"):
         config=types.GenerateContentConfig(
             system_instruction=system_prompt,
             temperature=0.1,
+            max_output_tokens=3000,
         ),
     )
     return response.text
