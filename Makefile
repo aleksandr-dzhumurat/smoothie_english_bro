@@ -1,5 +1,6 @@
 CURRENT_DIR = $(shell pwd)
 PROJECT_NAME = tg_smoothie_english_bot
+CONTAINER_NAME = smoothie_bot
 include .env
 export
 
@@ -15,31 +16,31 @@ run: stop
 		--env-file ${CURRENT_DIR}/.env  \
 		-v ${CURRENT_DIR}/src:/srv/src \
 		-v ${CURRENT_DIR}/data/tmp:/tmp \
-	    --name ${PROJECT_NAME}_container_tg \
+	    --name ${CONTAINER_NAME} \
 		adzhumurat/english_bro:latest
 
 stop:
-	docker rm -f ${PROJECT_NAME}_container_tg || true
+	docker rm -f ${CONTAINER_NAME} || true
 
 run-debug:
 	docker run -it --rm \
 		--env-file ${CURRENT_DIR}/.env  \
 		-v ${CURRENT_DIR}/src:/srv/src \
-	    --name ${PROJECT_NAME}_container_tg \
+	    --name ${CONTAINER_NAME} \
 		adzhumurat/english_bro:latest python src/ai_agent.py
 
 run-python:
 	docker run -it --rm \
 		--env-file ${CURRENT_DIR}/.env  \
 		-v ${CURRENT_DIR}/src:/srv/src \
-	    --name ${PROJECT_NAME}_container_tg \
+	    --name ${CONTAINER_NAME} \
 		adzhumurat/english_bro:latest python
 
 run-translate:
 	docker run -it --rm \
 		--env-file ${CURRENT_DIR}/.env  \
 		-v ${CURRENT_DIR}/src:/srv/src \
-	    --name ${PROJECT_NAME}_container_tg \
+	    --name ${CONTAINER_NAME} \
 		adzhumurat/english_bro:latest python src/translate.py
 
 push-ui:
@@ -50,8 +51,19 @@ chat:
 	python3 src/gemini_adapter.py
 
 deploy:
-	rsync -avz --exclude='data/' --exclude='.git/' --exclude='.env' \
+	rsync -avz -e "ssh -i $(SSH_KEY)" --exclude='data/' --exclude='.git/' --exclude='.env' \
 		$(CURRENT_DIR)/src \
 		$(CURRENT_DIR)/requirements.txt \
 		$(CURRENT_DIR)/Makefile \
-		root@168.119.168.170:/root/smoothie_english_bro/
+		${DEPLOY_USERNAME}@${PROD_HOST}:/home/${DEPLOY_USERNAME}/${PROJECT_NAME}/
+
+deploy-env:
+	scp -i $(SSH_KEY) ${CURRENT_DIR}/.env ${DEPLOY_USERNAME}@${PROD_HOST}:/home/${DEPLOY_USERNAME}/${PROJECT_NAME}
+
+deploy-makefile:
+	scp -i $(SSH_KEY) ${CURRENT_DIR}/Makefile ${DEPLOY_USERNAME}@${PROD_HOST}:/home/${DEPLOY_USERNAME}/${PROJECT_NAME}
+
+deploy-secrets: deploy-env deploy-makefile
+
+connect:
+	ssh -i $(SSH_KEY) -t ${DEPLOY_USERNAME}@${PROD_HOST} "cd /home/${DEPLOY_USERNAME}/${PROJECT_NAME} && exec \$$SHELL -l"

@@ -8,6 +8,9 @@ from google.genai import types
 
 print(f'Load environment variables from .env file: {load_dotenv()}')
 
+DEFAULT_MODEL = os.environ.get('GEMINI_MODEL', 'gemini-2.0-flash')
+DEFAULT_TTS_MODEL = os.environ.get('GEMINI_TTS_MODEL', 'gemini-2.5-flash-preview-tts')
+
 def save_binary_file(file_name, data):
     with open(file_name, "wb") as f:
         f.write(data)
@@ -61,7 +64,8 @@ def parse_audio_mime_type(mime_type: str) -> dict[str, int | None]:
                 pass
     return {"bits_per_sample": bits_per_sample, "rate": rate}
 
-def generate_text(system_prompt, user_prompt, model="gemini-2.0-flash"):
+def generate_text(system_prompt, user_prompt, model=None):
+    model = model or DEFAULT_MODEL
     client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
     response = client.models.generate_content(
         model=model,
@@ -79,7 +83,7 @@ def generate_speech(text_input, output_base_name):
         api_key=os.environ.get("GEMINI_API_KEY"),
     )
 
-    model = "gemini-2.5-flash-preview-tts" # Updated to a stable version that supports TTS
+    model = DEFAULT_TTS_MODEL
     contents = [
         types.Content(
             role="user",
@@ -96,7 +100,8 @@ def generate_speech(text_input, output_base_name):
         ),
     )
 
-    audio_chunks = []
+    audio_data = bytearray()
+    mime_type = None
     usage_metadata = None
     for chunk in client.models.generate_content_stream(
         model=model,
@@ -109,21 +114,25 @@ def generate_speech(text_input, output_base_name):
             continue
         if chunk.parts[0].inline_data and chunk.parts[0].inline_data.data:
             inline_data = chunk.parts[0].inline_data
-            data_buffer = inline_data.data
-            file_extension = mimetypes.guess_extension(inline_data.mime_type)
-            if file_extension is None:
-                file_extension = ".wav"
-                data_buffer = convert_to_wav(inline_data.data, inline_data.mime_type)
-            audio_chunks.append((data_buffer, file_extension))
+            mime_type = inline_data.mime_type
+            audio_data.extend(inline_data.data)
         elif chunk.text:
             print(f"Assistant: {chunk.text}")
 
     if usage_metadata:
         print(f"Tokens: input={usage_metadata.prompt_token_count}, output={usage_metadata.candidates_token_count}")
 
-    for file_index, (data_buffer, file_extension) in enumerate(audio_chunks):
-        file_name = f"{output_base_name}_{file_index}{file_extension}"
-        save_binary_file(file_name, data_buffer)
+    if not audio_data:
+        return
+
+    file_extension = mimetypes.guess_extension(mime_type)
+    data_buffer = bytes(audio_data)
+    if file_extension is None:
+        file_extension = ".wav"
+        data_buffer = convert_to_wav(data_buffer, mime_type)
+
+    file_name = f"{output_base_name}_0{file_extension}"
+    save_binary_file(file_name, data_buffer)
 
 if __name__ == "__main__":
     print("--- Smoothie English Dialogue Loop ---")

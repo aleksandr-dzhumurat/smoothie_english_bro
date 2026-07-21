@@ -14,7 +14,7 @@ from telegram import __version__ as TG_VER
 from ai_agent import dialog_router, english_to_russian
 from gemini_adapter import generate_speech, generate_text
 from prompts import generate_prompt
-from utils import load_json, get_file_path, dump_json
+from utils import load_jsonl, get_file_path, append_jsonl
 from db import save_message, get_message_by_id, setup_database, get_session, set_session_state, get_messages_by_session
 
 try:
@@ -28,8 +28,8 @@ if __version_info__ < (20, 0, 0, "alpha", 1):
         f"{TG_VER} version of this example, "
         f"visit https://docs.python-telegram-bot.org/en/v{TG_VER}/examples.html"
     )
-from telegram import InputFile, ReplyKeyboardMarkup, Update
-from telegram.ext import Application, CommandHandler, ContextTypes, MessageHandler, filters, MessageReactionHandler
+from telegram import InlineKeyboardButton, InlineKeyboardMarkup, InputFile, Update
+from telegram.ext import Application, CallbackQueryHandler, CommandHandler, ContextTypes, MessageHandler, filters, MessageReactionHandler
 
 
 TG_MAX_LEN = 4096
@@ -85,14 +85,16 @@ def md_to_tg_html(text):
 
 
 TOKEN = os.environ['TG_BOT_TOKEN']
-quiz_file_path = get_file_path('quiz_db.json')
-quiz_db = load_json(quiz_file_path)
-keys = list(quiz_db.keys())
-print(f'Num keys {len(keys)}')
+quiz_file_path = get_file_path('quiz_db.jsonl')
+quiz_db = load_jsonl(quiz_file_path)
+print(f'Num entries {len(quiz_db)}')
 message_history = {}
 
 
-MAIN_KEYBOARD = ReplyKeyboardMarkup([["quiz", "case"]], resize_keyboard=True)
+MAIN_KEYBOARD = InlineKeyboardMarkup([
+    [InlineKeyboardButton("quiz", callback_data="quiz"),
+     InlineKeyboardButton("case", callback_data="case")]
+])
 
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
@@ -101,10 +103,11 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 
 
 async def handle_buttons(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    text = update.message.text
-    if text == "quiz":
+    query = update.callback_query
+    await query.answer()
+    if query.data == "quiz":
         await quiz_command(update, context)
-    elif text == "case":
+    elif query.data == "case":
         await case_command(update, context)
 
 async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
@@ -115,31 +118,38 @@ async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> No
     for i in response:
         await update.message.reply_text(i)
 
+async def _send_reply(update: Update, text: str, **kwargs):
+    """Send a reply via message or callback query."""
+    if update.message:
+        return await update.message.reply_text(text, **kwargs)
+    elif update.callback_query:
+        return await update.callback_query.message.reply_text(text, **kwargs)
+
+
 async def quiz_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Send a message when the command /quiz is issued."""
     user_id = update.effective_user.id
     session = await get_session(user_id)
     await set_session_state(session['session_id'], 'quiz')
 
-    random_k = random.choice(keys)
-    response = quiz_db[random_k]
-    msg1 = await update.message.reply_text(response)
+    entry = random.choice(quiz_db)
+    rus_text = entry['rus']
+    eng_text = entry['eng']
+    msg1 = await _send_reply(update, rus_text)
     await save_message(
         message_id=msg1.message_id,
         chat_id=msg1.chat_id,
         user_id=context.bot.id,
-        message_text=response,
-        reply_to_message_id=update.message.message_id,
+        message_text=rus_text,
         session_id=session['session_id']
     )
     time.sleep(15)
-    msg2 = await update.message.reply_text(random_k)
+    msg2 = await _send_reply(update, eng_text)
     await save_message(
         message_id=msg2.message_id,
         chat_id=msg2.chat_id,
         user_id=context.bot.id,
-        message_text=random_k,
-        reply_to_message_id=update.message.message_id,
+        message_text=eng_text,
         session_id=session['session_id']
     )
     await set_session_state(session['session_id'], 'translate')
@@ -152,13 +162,12 @@ async def case_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> No
 
     response = md_to_tg_html(generate_text(generate_prompt(), "Start a new stand-up warm-up session. Introduce the scene and ask the first question."))
     for chunk in split_html(response):
-        msg1 = await update.message.reply_text(chunk, parse_mode='HTML')
+        msg1 = await _send_reply(update, chunk, parse_mode='HTML')
         await save_message(
             message_id=msg1.message_id,
             chat_id=msg1.chat_id,
             user_id=context.bot.id,
             message_text=chunk,
-            reply_to_message_id=update.message.message_id,
             session_id=session['session_id']
         )
 
@@ -188,8 +197,9 @@ async def handle_reaction(update: Update, context: ContextTypes.DEFAULT_TYPE) ->
         else:
             print("This message was not a reply to anything recorded in our DB.")
 
-        quiz_db.update({message_data['message_text']: english_to_russian(message_data['message_text'])})
-        dump_json(quiz_db, quiz_file_path)
+        new_entry = {'eng': message_data['message_text'], 'rus': english_to_russian(message_data['message_text'])}
+        quiz_db.append(new_entry)
+        append_jsonl(new_entry, quiz_file_path)
         print(f"Message text that was reacted to: {message_data['message_text']} with {reaction_emoji}")
 
         text = message_data['message_text']
@@ -222,6 +232,15 @@ async def bot_dialog(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None
         message_text=update.message.text,
         session_id=session['session_id']
     )
+
+    # Route "quiz"/"case" text to the corresponding commands
+    if update.message.text.strip().lower() in ('quiz', 'case'):
+        cmd = update.message.text.strip().lower()
+        if cmd == 'quiz':
+            await quiz_command(update, context)
+        else:
+            await case_command(update, context)
+        return
 
     if session_state == 'translate':
         bot_response = dialog_router(update.message.text, user)
@@ -265,7 +284,7 @@ def main() -> None:
     application.add_handler(CommandHandler("help", help_command))
     application.add_handler(CommandHandler("quiz", quiz_command))
     application.add_handler(CommandHandler("case", case_command))
-    application.add_handler(MessageHandler(filters.Text(["quiz", "case"]), handle_buttons))
+    application.add_handler(CallbackQueryHandler(handle_buttons, pattern="^(quiz|case)$"))
     application.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, bot_dialog))
     
     application.add_handler(MessageReactionHandler(handle_reaction))
@@ -273,8 +292,8 @@ def main() -> None:
     
     
     application.run_polling(
-        allowed_updates=["message", "edited_message", "channel_post", 
-                        "edited_channel_post", "message_reaction"],
+        allowed_updates=["message", "edited_message", "channel_post",
+                        "edited_channel_post", "message_reaction", "callback_query"],
     )
 
 if __name__ == "__main__":

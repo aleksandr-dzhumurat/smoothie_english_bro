@@ -52,6 +52,27 @@ There are different types of conditions. Some are (1) *possible* or *likely* (в
     *   The weather did not improve - fine weather is therefore an impossible condition.
     *   `If Past Perfect, modal + Present Perfect`
 
+## "Couldn't help but + bare infinitive"
+
+Это устойчивая идиоматическая конструкция, означающая **"не мог не сделать что-то"** / "не удержался от".
+
+**I couldn't help but eat** = Я не мог не съесть / Я не удержался и съел
+
+---
+
+**Структура:**
+> **couldn't help but** + глагол в базовой форме (без to)
+
+**Похожие варианты той же идиомы:**
+- I **couldn't help eating** *(+ Ving — тоже правильно)*
+- I **couldn't resist eating**
+
+---
+
+**Ещё примеры:**
+- She couldn't help but laugh. — Она не могла не засмеяться.
+- He couldn't help but notice. — Он не мог не заметить.
+
 # Small talk
 
 Useful phrases:

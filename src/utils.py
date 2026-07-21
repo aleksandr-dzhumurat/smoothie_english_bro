@@ -15,6 +15,16 @@ def dump_json(data, quize_db_path):
     with open(quize_db_path, 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=4)
 
+def load_jsonl(jsonl_path):
+    if not os.path.exists(jsonl_path):
+        return []
+    with open(jsonl_path, 'r', encoding='utf-8') as f:
+        return [json.loads(line) for line in f if line.strip()]
+
+def append_jsonl(record, jsonl_path):
+    with open(jsonl_path, 'a', encoding='utf-8') as f:
+        f.write(json.dumps(record, ensure_ascii=False) + '\n')
+
 def get_file_path(file_name):
     current_file_path = os.path.abspath(__file__)
     current_dir = os.path.dirname(current_file_path)
