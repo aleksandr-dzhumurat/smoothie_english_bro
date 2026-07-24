@@ -9,3 +9,4 @@ langchain-openai
 python_dotenv
 aiosqlite
 google-genai
+elevenlabs

@@ -127,12 +127,13 @@ def generate_speech(text_input, output_base_name):
 
     file_extension = mimetypes.guess_extension(mime_type)
     data_buffer = bytes(audio_data)
-    if file_extension is None:
+    if file_extension is None or mime_type.startswith('audio/L'):
         file_extension = ".wav"
         data_buffer = convert_to_wav(data_buffer, mime_type)
 
     file_name = f"{output_base_name}_0{file_extension}"
     save_binary_file(file_name, data_buffer)
+    return file_name
 
 if __name__ == "__main__":
     print("--- Smoothie English Dialogue Loop ---")
