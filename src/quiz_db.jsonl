@@ -1,534 +1,587 @@
-{"eng": "Thanks, the team will handle it.", "rus": "Спасибо, команда справится с этим."}
-{"eng": "Hey, we have halted progress on this report.", "rus": "Привет, мы приостановили работу над этим отчетом."}
-{"eng": "This would be great; it will assist us in resolving the problem shortly.", "rus": "Это было бы замечательно; это поможет нам быстро решить проблему."}
-{"eng": "I am the right person to assist with that.", "rus": "Я - подходящий человек для помощи в этом."}
-{"eng": "Thank you for providing additional context, it is greatly appreciated.", "rus": "Спасибо за предоставление дополнительного контекста, это очень ценно."}
-{"eng": "I believe Lilia is the more effective speaker.", "rus": "Я считаю, что Лилия более эффективный оратор."}
-{"eng": "One more request from me.", "rus": "Еще одна просьба от меня."}
-{"eng": "The link seems to be expired. Could you kindly provide a new one?", "rus": "Ссылка, кажется, устарела. Не могли бы вы предоставить новую?"}
-{"eng": "Apologies for the inconvenience, our system analyst was terminated last week, which may result in a delay in responding to your inquiries.", "rus": "Приносим извинения за неудобства, наш системный аналитик был уволен на прошлой неделе, что может привести к задержке в ответе на ваши запросы."}
-{"eng": "We are experiencing a slight delay here. Nikita will send the credentials to you tomorrow.", "rus": "У нас здесь небольшая задержка. Никита отправит вам учетные данные завтра."}
-{"eng": "There are no suspicious activities detected on our end.", "rus": "На нашей стороне не обнаружено подозрительной активности."}
-{"eng": "It appears that the integration is now working correctly.", "rus": "Похоже, интеграция теперь работает правильно."}
-{"eng": "Marketing campaign targeting the acquisition of low-paying users.", "rus": "Маркетинговая кампания, нацеленная на привлечение пользователей с низким уровнем дохода."}
-{"eng": "Could you please provide more context or clarify your message?", "rus": "Могли бы вы, пожалуйста, предоставить больше контекста или пояснить ваше сообщение?"}
-{"eng": "Would you prefer to have a separate report, or should we modify an existing report?", "rus": "Вы бы предпочли иметь отдельный отчет, или мы можем модифицировать существующий отчет?"}
-{"eng": "Do we have an agenda for today's meeting?", "rus": "У нас есть повестка дня на сегодняшнее собрание?"}
-{"eng": "What are your thoughts on this timeline? Does this timeline work for you?", "rus": "Каковы ваши мысли по поводу этого графика? Этот график устраивает вас?"}
-{"eng": "Are they satisfied with the analytics that Ruslan mentioned? Do they require any additional metrics?", "rus": "Удовлетворены ли они аналитикой, о которой упоминал Руслан? Требуются ли им дополнительные метрики?"}
-{"eng": "Which specific metric do we need to measure?", "rus": "Какой конкретный показатель нам нужно измерить?"}
-{"eng": "Katie, thank you for keeping me updated!", "rus": "Кэти, спасибо за информацию!"}
-{"eng": "Certainly, Liliya has already begun working on that.", "rus": "Конечно, Лилия уже начала работать над этим."}
-{"eng": "Could you please confirm if you are still waiting for that in Q1?", "rus": "Могли бы вы подтвердить, ждете ли вы это до первого квартала?"}
-{"eng": "Nikita is out of office until Monday.", "rus": "Никита не в офисе до понедельника."}
-{"eng": "The duty engineer is currently addressing the discrepancy.", "rus": "Дежурный инженер в настоящее время занимается устранением несоответствия."}
-{"eng": "Following the investigation, we will create a ticket.", "rus": "После завершения расследования мы создадим заявку."}
-{"eng": "We will provide updates in this chat.", "rus": "Мы будем предоставлять обновления в этом чате."}
-{"eng": "Can you please provide an estimated time of completion for that task?", "rus": "Можете ли вы, пожалуйста, предоставить примерное время завершения этой задачи?"}
-{"eng": "Our objective is to supply the client with the metrics they actually require rather than implementing a workaround.", "rus": "Наша цель — предоставить клиенту именно те метрики, которые ему действительно необходимы, а не применять обходные пути."}
-{"eng": "My assumption is that the client  is looking to measure the time taken from order creation to order pickup.", "rus": "Моё предположение заключается в том, что клиент хочет измерить время, затраченное с момента создания заказа до его получения."}
-{"eng": "Are there any updates from the clients regarding the task mentioned earlier?", "rus": "Есть ли какие-либо обновления от клиентов по поводу ранее упомянутой задачи?"}
-{"eng": "Thank you for your patience. The work is ongoing, and the release date remains uncertain.  However, we are targeting to release it by the end of this week.", "rus": "Спасибо за ваше терпение. Работа продолжается, и дата выпуска остается неопределенной. Тем не менее, мы планируем выпустить ее к концу этой недели."}
-{"eng": "We will outline the next steps shortly.", "rus": "Мы скоро опишем следующие шаги."}
-{"eng": "Could you please clarify with the client the meaning of GroupID?", "rus": "Можете ли вы, пожалуйста, уточнить у клиента значение GroupID?"}
-{"eng": "You can access marketing data and statistics there.", "rus": "Вы можете получить доступ к маркетинговым данным и статистике там."}
-{"eng": "Can you clarify why there is no lift on our floor?", "rus": "Можете ли вы пояснить, почему на нашем этаже нет лифта?"}
-{"eng": "The next step is to build reports based on this data.", "rus": "Следующим шагом будет создание отчетов на основе этих данных."}
-{"eng": "John, who has been working on that task, mentioned that he is awaiting data from you. Could you please supply the data today?", "rus": "Джон, который работал над этим заданием, упомянул, что он ждет данные от вас. Не могли бы вы предоставить данные сегодня?"}
-{"eng": "I aim to complete that task before Friday.", "rus": "Я намерен завершить эту задачу до пятницы."}
-{"eng": "We are ready to proceed with the demo on the test stand.", "rus": "Мы готовы приступить к демонстрации на испытательном стенде."}
-{"eng": "Are there any time slots open for today?", "rus": "Есть ли свободные временные слоты на сегодня?"}
-{"eng": "Thank you for sending the document!", "rus": "Спасибо за отправку документа!"}
-{"eng": "We will analyze it in detail.", "rus": "Мы проведем детальный анализ."}
-{"eng": "I am pleased to introduce Basil, our data engineer.", "rus": "Я рад представить вам Базиля, нашего инженера по обработке данных."}
-{"eng": "Basil, please assist with organizing the data.", "rus": "Василий, пожалуйста, помогите организовать данные."}
-{"eng": "I have a question about the Proof of Concept (POC) that seems to be missing from the document: What is the estimated cost to sustain the current solution for fewer than 50,000 requests?", "rus": "У меня есть вопрос по доказательству концепции (Proof of Concept, POC), которое, кажется, отсутствует в документе: Какова предполагаемая стоимость поддержки текущего решения для менее чем 50 000 запросов?"}
-{"eng": "Please summarize your findings. What we require is a guide on how to compute the metrics outlined in the ticket.", "rus": "Пожалуйста, подведите итоги ваших результатов. Нам необходимо руководство по вычислению метрик, описанных в тикете."}
-{"eng": "Indeed, because of these changes, option 1 is the most suitable option.", "rus": "Действительно, из-за этих изменений вариант 1 является наиболее подходящим вариантом."}
-{"eng": "Great, everything is now in order.", "rus": "Отлично, теперь всё в порядке."}
-{"eng": "Could you please schedule the meeting we discussed?", "rus": "Можете ли вы назначить встречу, о которой мы говорили?"}
-{"eng": "Would it be possible to schedule a meeting for this week?", "rus": "Возможно ли назначить встречу на эту неделю?"}
-{"eng": "Organize the metrics into four clusters based on business intent.", "rus": "Организуйте метрики в четыре кластера на основе бизнес-намерений."}
-{"eng": "What is the due date for this task?", "rus": "Какова крайняя дата выполнения этой задачи?"}
-{"eng": "Please feel free to ask for more information.", "rus": "Не стесняйтесь запрашивать дополнительную информацию."}
-{"eng": "In conclusion, review the generated spreadsheet.", "rus": "В заключение, ознакомьтесь с созданной таблицей."}
-{"eng": "I highlighted the need for some improvements.", "rus": "Я подчеркнул необходимость некоторых улучшений."}
-{"eng": "Through my analysis, it became clear that some users didn't see the button.", "rus": "В ходе моего анализа стало ясно, что некоторые пользователи не видели кнопку."}
-{"eng": "As it turned out, most people chose the cheapest subscription.", "rus": "Как выяснилось, большинство людей выбрали самую дешевую подписку."}
-{"eng": "I must admit I haven't had a lot of situations like that.", "rus": "Должен признать, у меня редко бывали подобные ситуации."}
-{"eng": "While analyzing the logs, I discovered a data error.", "rus": "Анализируя логи, я обнаружил ошибку в данных."}
-{"eng": "What I did was I created another query.", "rus": "Что я сделал, так это создал еще один запрос."}
-{"eng": "The stakeholders were shocked by that data.", "rus": "Заинтересованные стороны были шокированы этими данными."}
-{"eng": "I had a bit of a problem implementing a custom data source.", "rus": "У меня была небольшая проблема с внедрением пользовательского источника данных."}
-{"eng": "We were quick to get on with the task at hand.", "rus": "Мы быстро приступили к выполнению текущей задачи."}
-{"eng": "We brainstormed some ways to address the issue.", "rus": "Мы провели мозговой штурм, чтобы найти способы решения проблемы."}
-{"eng": "The stakeholders seemed dissatisfied with the existing system.", "rus": "Заинтересованные стороны казались недовольными существующей системой."}
-{"eng": "We missed the deadline and delivered the product a month later.", "rus": "Мы не уложились в дедлайн и доставили продукт на месяц позже."}
-{"eng": "Unfortunately, they experienced delays in getting permission to access that data.", "rus": "К сожалению, они столкнулись в задержках в получении разрешения на доступ к этим данным."}
-{"eng": "We can make an assumption that people in this region are willing to pay a premium.", "rus": "Мы можем предположить, что люди в этом регионе готовы платить больше."}
-{"eng": "These restaurants look more promising if we take the order amount into account.", "rus": "Эти рестораны выглядят более многообещающе, если принять во внимание объем заказа."}
-{"eng": "Daytime deliveries seem more attractive for the drivers.", "rus": "Дневные доставки кажутся водителям более привлекательными."}
-{"eng": "The Palo Alto pricing policy would not be applicable to Colorado.", "rus": "Ценовая политика Пало-Альто не будет применима к Колорадо."}
-{"eng": "You can benchmark that against publicly available statistics.", "rus": "Вы можете сравнить это с общедоступной статистикой."}
-{"eng": "I've done some research on working conditions preferences and this is what I've found.", "rus": "Я провел исследование представлений об условиях труда, и вот что я выяснил."}
-{"eng": "To establish a correlation, we might need to try out different options.", "rus": "Чтобы установить корреляцию, нам, возможно, придется попробовать разные варианты."}
-{"eng": "We can set a benchmark for weekly Zoom-time.", "rus": "Мы можем установить эталон для еженедельного времени в Zoom."}
-{"eng": "Our goal would be to find the optimal relationship between the price and the proportion of the subscribers.", "rus": "Нашей целью будет поиск оптимальной зависимости между ценой и долей подписчиков."}
-{"eng": "We'll start by getting rid of all the global variables.", "rus": "Мы начнем с избавления от всех глобальных переменных."}
-{"eng": "Conducting some research into the company's culture.", "rus": "Проведение исследования корпоративной культуры компании."}
-{"eng": "Lead with your recommendation.", "rus": "Начинайте с рекомендации."}
-{"eng": "Never say 'it depends' without a recommendation.", "rus": "Никогда не говорите «это зависит от обстоятельств» без последующей рекомендации."}
-{"eng": "Narrate your thought process even when uncertain.", "rus": "Озвучивайте свой ход мыслей, даже если вы не уверены."}
-{"eng": "Skillful signalling of structure is highly valued.", "rus": "Умелая демонстрация структуры высоко тенится."}
-{"eng": "We need to adopt an ownership-driven mindset.", "rus": "Нам нужно принять мышление, ориентированное на ответственность."}
-{"eng": "Bias toward action is a core Revolut value.", "rus": "Склонность к действию — одна из основных ценностей Revolut."}
-{"eng": "Top-down communication is non-negotiable.", "rus": "Коммуникация «сверху вниз» не обсуждается."}
-{"eng": "Disaggregate the problem using issue trees.", "rus": "Разбейте проблему на части, используя дерево проблем."}
-{"eng": "Everything must be MECE: Mutually Exclusive, Collectively Exhaustive.", "rus": "Все должно быть по принципу MECE: взаимно исключающе, совместно исчерпывающе."}
-{"eng": "Form an educated guess about the root cause.", "rus": "Сформулируйте обоснованное паредположение о первопричине."}
-{"eng": "Score each project on a 2x2 matrix of impact vs. feasibility.", "rus": "Оцените каждый проект по матрице 2x2: влияние против осуществимости."}
-{"eng": "What would you actually do on Monday morning?", "rus": "Что бы вы на самом деле сделали в понедельник утром?"}
-{"eng": "Speed to value is a critical competitive differentiator.", "rus": "Скорость получения ценности — критически важное конкурентное преимущество."}
-{"eng": "Mitigate risk by requiring an abstraction layer.", "rus": "Минимизируйте риски, потребовав создания уровня абстракции."}
-{"eng": "Stakeholders are frustrated by the resource waste.", "rus": "Заинтересованные стороны разочарованы пустой тратой ресурсов."}
-{"eng": "The deadline was set for the end of the month and we just about met it.", "rus": "Дедлайн был установлен на конец месяца, и мы едва успели его соблюсти."}
-{"eng": "This report is due on the 15th of July.", "rus": "Этот отчет должен быть готов к 15 июля."}
-{"eng": "This report is overdue.", "rus": "Этот отчет просрочен."}
-{"eng": "We are running out of time.", "rus": "У нас заканчивается время."}
-{"eng": "We are behind schedule.", "rus": "Мы отстаем от графика."}
-{"eng": "At the moment we are on schedule.", "rus": "На данный момент мы идем по графику."}
-{"eng": "Going forward, work will be redistributed.", "rus": "В дальнейшем работа будет перераспределена."}
-{"eng": "Looking forward, electric cars will become more popular.", "rus": "Заглядывая вперед, можно сказать, что электромобили станут более популярными."}
-{"eng": "I don't foresee any problems getting this project approved.", "rus": "Я не предвижу никаких проблем с одобрением этого проекта."}
-{"eng": "We won't take on any more staff for the foreseeable future.", "rus": "В обозримом будущем мы не будем нанимать новых сотрудников."}
-{"eng": "It's important to plan ahead when preparing the budget.", "rus": "Важно планировать заранее при подготовке бюджета."}
-{"eng": "We will task Anna with putting together the feasibility report.", "rus": "Мы поручим Анне подготовку отчета о целесообразности."}
-{"eng": "We'll have to code a new program from scratch.", "rus": "Нам придется написать новую программу с нуля."}
-{"eng": "We've just got the green light from the CEO.", "rus": "Мы только что получили «зеленый свет» (разрешение) от генерального директора."}
-{"eng": "Let's go over the report one more time.", "rus": "Давайте изучим этот отчет еще раз."}
-{"eng": "I can't keep up with the pace of changes.", "rus": "Я не поспеваю за возросшим темпом изменений."}
-{"eng": "The team is looking into the matter.", "rus": "Команда изучает этот вопрос."}
-{"eng": "I'll make up for being late by working overtime.", "rus": "Я компенсирую свое опоздание, поработав сверхурочно."}
-{"eng": "He made up an excuse for missing the meeting.", "rus": "Он придумал оправдание своему отсутствию на встрече."}
-{"eng": "She picked up some new technical skills during the project.", "rus": "Она освоила новые технические навыки в ходе работы над проектом."}
-{"eng": "Let's put off the meeting until next week.", "rus": "Давайте отложим встречу до следующей недели."}
-{"eng": "They set up a new company in Berlin.", "rus": "Они основали новую компанию в Берлине."}
-{"eng": "He didn't show up for the appointment.", "rus": "Он не явился на назначенную встречу."}
-{"eng": "The startup really took off last year.", "rus": "Этот стартап действительно «выстрелил» (взлетел) в прошлом году."}
-{"eng": "She turned down the job offer.", "rus": "Она отклонила предложение о работе."}
-{"eng": "It all worked out in the end.", "rus": "В итоге всё закончилось благополучно (разрешилось)."}
-{"eng": "Prioritize by pruning branches.", "rus": "Расставляйте приоритеты, отсекая лишние ветви (анализа)."}
-{"eng": "Apply the 80/20 rule: which 20% of factors drive 80% of impact?", "rus": "Применяйте правило 80/20: какие 20% факторов обеспечивают 80% результата?"}
-{"eng": "Instead of exhaustively exploring every branch, form an initial hypothesis.", "rus": "Вместо того чтобы исчерпывающе исследовать каждую ветвь, сформулируйте первоначальную гипотезу."}
-{"eng": "State your recommendation with one decisive sentence — no hedging.", "rus": "Сформулируйте свою рекомендацию одним решительным предложением, без уклончивых формулировок."}
-{"eng": "Acknowledge risks and outline next steps.", "rus": "Признайте возможные риски и наметьте следующие шаги."}
-{"eng": "We need to unblock the data engineering team today.", "rus": "Нам нужно разблокировать (устранить препятствия для) команду инженеров данных сегодня."}
-{"eng": "Escalate the schema migration blocker to the VP of Engineering.", "rus": "Эскалируйте проблему миграции схемы вице-президенту по инжинирингу."}
-{"eng": "The feature store is a genuine competitive differentiator.", "rus": "Хранилище признаков (feature store) — это реальное конкурентное преимущество."}
-{"eng": "Launching with known disparate impact creates regulatory exposure.", "rus": "Запуск с заведомо неравномерным воздействием (дискриминацией) создает регуляторные риски."}
-{"eng": "Frame this as a business risk decision, not an ethics debate.", "rus": "Представьте это как решение о бизнес-рисках, а не как дискуссию об этике."}
-{"eng": "Reputational damage could cost significantly more than a 4–6 week delay.", "rus": "Репутационный ущерб может стоить значительно дороже, чем задержка на 4–6 недель."}
-{"eng": "Every framework must be tailored to the specific case.", "rus": "Каждый фреймворк должен быть адаптирован под конкретный случай."}
-{"eng": "Avoid hedging and 'it depends' without a definitive path.", "rus": "Избегайте неопределенности и слов «это зависит от обстоятельств» без предложения конкретного пути."}
-{"eng": "The difference is visible structure and decisive communication.", "rus": "Разница заключается в четкой структуре и решительной коммуникации."}
-{"eng": "This is strictly for prototyping purposes.", "rus": "Это исключительно для целей прототипирования."}
-{"eng": "We want to demonstrate the full potential of the experience.", "rus": "Мы хотим продемонстрировать весь потенциал этого взаимодействия."}
-{"eng": "We turned a technical challenge into an opportunity for long-term product improvement.", "rus": "Мы превратили техническую проблему в возможность для долгосрочного улучшения продукта."}
-{"eng": "We need to restore data flow.", "rus": "Нам нужно восстановить поток данных."}
-{"eng": "We must prevent recurrence.", "rus": "Мы должны предотвратить повторение проблемы."}
-{"eng": "We aim to deliver working solutions fast.", "rus": "Мы стремимся быстро поставлять рабочие решения."}
-{"eng": "We should avoid over-engineering.", "rus": "Нам следует избегать излишне сложных решений."}
-{"eng": "We need to validate our assumptions.", "rus": "Нам нужно проверять наши предположения."}
-{"eng": "We can adjust course if needed.", "rus": "При необходимости мы можем скорректировать курс."}
-{"eng": "This helps me maintain better productivity throughout the day.", "rus": "Это помогает мне поддерживать более высокую производительность в течение дня."}
-{"eng": "I propose forming a cross-functional task force.", "rus": "Я предлагаю создать межфункциональную рабочую группу."}
-{"eng": "We succeed by leveraging their expertise and collaborative problem-solving.", "rus": "Мы добиваемся успеха, используя их опыт и совместное решение проблем."}
-{"eng": "Our goal is to streamline workflows and enhance data reliability.", "rus": "Наша цель — оптимизировать рабочие процессы и повысить надёжность данных."}
-{"eng": "I win them over by demonstrating empathy and aligning the benefits with their goals.", "rus": "Я располагаю их к себе, проявляя эмпатию и сопоставляя выгоды с их целями."}
-{"eng": "I identified a pattern and discovered a correlation.", "rus": "Я выявил закономерность и обнаружил корреляцию."}
-{"eng": "It was a strategic decision aligned with my career aspirations.", "rus": "Это было стратегическое решение, соответствующее моим карьерным устремлениям."}
-{"eng": "We did it without the complexity of building an interface from scratch.", "rus": "Мы сделали это без сложной разработки интерфейса с нуля."}
-{"eng": "I built a lightweight layer that translated user input into search queries.", "rus": "Я создал лёгкий слой, преобразующий ввод пользователя в поисковые запросы."}
-{"eng": "We use feature flags to roll out changes incrementally.", "rus": "Мы используем флаги функций для постепенного внедрения изменений."}
-{"eng": "We chose a phased rollout with incremental improvements.", "rus": "Мы выбрали поэтапное внедрение с последовательными улучшениями."}
-{"eng": "I organized a structured debate and facilitated consensus-building.", "rus": "Я организовал структурированную дискуссию и способствовал выработке консенсуса."}
-{"eng": "This improved data freshness for stakeholders.", "rus": "Это улучшило актуальность данных для заинтересованных сторон."}
-{"eng": "I lead by empowering team members and staying aligned on targets.", "rus": "Я руковожу, наделяя членов команды полномочиями и сохраняя согласованность в достижении целей."}
-{"eng": "We take a proactive approach to mitigate potential bottlenecks.", "rus": "Мы применяем проактивный подход для сглаживания потенциальных узких мест."}
-{"eng": "I prioritize tasks and break them into manageable steps.", "rus": "Я расставляю приоритеты в задачах и разбиваю их на выполнимые этапы."}
-{"eng": "We plan by aligning project scope with available skills and tools.", "rus": "Мы планируем, сопоставляя границы проекта с доступными навыками и инструментами."}
-{"eng": "What is the primary goal of the project and how would you define its success?", "rus": "Какова основная цель проекта и как бы вы определили его успех?"}
-{"eng": "Could you briefly explain what the problem is?", "rus": "Не могли бы вы вкратце объяснить, в чем заключается проблема?"}
-{"eng": "What do you think is the likely cause of the problem?", "rus": "Какова, по вашему мнению, вероятная причина проблемы?"}
-{"eng": "Well, off the top of my head, I'd say that...", "rus": "Ну, навскидку я бы сказал, что..."}
-{"eng": "Do you see any blockers to that?", "rus": "Видите ли вы какие-либо препятствия (блокеры) для этого?"}
-{"eng": "Avoid jumping to conclusions about the effectiveness.", "rus": "Избегайте поспешных выводов об эффективности."}
-{"eng": "Detect any outliers and get a clearer picture.", "rus": "Выявить аномалии (выбросы) и получить более четкую картину."}
-{"eng": "Draw some conclusions when there's more data.", "rus": "Сделать определенные выводы, когда будет больше данных."}
-{"eng": "We're not going to account for seasonality.", "rus": "Мы не будем учитывать сезонность."}
-{"eng": "Stakeholders sometimes have to put off making some decisions.", "rus": "Заинтересованным сторонам иногда приходится откладывать принятие решений."}
-{"eng": "It'll allow us to be up to speed on what's happening.", "rus": "Это позволит нам быть в курсе происходящего."}
-{"eng": "Deal with stakeholders' questions much faster.", "rus": "Намного быстрее отвечать на вопросы (обрабатывать запросы) заинтересованных сторон."}
-{"eng": "This would really speed up the processing.", "rus": "Это действительно ускорит обработку."}
-{"eng": "Come up with meaningful conclusions — not just the data.", "rus": "Приходить к значимым выводам, а не просто к данным."}
-{"eng": "It might be reasonable to change the approach.", "rus": "Было бы разумно изменить подход."}
-{"eng": "Let's assess to what extent it has positively influenced the decision.", "rus": "Давайте оценим, в какой степени это положительно повлияло на решение."}
-{"eng": "We need to distinguish between loyal and occasional customers.", "rus": "Нам нужно различать лояльных и случайных клиентов."}
-{"eng": "Let's conduct a cost-benefit analysis.", "rus": "Давайте проведём анализ затрат и выгод."}
-{"eng": "It all boils down to one single problem.", "rus": "Все сводится к одной-единственной проблеме."}
-{"eng": "The heart of the matter is that...", "rus": "Суть дела в том, что..."}
-{"eng": "I can't underscore enough how important it is.", "rus": "Я не могу не подчеркнуть, насколько это важно."}
-{"eng": "We should identify any duplicates and validate the accuracy.", "rus": "Нам следует выявить дубликаты и подтвердить точность."}
-{"eng": "The model should be able to scale accordingly.", "rus": "Модель должна иметь возможность соответствующим образом масштабироваться."}
-{"eng": "We need to detect a drop in active users.", "rus": "Нам нужно обнаружить спад числа активных пользователей."}
-{"eng": "We should see the bigger picture.", "rus": "Нам следует видеть картину в целом."}
-{"eng": "First, understand the underlying logic and the scope of the task.", "rus": "Сначала поймите лежащую в основе логику и объём задачи."}
-{"eng": "Always justify your assumptions.", "rus": "Всегда обосновывайте свои предположения."}
-{"eng": "Guide the interviewer through your line of thinking.", "rus": "Ведите интервьюера по ходу ваших мыслей."}
-{"eng": "This leads to a biased or inaccurate estimation.", "rus": "Это приводит к предвзятой или неточной оценке."}
-{"eng": "Let's drill down into this category to explore it.", "rus": "Давайте углубимся в эту категорию, чтобы изучить её."}
-{"eng": "Let's take a closer look at this.", "rus": "Давайте взглянем на это поближе."}
-{"eng": "Try to anticipate possible questions.", "rus": "Постарайтесь предвидеть возможные вопросы."}
-{"eng": "We have hit the target so far.", "rus": "Пока что мы достигаем цели."}
-{"eng": "The vast majority of issues are high priority.", "rus": "Подавляющее большинство задач имеют высокий приоритет."}
-{"eng": "It takes roughly 70% longer compared to Q1.", "rus": "Это занимает примерно на 70% дольше по сравнению с первым кварталом."}
-{"eng": "There is a clear upward or downward trend.", "rus": "Наблюдается чёткая тенденция к росту или снижению."}
-{"eng": "Revenue decreased unexpectedly.", "rus": "Выручка неожиданно снизилась."}
-{"eng": "It might be worth focusing on this.", "rus": "Возможно, на этом стоит сосредоточиться."}
-{"eng": "Now, turning to the next point.", "rus": "Теперь перейдём к следующему пункту."}
-{"eng": "I'd like to dive into the numbers behind the findings.", "rus": "Я бы хотел углубиться в цифры, стоящие за результатами."}
-{"eng": "That about wraps it up.", "rus": "На этом все. (это подводит итог)"}
-{"eng": "That's a little outside the scope of our presentation.", "rus": "Это немного выходит за рамки нашей презентации."}
-{"eng": "I'll get back to you on that.", "rus": "Я вернусь к вам с этим вопросом."}
-{"eng": "Thanks for making the time to come.", "rus": "Спасибо, что нашли время прийти."}
-{"eng": "I hold a proven track record of delivering results.", "rus": "У меня есть подтверждённый послужной список достижения результатов."}
-{"eng": "I want to seek out a role that aligns better with my career goals.", "rus": "Я хочу найти роль, которая лучше соответствует моим карьерным целям."}
-{"eng": "I take full responsibility and communicate transparently.", "rus": "Я беру на себя полную ответственность и общаюсь открыто."}
-{"eng": "This requires thorough risk assessment and proactive problem-solving.", "rus": "Это требует тщательной оценки рисков и проактивного решения проблем."}
-{"eng": "These are skills I've since honed to prevent similar issues.", "rus": "Это навыки, которые я с тех пор отточил, чтобы предотвратить подобные проблемы."}
-{"eng": "These principles are foundational to my work.", "rus": "Эти принципы являются основополагающими для моей работы."}
-{"eng": "I set SMART goals: specific, measurable, achievable, relevant, and time-bound.", "rus": "Я ставлю цели по SMART: конкретные, измеримые, достижимые, релевантные и ограниченные по времени."}
-{"eng": "We managed to mitigate the crisis and deliver the project on schedule.", "rus": "Нам удалось смягчить кризис и сдать проект в срок."}
-{"eng": "I approach the situation with respect and professionalism.", "rus": "Я подхожу к ситуации с уважением и профессионализмом."}
-{"eng": "We always adhere to ethical standards and company policies.", "rus": "Мы всегда придерживаемся этических норм и политики компании."}
-{"eng": "I foster growth and development while maintaining positive relationships.", "rus": "Я способствую росту и развитию, сохраняя положительные отношения."}
-{"eng": "I thrive in ambiguous situations by breaking down complex problems.", "rus": "Я чувствую себя уверенно в неоднозначных ситуациях, разбивая сложные задачи на части."}
-{"eng": "I lead by leveraging team members' unique strengths.", "rus": "Я руковожу, используя уникальные сильные стороны членов команды."}
-{"eng": "I focus on making data-driven decisions.", "rus": "Я делаю упор на принятие решений на основе данных."}
-{"eng": "I structure problems with MECE precision.", "rus": "Я структурирую проблемы с точностью по принципу MECE."}
-{"eng": "I communicate recommendations top-down.", "rus": "Я излагаю рекомендации по принципу «сверху вниз»."}
-{"eng": "I demonstrate ownership-driven thinking.", "rus": "Я демонстрирую ответственное мышление владельца."}
-{"eng": "You need to rewire your thinking.", "rus": "Тебе нужно перестроить своё мышление."}
-{"eng": "Identify what information is important and what is not.", "rus": "Определите, какая информация важна, а какая — нет."}
-{"eng": "This is like pruning branches of a logic tree.", "rus": "Это похоже на отсечение ветвей логического дерева."}
-{"eng": "Form an educated guess or initial hypothesis.", "rus": "Сформируйте обоснованную догадку или первоначальную гипотезу."}
-{"eng": "Signpost every transition in your speech.", "rus": "Обозначайте каждый логический переход в своей речи."}
-{"eng": "Never go silent — narrate your thought process.", "rus": "Никогда не молчите — озвучивайте свой ход мыслей."}
-{"eng": "Always answer the 'so what?' question.", "rus": "Всегда отвечайте на вопрос «и что из этого следует?»."}
-{"eng": "We have a bias toward action.", "rus": "У нас есть склонность к действию."}
-{"eng": "This requires operational specificity.", "rus": "Это требует операционной конкретики."}
-{"eng": "We built an abstraction layer over the vendor's APIs.", "rus": "Мы создали слой абстракции над API вендора."}
-{"eng": "We start with a Minimum Viable Model or Product.", "rus": "Мы начинаем с минимально жизнеспособной модели или продукта."}
-{"eng": "We prefer a phased rollout.", "rus": "Мы предпочитаем поэтапное развёртывание."}
-{"eng": "We consider the Total Cost of Ownership.", "rus": "Мы учитываем совокупную стоимость владения."}
-{"eng": "I will escalate the blocker to the VP of Engineering.", "rus": "Я эскалирую проблему вице-президенту по разработке."}
-{"eng": "These are greenfield efforts.", "rus": "Это проекты, создаваемые с нуля."}
-{"eng": "We save time by leveraging existing data infrastructure.", "rus": "Мы экономим время, используя существующую инфраструктуру данных."}
-{"eng": "Under no circumstances should it reach production.", "rus": "Ни при каких обстоятельствах это не должно попасть в продакшн."}
-{"eng": "This could cause reputational damage.", "rus": "Это может нанести репутационный ущерб."}
-{"eng": "We need a defensible model or decision.", "rus": "Нам нужна обоснованная модель или решение."}
-{"eng": "We need to bridge the gap between ideas.", "rus": "Нам нужно навести мосты между идеями."}
-{"eng": "I'm currently blocked on this task.", "rus": "Я сейчас заблокирован по этой задаче."}
-{"eng": "Let me know if you need a hand with the report.", "rus": "Дай знать, если тебе нужна помощь с отчётом."}
-{"eng": "We can reach a compromise despite our differences.", "rus": "Мы можем прийти к компромиссу, несмотря на наши разногласия."}
-{"eng": "I soften the tone to avoid escalating the conflict.", "rus": "Я смягчаю тон, чтобы избежать эскалации конфликта."}
-{"eng": "It all boils down to building consensus through open communication.", "rus": "Всё сводится к достижению консенсуса через открытое общение."}
-{"eng": "Let's put egos aside and work towards the common goal.", "rus": "Давайте отбросим эго и будем работать на общую цель."}
-{"eng": "It's important to see eye to eye with someone.", "rus": "Важно сходиться во взглядах с кем-то."}
-{"eng": "I suggest postponing this matter until tomorrow.", "rus": "Я предлагаю отложить этот вопрос до завтра."}
-{"eng": "Good day.", "rus": "Добрый день."}
-{"eng": "I hope this message finds you well.", "rus": "Надеюсь, у вас всё хорошо."}
-{"eng": "Let's take a quiz.", "rus": "Давайте пройдём тест."}
-{"eng": "I ran into a major roadblock.", "rus": "Я столкнулся с серьёзным препятствием."}
-{"eng": "I follow a 'fail fast' mindset.", "rus": "Я придерживаюсь подхода «фейл-фаст» — быстро проверять и ошибаться."}
-{"eng": "I have too many things on my plate.", "rus": "У меня слишком много дел."}
-{"eng": "This helps me stay locked in on one task.", "rus": "Это помогает мне полностью сосредоточиться на одной задаче."}
-{"eng": "I need to identify the root cause.", "rus": "Мне нужно определить первопричину."}
-{"eng": "Initially, I faced resistance from the team.", "rus": "Поначалу я столкнулся с сопротивлением со стороны команды."}
-{"eng": "I met with them to delve deeper into their expectations.", "rus": "Я встретился с ними, чтобы глубже разобраться в их ожиданиях."}
-{"eng": "The promised promotion did not materialize.", "rus": "Обещанное повышение так и не состоялось."}
-{"eng": "I had to quickly get up to speed on the new technology.", "rus": "Мне пришлось быстро освоить новую технологию."}
-{"eng": "I had to manage stakeholder expectations.", "rus": "Мне пришлось управлять ожиданиями заинтересованных сторон."}
-{"eng": "We took steps to get the project back on track.", "rus": "Мы приняли меры, чтобы вернуть проект в нужное русло."}
-{"eng": "We had to make the most of our limited resources.", "rus": "Нам пришлось максимально использовать наши ограниченные ресурсы."}
-{"eng": "This approach reduced our time to market by 30%.", "rus": "Этот подход сократил время вывода на рынок на 30%."}
-{"eng": "ML tasks were de-prioritized in favor of other initiatives.", "rus": "Задачи по ML отодвигались на второй план в пользу других инициатив."}
-{"eng": "We delivered the feature without compromising code quality.", "rus": "Мы выпустили функцию, не жертвуя качеством кода."}
-{"eng": "I would describe my leadership style as results-oriented.", "rus": "Я бы описал свой стиль руководства как ориентированный на результат."}
-{"eng": "I'm mostly a team player.", "rus": "Я в основном командный игрок."}
-{"eng": "I received constructive feedback from stakeholders.", "rus": "Я получил конструктивную обратную связь от заинтересованных сторон."}
-{"eng": "I took immediate action to resolve the issue.", "rus": "Я немедленно принял меры для решения проблемы."}
-{"eng": "I reassess priorities and reallocate resources if needed.", "rus": "При необходимости я пересматриваю приоритеты и перераспределяю ресурсы."}
-{"eng": "I delivered the project ahead of the deadline.", "rus": "Я сдал проект раньше срока."}
-{"eng": "This experience reinforced my belief in iterative improvement.", "rus": "Этот опыт укрепил мою веру в итеративное улучшение."}
-{"eng": "I make it a priority to stay current with the latest tools.", "rus": "Я считаю приоритетом быть в курсе новейших инструментов."}
-{"eng": "I want to make a difference in the world.", "rus": "Я хочу изменить мир к лучшему."}
-{"eng": "We minimized disruptions to business operations.", "rus": "Мы свели к минимуму сбои в работе бизнеса."}
-{"eng": "Meticulous planning helped us mitigate the risks.", "rus": "Тщательное планирование помогло нам снизить риски."}
-{"eng": "The metric drop coincided with the new release.", "rus": "Падение метрики совпало с новым релизом."}
-{"eng": "It was a valuable learning experience for the team.", "rus": "Это был ценный опыт для команды."}
-{"eng": "I deployed a hotfix while reindexing the data.", "rus": "Я развернул срочное исправление, одновременно переиндексируя данные."}
-{"eng": "The client agreed to a compromise.", "rus": "Клиент согласился на компромисс."}
-{"eng": "We proposed alternatives backed by impact analysis.", "rus": "Мы предложили альтернативы, подкреплённые анализом влияния."}
-{"eng": "This approach became a template for future tasks.", "rus": "Этот подход стал шаблоном для будущих задач."}
-{"eng": "I needed some time to figure out the root cause.", "rus": "Мне нужно было время, чтобы разобраться в первопричине."}
-{"eng": "They experienced delays in getting access to the data.", "rus": "Они столкнулись с задержками в получении доступа к данным."}
-{"eng": "The stakeholder appreciated the way we handled the situation.", "rus": "Заказчик оценил то, как мы справились с ситуацией."}
-{"eng": "I emphasized that it was necessary to improve some things.", "rus": "Я подчеркнул, что необходимо кое-что улучшить."}
-{"eng": "My analysis showed that some users didn't notice the button.", "rus": "Мой анализ показал, что некоторые пользователи не заметили кнопку."}
-{"eng": "I guess these are the main points of my story.", "rus": "Пожалуй, это основные моменты моего рассказа."}
-{"eng": "We discovered that most people preferred the cheapest plan.", "rus": "Мы обнаружили, что большинство людей предпочли самый дешёвый тариф."}
-{"eng": "I have to say that I've rarely found myself in such situations.", "rus": "Должен признать, я редко оказывался в подобных ситуациях."}
-{"eng": "I wrote another query — that's what I did.", "rus": "Я написал ещё один запрос — вот что я сделал."}
-{"eng": "Through my analysis, it became clear that the problem lay with the onboarding process.", "rus": "Благодаря моему анализу стало ясно, что проблема заключалась в процессе онбординга."}
-{"eng": "Before getting business approval, we worked out the technical approach.", "rus": "Прежде чем получить одобрение бизнеса, мы проработали технический подход."}
-{"eng": "I think that's basically it.", "rus": "Пожалуй, вот и всё."}
-{"eng": "As it turned out, quite a lot of employees forgot to log their work.", "rus": "Как выяснилось, довольно много сотрудников забывали фиксировать свою работу."}
-{"eng": "I highlighted the size of the problem to the product owner.", "rus": "Я обратил внимание владельца продукта на масштаб проблемы."}
-{"eng": "We had the dashboard up and running by the end of the week.", "rus": "К концу недели дашборд был запущен и работал."}
-{"eng": "Much to my surprise, the data coverage only increased by 10%.", "rus": "К моему удивлению, охват данных вырос лишь на 10%."}
-{"eng": "I was sure the process was up to standard.", "rus": "Я был уверен, что процесс соответствует стандартам."}
-{"eng": "About 20% of the orders didn't go according to standards.", "rus": "Около 20% заказов не соответствовали стандартам."}
-{"eng": "A lot of orders were hanging in the system without being processed.", "rus": "Множество заказов зависли в системе, оставаясь необработанными."}
-{"eng": "I apologized for the inconvenience and asked for more time.", "rus": "Я извинился за неудобства и попросил больше времени."}
-{"eng": "I needed all the data in place before continuing.", "rus": "Мне нужно было, чтобы все данные были на месте, прежде чем продолжать."}
-{"eng": "I must admit I don't know the answer.", "rus": "Должен признать, я не знаю ответа."}
-{"eng": "You must finish this report by Friday.", "rus": "Ты должен закончить этот отчёт к пятнице."}
-{"eng": "Can you send it to me by Monday?", "rus": "Можешь прислать мне это к понедельнику?"}
-{"eng": "I can do this contract within three weeks.", "rus": "Я могу выполнить этот контракт в течение трёх недель."}
-{"eng": "We couldn't complete the project because we ran out of money.", "rus": "Мы не смогли завершить проект, потому что у нас закончились деньги."}
-{"eng": "We are ahead of schedule.", "rus": "Мы опережаем график."}
-{"eng": "The first task is to make a plan of action.", "rus": "Первая задача — составить план действий."}
-{"eng": "He will head the project and pick his team.", "rus": "Он возглавит проект и подберёт свою команду."}
-{"eng": "I was tasked with putting together the feasibility report.", "rus": "Мне поручили подготовить технико-экономическое обоснование."}
-{"eng": "The project starts with a kick-off meeting.", "rus": "Проект начинается со стартового совещания."}
-{"eng": "We're just waiting for the sign-off.", "rus": "Мы просто ждём финального одобрения."}
-{"eng": "Then we can move on to something else.", "rus": "Тогда мы сможем перейти к чему-то другому."}
-{"eng": "I see what you mean.", "rus": "Я понимаю, что ты имеешь в виду."}
-{"eng": "I see what you're saying.", "rus": "Понимаю, о чём ты говоришь."}
-{"eng": "The downside is that it takes more time.", "rus": "Обратная сторона в том, что это занимает больше времени."}
-{"eng": "One of the limitations is that it doesn't scale well.", "rus": "Одно из ограничений — это плохо масштабируется."}
-{"eng": "I'm sure you will see the benefits of this.", "rus": "Я уверен, вы увидите преимущества этого."}
-{"eng": "This is a tried and tested approach.", "rus": "Это проверенный временем подход."}
-{"eng": "Thank you for taking the time to meet and discuss this.", "rus": "Спасибо, что нашли время встретиться и обсудить это."}
-{"eng": "Here's a quick recap of what we talked about.", "rus": "Вот краткое резюме того, что мы обсудили."}
-{"eng": "Below is a summary of the action items and next steps.", "rus": "Ниже приведён список задач и дальнейших шагов."}
-{"eng": "Following up on our conversation, I'd like to sum up the key points.", "rus": "В продолжение нашего разговора хочу подвести итоги ключевых моментов."}
-{"eng": "I've attached the file you asked for.", "rus": "Я прикрепил файл, который вы просили."}
-{"eng": "Feel free to reach out with any questions or concerns.", "rus": "Не стесняйтесь обращаться с любыми вопросами или замечаниями."}
-{"eng": "Please let me know if there is anything I've missed.", "rus": "Пожалуйста, дайте знать, если я что-то упустил."}
-{"eng": "Looking forward to talking to you next Monday.", "rus": "С нетерпением жду разговора с вами в следующий понедельник."}
-{"eng": "I tend to think it's the best option.", "rus": "Я склонен считать, что это лучший вариант."}
-{"eng": "If you ask me, we should start now.", "rus": "По-моему, нам стоит начать сейчас."}
-{"eng": "What are your thoughts on this?", "rus": "Что ты об этом думаешь?"}
-{"eng": "Can I jump in here?", "rus": "Можно вклиниться?"}
-{"eng": "Sure, go ahead.", "rus": "Конечно, продолжай."}
-{"eng": "Could I just finish my point?", "rus": "Можно я закончу свою мысль?"}
-{"eng": "I couldn't agree more.", "rus": "Полностью согласен."}
-{"eng": "That's a valid point.", "rus": "Это справедливое замечание."}
-{"eng": "You have a point there, but I still disagree.", "rus": "В этом есть смысл, но я всё же не согласен."}
-{"eng": "I'm not so sure about that.", "rus": "Я не совсем в этом уверен."}
-{"eng": "I would disagree with that.", "rus": "Я бы с этим не согласился."}
-{"eng": "What if we tried a different approach?", "rus": "Что, если мы попробуем другой подход?"}
-{"eng": "Why don't we test both options?", "rus": "Почему бы нам не протестировать оба варианта?"}
-{"eng": "We need to increase the engagement rate.", "rus": "Нам нужно повысить уровень вовлечённости."}
-{"eng": "This is just a quick fix, not a permanent solution.", "rus": "Это лишь временное решение, а не постоянное."}
-{"eng": "We finally settled on a solution.", "rus": "В конце концов мы остановились на одном решении."}
-{"eng": "We plan to roll out the new feature next week.", "rus": "Мы планируем выпустить новую функцию на следующей неделе."}
-{"eng": "We opted for a low-cost solution.", "rus": "Мы выбрали недорогое решение."}
-{"eng": "The extra effort really paid off.", "rus": "Дополнительные усилия действительно окупились."}
-{"eng": "The solution should meet the needs of the client.", "rus": "Решение должно соответствовать потребностям клиента."}
-{"eng": "We run the risk of missing the deadline.", "rus": "Мы рискуем не уложиться в срок."}
-{"eng": "I pointed out that the process was flawed.", "rus": "Я указал, что процесс несовершенен."}
-{"eng": "Before choosing one solution, we tested both of them.", "rus": "Прежде чем выбрать одно решение, мы протестировали оба."}
-{"eng": "While doing the experiment, I got some unexpected results.", "rus": "Во время эксперимента я получил неожиданные результаты."}
-{"eng": "What we did was we tested both approaches.", "rus": "Что мы сделали — так это протестировали оба подхода."}
-{"eng": "What do you mean by that?", "rus": "Что ты имеешь в виду?"}
-{"eng": "Could you elaborate on that?", "rus": "Не мог бы ты пояснить подробнее?"}
-{"eng": "If I understand you correctly, you want us to prioritize this task.", "rus": "Если я правильно понимаю, вы хотите, чтобы мы взяли эту задачу в приоритет."}
-{"eng": "Sorry, I didn't catch that. Could you say the last bit again?", "rus": "Извините, я не расслышал. Не могли бы вы повторить последнюю часть?"}
-{"eng": "Thank you for clearing that up.", "rus": "Спасибо, что прояснили это."}
-{"eng": "Thank you for the clarification.", "rus": "Спасибо за уточнение."}
-{"eng": "Let me explain why I'm asking this.", "rus": "Позвольте объяснить, почему я об этом спрашиваю."}
-{"eng": "To make sure we're on the same page, let me sum up what we've discussed.", "rus": "Чтобы убедиться, что мы понимаем друг друга, позвольте подытожить то, что мы обсудили."}
-{"eng": "So, just to recap, here's what we agreed on.", "rus": "Итак, вкратце — вот о чём мы договорились."}
-{"eng": "How would you define the success of this project?", "rus": "Как бы вы определили успех этого проекта?"}
-{"eng": "Can you provide me with an overview of the system?", "rus": "Не могли бы вы дать мне общее представление о системе?"}
-{"eng": "What sort of time frame do you have in mind?", "rus": "Какие сроки вы имеете в виду?"}
-{"eng": "When is the report due?", "rus": "Когда нужно сдать отчёт?"}
-{"eng": "What metrics are we going to focus on?", "rus": "На каких метриках мы сосредоточимся?"}
-{"eng": "What format would you like the results in?", "rus": "В каком формате вы хотели бы получить результаты?"}
-{"eng": "Let me make sure I've got it right.", "rus": "Позвольте убедиться, что я всё правильно понял."}
-{"eng": "Well, the first thing I'd probably do is check the logs.", "rus": "Ну, первое, что я, наверное, сделал бы — это проверил логи."}
-{"eng": "What I'm trying to say is that we need more data.", "rus": "Я пытаюсь сказать, что нам нужно больше данных."}
-{"eng": "Does that make sense?", "rus": "В этом есть смысл?"}
-{"eng": "So that's basically how I would approach it.", "rus": "Вот, в общем-то, как я бы к этому подошёл."}
-{"eng": "Let me think about this for a second.", "rus": "Дайте мне секунду подумать."}
-{"eng": "Off the top of my head, I'd say around ten percent.", "rus": "Навскидку я бы сказал около десяти процентов."}
-{"eng": "That's a good question.", "rus": "Хороший вопрос."}
-{"eng": "As I see it, this is the main issue.", "rus": "На мой взгляд, это главная проблема."}
-{"eng": "From my point of view, we should wait.", "rus": "С моей точки зрения, нам стоит подождать."}
-{"eng": "In a nutshell, the process is too slow.", "rus": "Если вкратце, процесс слишком медленный."}
-{"eng": "To sum up, we need more resources.", "rus": "Подводя итог, нам нужно больше ресурсов."}
-{"eng": "Just to give you a bit of background, here's the situation.", "rus": "Чтобы дать немного контекста, вот ситуация."}
-{"eng": "The situation, as it stands, is that the data is outdated.", "rus": "Ситуация на данный момент такова, что данные устарели."}
-{"eng": "This will allow us to calculate the conversion.", "rus": "Это позволит нам рассчитать конверсию."}
-{"eng": "Is that something you can help with?", "rus": "Это то, с чем вы можете помочь?"}
-{"eng": "Would you be able to help with that?", "rus": "Не могли бы вы помочь с этим?"}
-{"eng": "How long do you think it will take?", "rus": "Как думаешь, сколько времени это займёт?"}
-{"eng": "It's difficult to make a prediction since we don't have the purchase history.", "rus": "Сложно сделать прогноз, поскольку у нас нет истории покупок."}
-{"eng": "The events don't load fast enough, which may result in delays.", "rus": "События загружаются недостаточно быстро, что может привести к задержкам."}
-{"eng": "We need to add an event so that we can calculate the conversion.", "rus": "Нам нужно добавить событие, чтобы мы могли рассчитать конверсию."}
-{"eng": "That could lead to changes in the analytics models.", "rus": "Это может привести к изменениям в аналитических моделях."}
-{"eng": "Let me walk you through my main findings.", "rus": "Позвольте провести вас по моим основным выводам."}
-{"eng": "Having analyzed this data, I've come up with the following findings.", "rus": "Проанализировав эти данные, я пришёл к следующим выводам."}
-{"eng": "As you can see from this chart, the correlation is strong.", "rus": "Как видно из этого графика, корреляция сильная."}
-{"eng": "It's safe to say that there is a positive correlation.", "rus": "Можно с уверенностью сказать, что существует положительная корреляция."}
-{"eng": "This is a strong indicator that demand is growing.", "rus": "Это явный признак того, что спрос растёт."}
-{"eng": "It would probably make sense to focus on one concept.", "rus": "Вероятно, имеет смысл сосредоточиться на одной концепции."}
-{"eng": "It's probably worth double-checking the data.", "rus": "Вероятно, стоит перепроверить данные."}
-{"eng": "These scenarios suggest that revenue will grow.", "rus": "Эти сценарии позволяют предположить, что выручка вырастет."}
-{"eng": "Let's not jump to conclusions.", "rus": "Давай не будем спешить с выводами."}
-{"eng": "Sounds like a good idea.", "rus": "Звучит как хорошая идея."}
-{"eng": "I'll see what I can do.", "rus": "Посмотрю, что можно сделать."}
-{"eng": "Well, that makes sense then.", "rus": "Что ж, тогда это имеет смысл."}
-{"eng": "I guess we're good to go.", "rus": "Пожалуй, мы готовы начинать."}
-{"eng": "I've become better at communicating clearly.", "rus": "Я стал лучше ясно выражать мысли."}
-{"eng": "The feedback gave me a great sense of achievement.", "rus": "Эта обратная связь подарила мне сильное чувство удовлетворения от достигнутого."}
-{"eng": "I believe there's still room for improvement in this area.", "rus": "Полагаю, в этой области всё ещё есть куда расти."}
-{"eng": "I've never been involved in mentoring, and I'd like to give it a try.", "rus": "Я никогда не занимался наставничеством и хотел бы попробовать."}
-{"eng": "I really benefited from the webinar.", "rus": "Я извлёк большую пользу из вебинара."}
-{"eng": "The training course helped me expand my knowledge in the field.", "rus": "Учебный курс помог мне расширить знания в этой области."}
-{"eng": "I'd like to try my hand at mentoring a group.", "rus": "Я хотел бы попробовать себя в наставничестве группы."}
-{"eng": "One thing I'm going to do is take a training course.", "rus": "Первое, что я собираюсь сделать, — пройти обучающий курс."}
-{"eng": "I intend to develop this skill further.", "rus": "Я намерен развивать этот навык дальше."}
-{"eng": "I'd like to focus on mentoring over the next six months.", "rus": "В ближайшие полгода я хотел бы сосредоточиться на наставничестве."}
-{"eng": "I'm really happy with how the project went.", "rus": "Я очень доволен тем, как прошёл проект."}
-{"eng": "I've put a lot of effort into communicating goals clearly.", "rus": "Я вложил много усилий в чёткое донесение целей."}
-{"eng": "I feel I'm making progress with meeting facilitation.", "rus": "Мне кажется, я делаю успехи в проведении встреч."}
-{"eng": "I feel I did a great job leading the team.", "rus": "Считаю, что я отлично справился с руководством командой."}
-{"eng": "At first, I struggled to stay within the time limit.", "rus": "Поначалу мне было трудно укладываться в отведённое время."}
-{"eng": "Something I need to work on is my AWS expertise.", "rus": "Над чем мне нужно поработать — это мои знания AWS."}
-{"eng": "I think decision-making is an area for improvement.", "rus": "Думаю, принятие решений — это то, что мне стоит улучшить."}
-{"eng": "Here's an area I want to work on.", "rus": "Вот область, над которой я хочу поработать."}
-{"eng": "This is what I've learned from it.", "rus": "Вот что я из этого вынес."}
-{"eng": "My data storytelling skills have improved.", "rus": "Мои навыки подачи данных улучшились."}
-{"eng": "A training course on negotiations may be helpful for me.", "rus": "Курс по переговорам может быть мне полезен."}
-{"eng": "I've taken part in creating a training program for junior analysts.", "rus": "Я принял участие в создании программы обучения для младших аналитиков."}
-{"eng": "I felt really proud when I first demonstrated my dashboard.", "rus": "Я испытал настоящую гордость, когда впервые представил свой дашборд."}
-{"eng": "We all stayed in sync and dealt with misunderstandings promptly.", "rus": "Мы все действовали слаженно и оперативно устраняли недопонимания."}
-{"eng": "When the stakeholders went off-topic, I brought them back to the point.", "rus": "Когда заинтересованные стороны отклонялись от темы, я возвращал их к сути."}
-{"eng": "I like to take the initiative on new tasks.", "rus": "Мне нравится проявлять инициативу в новых задачах."}
-{"eng": "I started sending out follow-up emails after each meeting.", "rus": "Я начал рассылать письма с итогами после каждой встречи."}
-{"eng": "This experience lets me see things from a different perspective.", "rus": "Этот опыт позволяет мне взглянуть на вещи под другим углом."}
-{"eng": "When it comes to negotiating, I'm still learning.", "rus": "Когда дело доходит до переговоров, мне ещё есть чему учиться."}
-{"eng": "I tend to rely on past experience.", "rus": "Я склонен полагаться на прошлый опыт."}
-{"eng": "We need to take seasonality into account.", "rus": "Нам нужно учитывать сезонность."}
-{"eng": "We used last year's figures as a benchmark.", "rus": "Мы использовали прошлогодние показатели как ориентир."}
-{"eng": "These early results look promising.", "rus": "Эти первые результаты выглядят многообещающе."}
-{"eng": "This approach is applicable to other regions.", "rus": "Этот подход применим и к другим регионам."}
-{"eng": "We had to make an assumption about the missing values.", "rus": "Нам пришлось сделать допущение о недостающих значениях."}
-{"eng": "If we hover over a point, a tooltip appears.", "rus": "Если навести курсор на точку, появляется всплывающая подсказка."}
-{"eng": "Clicking on a region filters the dashboard to that region.", "rus": "Нажатие на регион фильтрует дашборд по этому региону."}
-{"eng": "Profits fell sharply this quarter.", "rus": "Прибыль резко упала в этом квартале."}
-{"eng": "Sales rose slightly compared to last year.", "rus": "Продажи слегка выросли по сравнению с прошлым годом."}
-{"eng": "There was a dramatic decline in revenue.", "rus": "Произошло резкое падение выручки."}
-{"eng": "Sales went up by a third.", "rus": "Продажи выросли на треть."}
-{"eng": "Just under 10% of the bugs are low priority.", "rus": "Чуть менее 10% ошибок имеют низкий приоритет."}
-{"eng": "A little over half of the users are satisfied.", "rus": "Чуть более половины пользователей довольны."}
-{"eng": "I'll be happy to answer your questions as we go along.", "rus": "Я с удовольствием отвечу на ваши вопросы по ходу."}
-{"eng": "I'll leave some time for questions at the end.", "rus": "Я оставлю немного времени для вопросов в конце."}
-{"eng": "As a follow-up, I'll share the slide deck.", "rus": "В качестве продолжения я поделюсь презентацией."}
-{"eng": "Thank you for bringing that up.", "rus": "Спасибо, что подняли этот вопрос."}
-{"eng": "I'm not completely sure, but I'll find that out for you.", "rus": "Я не совсем уверен, но я это для вас выясню."}
-{"eng": "Do you mind if we discuss it after the demo?", "rus": "Не возражаете, если мы обсудим это после демонстрации?"}
-{"eng": "The upside of this solution is that it loads faster.", "rus": "Плюс этого решения в том, что оно загружается быстрее."}
-{"eng": "One point in support of that is the speed of implementation.", "rus": "Один довод в пользу этого — скорость внедрения."}
-{"eng": "An argument in favor of this method is that we won't have to refresh it manually.", "rus": "Аргумент в пользу этого метода в том, что не придётся обновлять вручную."}
-{"eng": "The drawback of this visualization is that it takes up a lot of space.", "rus": "Недостаток этой визуализации в том, что она занимает много места."}
-{"eng": "One argument against that is the longer processing time.", "rus": "Один аргумент против — более долгое время обработки."}
-{"eng": "I can see both sides of the issue.", "rus": "Я вижу обе стороны вопроса."}
-{"eng": "His off-the-cuff suggestion turned out to be a good one.", "rus": "Его спонтанное предложение оказалось удачным."}
-{"eng": "There's some truth to what you're saying, but there may be a few problems.", "rus": "В твоих словах есть доля правды, но могут возникнуть некоторые проблемы."}
-{"eng": "I'm sorry to say, I have a different opinion.", "rus": "К сожалению, должен сказать, что у меня иное мнение."}
-{"eng": "I'm sorry, but I have to disagree with you.", "rus": "Извините, но я вынужден с вами не согласиться."}
-{"eng": "My suggestion would be to run some tests before implementing the changes.", "rus": "Я бы предложил провести несколько тестов, прежде чем внедрять изменения."}
-{"eng": "It's great when you can build on other people's ideas.", "rus": "Здорово, когда удаётся развивать идеи других."}
-{"eng": "Our subcontractors failed to meet the terms of the agreement.", "rus": "Наши подрядчики не выполнили условия договора."}
-{"eng": "We develop new services to fully meet the demands of our customers.", "rus": "Мы разрабатываем новые услуги, чтобы полностью удовлетворять запросы наших клиентов."}
-{"eng": "I've done some research on this, and here's what I found.", "rus": "Я провёл небольшое исследование на эту тему, и вот что выяснил."}
-{"eng": "We can try out different options to see which works best.", "rus": "Мы можем опробовать разные варианты, чтобы понять, какой сработает лучше."}
-{"eng": "There's a relationship between a company's reputation and its profit.", "rus": "Существует взаимосвязь между репутацией компании и её прибылью."}
-{"eng": "I wish I'd found out about this request before the sprint started.", "rus": "Жаль, что я не узнал об этом запросе до начала спринта."}
-{"eng": "I had a hard time figuring out how to re-prioritize my tasks.", "rus": "Мне было трудно понять, как перераспределить приоритеты задач."}
-{"eng": "The machine isn't powerful enough, and as a result, it's slowing us down.", "rus": "Машина недостаточно мощная, и в результате она нас замедляет."}
-{"eng": "I thought it was very helpful to discuss the estimates as a team.", "rus": "Мне показалось очень полезным обсудить оценки всей командой."}
-{"eng": "It was really nice to see how the team came to a decision on their own.", "rus": "Было приятно видеть, как команда самостоятельно пришла к решению."}
-{"eng": "I think it would be very helpful if we could have a weekly tech meet-up.", "rus": "Думаю, было бы очень полезно проводить еженедельную техническую встречу."}
-{"eng": "It might be better to put such tasks on hold.", "rus": "Возможно, такие задачи лучше отложить."}
-{"eng": "We've got to make sure all the drivers are installed.", "rus": "Мы должны убедиться, что все драйверы установлены."}
-{"eng": "Sorry to interrupt.", "rus": "Извините, что перебиваю."}
-{"eng": "Sorry to butt in.", "rus": "Простите, что вмешиваюсь."}
-{"eng": "Can I just say something here?", "rus": "Можно я кое-что здесь скажу?"}
-{"eng": "Sorry, just one more thing.", "rus": "Извините, ещё один момент."}
-{"eng": "I suppose that's a little off topic.", "rus": "Пожалуй, это немного не по теме."}
-{"eng": "Can we park that until the end of the meeting?", "rus": "Можем отложить это до конца встречи?"}
-{"eng": "Sorry, that's not what I mean.", "rus": "Извините, я не это имел в виду."}
-{"eng": "Sorry if I didn't make that clear.", "rus": "Извините, если я выразился неясно."}
-{"eng": "Let's not try to squeeze them into this sprint.", "rus": "Давайте не будем пытаться впихнуть их в этот спринт."}
-{"eng": "We scheduled a meeting to sync up on the new policies.", "rus": "Мы назначили встречу, чтобы согласовать новые правила."}
-{"eng": "It might be better to stick to what we agreed on.", "rus": "Возможно, лучше придерживаться того, о чём мы договорились."}
-{"eng": "Let's do a quick sanity check before we ship.", "rus": "Давайте быстро всё перепроверим, прежде чем выпускать."}
-{"eng": "What you're sharing is interesting, but we don't have time to discuss it fully now.", "rus": "То, чем вы делитесь, интересно, но сейчас нет времени обсудить это полностью."}
-{"eng": "I'm on track.", "rus": "Я укладываюсь в срок."}
-{"eng": "Today I'll carry on working on it.", "rus": "Сегодня я продолжу над этим работать."}
-{"eng": "Let me know how that goes, OK?", "rus": "Дай знать, как пойдёт, хорошо?"}
-{"eng": "I'll have it done by Wednesday.", "rus": "Я закончу это к среде."}
-{"eng": "I expect to finish it by Friday at the latest.", "rus": "Рассчитываю закончить это самое позднее к пятнице."}
-{"eng": "I'll be working on this task until Wednesday.", "rus": "Я буду работать над этой задачей до среды."}
-{"eng": "As a ballpark figure, I'd say fifteen hours.", "rus": "Если оценивать грубо, я бы сказал пятнадцать часов."}
-{"eng": "My original estimate is a bit off.", "rus": "Моя первоначальная оценка немного неточна."}
-{"eng": "It's a bit too complex to rush through.", "rus": "Это слишком сложно, чтобы делать наспех."}
-{"eng": "I'm afraid it's not a very good idea to rush this.", "rus": "Боюсь, торопиться с этим — не лучшая идея."}
-{"eng": "I'm not sure it'd be possible.", "rus": "Не уверен, что это будет возможно."}
-{"eng": "I might not be able to finish it in this sprint.", "rus": "Возможно, я не успею закончить это в этом спринте."}
-{"eng": "That may be a bit problematic.", "rus": "Это может быть немного проблематично."}
-{"eng": "Would it be a good idea to postpone the release?", "rus": "Не будет ли хорошей идеей отложить релиз?"}
-{"eng": "How about breaking the task down into smaller pieces?", "rus": "Как насчёт того, чтобы разбить задачу на части поменьше?"}
-{"eng": "How does that sound to you?", "rus": "Как тебе такое?"}
-{"eng": "We won't be able to fit all the tasks in this sprint.", "rus": "Мы не сможем вместить все задачи в этот спринт."}
-{"eng": "Adjusting the priority of these tasks might be a good option.", "rus": "Изменение приоритета этих задач может быть хорошим вариантом."}
-{"eng": "We need to allow time for data cleansing.", "rus": "Нам нужно заложить время на очистку данных."}
-{"eng": "Let's go over the backlog to see what's left.", "rus": "Давайте пройдёмся по бэклогу и посмотрим, что осталось."}
-{"eng": "We'll have to leave out the low-priority task this week.", "rus": "На этой неделе нам придётся исключить низкоприоритетную задачу."}
-{"eng": "I'm not sure this solution is feasible.", "rus": "Я не уверен, что это решение осуществимо."}
-{"eng": "The meeting with the stakeholder had a positive outcome.", "rus": "Встреча с заказчиком дала положительный результат."}
-{"eng": "It seemed that the requirements were unclear.", "rus": "Казалось, что требования были нечёткими."}
-{"eng": "Despite the tight deadline, we managed to deliver.", "rus": "Несмотря на сжатые сроки, нам удалось всё выполнить."}
-{"eng": "Although we disagreed at first, we were able to reach an agreement.", "rus": "Хотя сначала мы не соглашались, нам удалось прийти к согласию."}
-{"eng": "I expressed my concerns about the timeline.", "rus": "Я выразил свои опасения по поводу сроков."}
-{"eng": "I'll look into the issue.", "rus": "Я разберусь с этой проблемой."}
-{"eng": "We managed to sort out the problem.", "rus": "Нам удалось уладить проблему."}
-{"eng": "The task is blocked for the time being.", "rus": "Пока что задача заблокирована."}
-{"eng": "What's preventing you from completing it?", "rus": "Что мешает тебе это завершить?"}
-{"eng": "Sorry, you were breaking up a little.", "rus": "Извини, тебя немного прерывало — плохая связь."}
-{"eng": "Could you run it by me one more time?", "rus": "Не мог бы ты объяснить мне это ещё раз?"}
-{"eng": "As far as I know, the events were added last week.", "rus": "Насколько я знаю, события добавили на прошлой неделе."}
-{"eng": "The team added them last week, if I'm not mistaken.", "rus": "Команда добавила их на прошлой неделе, если не ошибаюсь."}
-{"eng": "This drop doesn't seem to have anything to do with the downloads.", "rus": "Похоже, это падение никак не связано с загрузками."}
-{"eng": "Users from these cities make up a large proportion of our customers.", "rus": "Пользователи из этих городов составляют значительную долю наших клиентов."}
-{"eng": "I want to see where users drop off in the funnel.", "rus": "Я хочу увидеть, на каком этапе воронки пользователи отсеиваются."}
-{"eng": "To be more precise, three new screens were added.", "rus": "Если точнее, было добавлено три новых экрана."}
-{"eng": "It's not pleasant, but these things happen.", "rus": "Приятного мало, но такое случается."}
-{"eng": "They aren't really making an effort to help.", "rus": "Они не особо стараются помочь."}
-{"eng": "This can help reduce technical debt.", "rus": "Это может помочь сократить технический долг."}
+{"id": "ea29076a-c17c-4ad7-bf45-21721394eb67", "eng": "Thanks, the team will handle it.", "rus": "Спасибо, команда этим займётся."}
+{"id": "36f24080-3824-4b22-825b-007a6d2d8b58", "eng": "Hey, we've put the report on hold for now.", "rus": "Привет! Мы пока приостановили работу над отчётом."}
+{"id": "b61e9ddf-5da4-46d5-a28a-278d6991bbe4", "eng": "That would be great. It'll help us fix the problem sooner.", "rus": "Было бы здорово. Это поможет нам быстрее решить проблему."}
+{"id": "00940c6f-c984-4de6-aa7c-b3f59d8d4570", "eng": "I'm the right person to help with that.", "rus": "С этим лучше обратиться ко мне."}
+{"id": "72ac451f-7c47-45d3-a003-cebb6b77585d", "eng": "Thanks for the extra context. I really appreciate it.", "rus": "Спасибо, что пояснили. Это очень помогло."}
+{"id": "1c9001a1-e8d0-4c0d-b4c7-7fc9c71b44c1", "eng": "I think Lilia would do a better job as the speaker.", "rus": "Думаю, Лилия лучше справится с выступлением."}
+{"id": "25683a12-bc85-4bac-afd1-bbaf9f4ae62f", "eng": "I have one more request.", "rus": "У меня ещё одна просьба."}
+{"id": "317aec02-d7ba-4e71-aa97-7b647fcf5e96", "eng": "Looks like the link has expired. Could you send me a new one?", "rus": "Похоже, срок действия ссылки истёк. Можете прислать новую?"}
+{"id": "c411c681-ecd0-470c-a5a6-75534c5fa4a1", "eng": "Sorry for the inconvenience. Our systems analyst was let go last week, so we may take a little longer to get back to you.", "rus": "Извините за неудобства. На прошлой неделе нашего системного аналитика уволили, поэтому ответы на ваши запросы могут занять чуть больше времени."}
+{"id": "6315182a-773b-4408-bcb0-ac778ced36ba", "eng": "We're running a little behind. Nikita will send you the credentials tomorrow.", "rus": "Мы немного задерживаемся. Никита пришлёт вам данные для входа завтра."}
+{"id": "45524eed-536a-4fb5-9f2f-1510747116c9", "eng": "We haven't detected any suspicious activity on our end.", "rus": "Мы не обнаружили подозрительной активности на своей стороне."}
+{"id": "b0fb3b52-ea91-4eac-add9-f2fcf0b1f5fc", "eng": "It appears that the integration is now working correctly.", "rus": "Похоже, интеграция теперь работает правильно."}
+{"id": "1be50156-f33c-4132-8ccc-fe0d94fdbfdb", "eng": "A marketing campaign to attract users who spend less.", "rus": "Маркетинговая кампания для привлечения пользователей, которые тратят меньше."}
+{"id": "b353ec94-0afc-4e9c-8a73-2db1d6843057", "eng": "Could you give me a bit more context or clarify what you mean?", "rus": "Можете дать немного больше контекста или уточнить, что вы имеете в виду?"}
+{"id": "301bee6a-a9f4-4630-9904-de5b1b661847", "eng": "Would you prefer a separate report, or should we update the existing one?", "rus": "Вам нужен отдельный отчёт или лучше обновить текущий?"}
+{"id": "cb167ead-600a-4187-b3a4-06fdd920093e", "eng": "Do we have an agenda for today's meeting?", "rus": "У нас есть повестка на сегодняшнюю встречу?"}
+{"id": "2d86bb70-2fdb-400a-ad1d-426b722d5a08", "eng": "Does this timeline work for you?", "rus": "Вас устраивают эти сроки?"}
+{"id": "78508e06-8f28-4db1-9b67-95b5cbc1b97a", "eng": "Does the analysis Ruslan mentioned give them what they need? Are there any other metrics they'd like to see?", "rus": "Им достаточно аналитики, о которой говорил Руслан? Какие ещё метрики они хотели бы увидеть?"}
+{"id": "97e7ff22-25ea-4163-8a43-3731961b3356", "eng": "Which specific metric do we need to measure?", "rus": "Какой конкретный показатель нам нужно измерить?"}
+{"id": "5f33c822-e8f9-494f-8117-d414c6e1e431", "eng": "Katie, thank you for keeping me updated!", "rus": "Кэти, спасибо за информацию!"}
+{"id": "37804aa6-5839-4cea-adb7-cc23f9aa6345", "eng": "Yes, Liliya is already working on it.", "rus": "Да, Лилия уже над этим работает."}
+{"id": "584265d5-fcc9-45ab-a9d3-26b2a15fe7d8", "eng": "Could you confirm whether you still expect it in Q1?", "rus": "Можете подтвердить, что по-прежнему ждёте это в первом квартале?"}
+{"id": "4dacad6d-2323-4bf1-ac46-0027d8bfbe05", "eng": "Nikita is out of the office until Monday.", "rus": "Никита будет вне офиса до понедельника."}
+{"id": "592b6edd-5aac-447b-8c55-4ddad4dd2c4c", "eng": "The on-call engineer is looking into the discrepancy.", "rus": "Дежурный инженер разбирается, откуда взялось расхождение."}
+{"id": "06ea8348-4a81-4ebb-a00a-8cb050692538", "eng": "Following the investigation, we will create a ticket.", "rus": "После завершения расследования мы создадим заявку."}
+{"id": "7317d408-9da7-4cc2-b921-92149a8aab39", "eng": "We'll post updates here.", "rus": "Будем писать о ходе работы в этом чате."}
+{"id": "8ee101f2-7796-460c-bab5-ccd399842cf8", "eng": "When do you think you'll have that task done?", "rus": "Как думаете, когда сможете закончить эту задачу?"}
+{"id": "eff84cb5-0d64-4082-aa6b-5b05ce1f706d", "eng": "We want to give the client the metrics they actually need and avoid relying on a workaround.", "rus": "Мы хотим дать клиенту нужные метрики и обойтись без временных решений."}
+{"id": "c0122f57-bd53-4fa4-8903-824694031157", "eng": "I think the client wants to measure how long it takes for an order to be picked up after it's placed.", "rus": "Похоже, клиент хочет измерить, сколько времени проходит от оформления заказа до его получения."}
+{"id": "6365c724-ed0e-41c0-82d7-a1b384b7fe98", "eng": "Have we heard anything from the clients about the task we discussed earlier?", "rus": "Клиенты что-нибудь сообщили по задаче, которую мы обсуждали?"}
+{"id": "7418b6f1-d3af-4f07-b35e-b8ba4c7bbf3d", "eng": "Thanks for your patience. We're still working on it and don't have a firm release date yet, but we're aiming for the end of the week.", "rus": "Спасибо за терпение. Мы ещё работаем над задачей. Точной даты релиза пока нет, но рассчитываем выпустить обновление к концу недели."}
+{"id": "bc3dd57c-929e-454a-8f78-404b51221abb", "eng": "We'll share the next steps soon.", "rus": "Скоро расскажем, что будем делать дальше."}
+{"id": "e064de55-0843-446b-9a1e-12079c343bc6", "eng": "Could you ask the client what GroupID means?", "rus": "Можете уточнить у клиента, что означает GroupID?"}
+{"id": "91bc9193-ad4e-4d2c-9f97-47cfb13cb23c", "eng": "You'll find the marketing data and stats there.", "rus": "Там вы найдёте маркетинговые данные и статистику."}
+{"id": "d5940aa4-b977-4e82-bed8-e272afa5b99b", "eng": "The next step is to build reports based on this data.", "rus": "Следующим шагом будет создание отчетов на основе этих данных."}
+{"id": "fa9b4ba4-3d22-44c0-9b01-85e17718ec8b", "eng": "John is working on that task and said he's waiting on some data from you. Could you send it over today?", "rus": "Джон работает над этой задачей и говорит, что ждёт от вас данные. Сможете прислать их сегодня?"}
+{"id": "e0e8b3c4-4e06-46b7-8558-0c2f0189d55f", "eng": "I'm aiming to finish that task before Friday.", "rus": "Постараюсь закончить эту задачу до пятницы."}
+{"id": "5c939f3f-4b07-4972-8f83-3dc21a63597f", "eng": "We're ready to run the demo in the test environment.", "rus": "Мы готовы провести демо в тестовой среде."}
+{"id": "94d3baf9-169b-48c7-9487-d2ab5a5e53b4", "eng": "Do you have any availability today?", "rus": "У вас сегодня есть свободное время?"}
+{"id": "bd052310-c90c-4658-a2e1-4ce2645fab15", "eng": "Thanks for sending the document!", "rus": "Спасибо, что прислали документ!"}
+{"id": "9cb63541-4766-42dd-8f5a-70da444250f2", "eng": "We'll take a closer look at it.", "rus": "Мы его подробно изучим."}
+{"id": "560916cd-4930-442a-9a2d-bf9c85d47780", "eng": "I'd like you to meet Basil, our data engineer.", "rus": "Познакомьтесь с Базилем, нашим дата-инженером."}
+{"id": "bfa4aa40-9f79-4591-a106-a4eea7720f43", "eng": "For the proof of concept, how much would it cost to run the current solution for fewer than 50,000 requests?", "rus": "Вопрос по PoC. Во сколько обойдётся эксплуатация текущего решения при объёме меньше 50 000 запросов?"}
+{"id": "ccdb2ffc-f300-4387-8fb2-9f2fda206acd", "eng": "Could you summarize what you found? We need a guide to calculating the metrics listed in the ticket.", "rus": "Можете кратко рассказать, что удалось выяснить? Нам нужна инструкция по расчёту метрик из тикета."}
+{"id": "3b1cbf82-d586-481c-be5a-3201844e67ba", "eng": "Given those changes, option 1 makes the most sense.", "rus": "С учётом этих изменений первый вариант подходит лучше всего."}
+{"id": "bc8dd88e-ddd6-4570-b94e-b2bf86319c9e", "eng": "Great, everything is now in order.", "rus": "Отлично, теперь всё в порядке."}
+{"id": "a8dc34b3-a0c5-4184-8989-8ea3a961545d", "eng": "Could you please schedule the meeting we discussed?", "rus": "Можете ли вы назначить встречу, о которой мы говорили?"}
+{"id": "1b7044ab-d931-4fe9-8f0a-66187adbc91f", "eng": "Could we set up a meeting sometime this week?", "rus": "Можем договориться о встрече на этой неделе?"}
+{"id": "9b155304-d912-4ce2-b052-1f1709d81bd3", "eng": "Group the metrics into four categories based on the business goals they support.", "rus": "Разбейте метрики на четыре группы по бизнес-целям."}
+{"id": "ff492493-3be6-428b-ba6a-96c956d6d3f8", "eng": "What is the due date for this task?", "rus": "К какому сроку нужно выполнить эту задачу?"}
+{"id": "c732fa3d-049a-413f-8a6e-947f7ef5c58a", "eng": "Let me know if you need more details.", "rus": "Дайте знать, если нужны подробности."}
+{"id": "315e6bb7-8939-4107-a809-7534428aad29", "eng": "Finally, review the spreadsheet you've created.", "rus": "В конце проверьте получившуюся таблицу."}
+{"id": "81d7ceab-9e6b-4e90-9ddb-28b65de15904", "eng": "I highlighted the need for some improvements.", "rus": "Я подчеркнул необходимость некоторых улучшений."}
+{"id": "b98b5b09-5cfd-48c7-8dcd-d15646a1b086", "eng": "My analysis showed that some users didn't see the button.", "rus": "Анализ показал, что некоторые пользователи не видели кнопку."}
+{"id": "844766e3-9b1a-4378-abd0-a52b52a3333f", "eng": "As it turned out, most people chose the cheapest subscription.", "rus": "Как выяснилось, большинство людей выбрали самую дешевую подписку."}
+{"id": "95869991-1419-47e8-92cf-d77009227fa0", "eng": "I must admit I haven't had a lot of situations like that.", "rus": "Должен признать, у меня редко бывали подобные ситуации."}
+{"id": "bffc0ed2-d23b-4db1-9fec-f08395f55950", "eng": "While analyzing the logs, I discovered a data error.", "rus": "Анализируя логи, я обнаружил ошибку в данных."}
+{"id": "6e5a6c2b-2491-4960-940b-4853aa255ca0", "eng": "What I did was write another query.", "rus": "Я написал ещё один запрос."}
+{"id": "ca27612d-09c1-4ef6-ab31-d8ddcd7a3038", "eng": "The stakeholders were shocked by that data.", "rus": "Заинтересованные стороны были шокированы этими данными."}
+{"id": "46a5fe24-f3e0-434c-8395-296a2e16b555", "eng": "I ran into a small issue setting up a custom data source.", "rus": "У меня возникла небольшая проблема с настройкой собственного источника данных."}
+{"id": "ce905949-c1c7-4650-a0fa-57df8d5960ca", "eng": "We got on with the task right away.", "rus": "Мы сразу взялись за задачу."}
+{"id": "983cfd80-cff0-4f14-842d-2efdc8c90d9d", "eng": "We brainstormed some ways to address the issue.", "rus": "Мы провели мозговой штурм, чтобы найти способы решения проблемы."}
+{"id": "4e9ab2b9-4c2c-4c23-b332-d4045ecfbc02", "eng": "The stakeholders seemed dissatisfied with the existing system.", "rus": "Заинтересованные стороны казались недовольными существующей системой."}
+{"id": "7e92c0f1-e8b2-4192-a66e-bd4accdd251d", "eng": "We missed the deadline and delivered the product a month late.", "rus": "Мы пропустили срок и сдали продукт на месяц позже."}
+{"id": "775e3647-9ce3-4048-891d-d9daf8d29cbb", "eng": "Unfortunately, it took them longer than expected to get access to the data.", "rus": "К сожалению, получить доступ к данным удалось позже, чем они рассчитывали."}
+{"id": "b1c2f4b1-dc5c-42d6-a1f5-574f7d939999", "eng": "We can assume that people in this region are willing to pay more.", "rus": "Можно предположить, что жители этого региона готовы платить больше."}
+{"id": "5d850f5e-a761-45f8-985f-2856fa139014", "eng": "These restaurants look more promising once we factor in how much people spend per order.", "rus": "Эти рестораны выглядят перспективнее, если учесть сумму заказа."}
+{"id": "91660316-423a-4a84-a9b3-353727f428ea", "eng": "Daytime deliveries seem more attractive for the drivers.", "rus": "Дневные доставки кажутся водителям более привлекательными."}
+{"id": "749e69bc-7241-45f4-a1a0-a654aa279419", "eng": "The Palo Alto pricing policy would not be applicable to Colorado.", "rus": "Ценовая политика Пало-Альто не будет применима к Колорадо."}
+{"id": "5d2fc11e-7e54-4838-8f7b-e15c1f9e346b", "eng": "You can benchmark that against publicly available statistics.", "rus": "Вы можете сравнить это с общедоступной статистикой."}
+{"id": "b2ad3cce-86c1-480c-93ca-5be5d02160f1", "eng": "I looked into what people want from their working conditions, and here's what I found.", "rus": "Я изучил, какие условия работы предпочитают люди. Вот что удалось выяснить."}
+{"id": "2c5645cc-52c3-48ff-b2ab-d3762b9737d3", "eng": "To establish a correlation, we might need to try out different options.", "rus": "Чтобы установить корреляцию, нам, возможно, придется попробовать разные варианты."}
+{"id": "772099b0-48de-45cc-b21a-69990fb33650", "eng": "We can set a benchmark for how much time we spend in Zoom meetings each week.", "rus": "Можно установить ориентир по тому, сколько времени в неделю мы проводим на встречах в Zoom."}
+{"id": "b10d33d7-cf5b-4512-b4f2-fc024782e18a", "eng": "The goal is to find the best balance between price and the share of users who subscribe.", "rus": "Цель — найти оптимальный баланс между ценой и долей пользователей, которые оформляют подписку."}
+{"id": "c199de7e-875e-457d-9ffa-a328845365d7", "eng": "We'll start by getting rid of all the global variables.", "rus": "Мы начнем с избавления от всех глобальных переменных."}
+{"id": "1eeee3d2-f8b8-4ffa-ba7d-100b4799a3c5", "eng": "I'm looking into the company's culture.", "rus": "Я изучаю корпоративную культуру компании."}
+{"id": "f0659d09-f07b-40d5-878d-dd157b227161", "eng": "Lead with your recommendation.", "rus": "Начинайте с рекомендации."}
+{"id": "3c8bb564-0630-4ddd-ba99-cd36d5ed1a40", "eng": "Never say 'it depends' without a recommendation.", "rus": "Никогда не говорите «это зависит от обстоятельств» без последующей рекомендации."}
+{"id": "67441d67-7eeb-490c-a471-bff714f569b1", "eng": "Narrate your thought process even when uncertain.", "rus": "Озвучивайте свой ход мыслей, даже если вы не уверены."}
+{"id": "77876897-7da5-4494-8f94-ab870e81199c", "eng": "It helps to make the structure of your answer clear as you go.", "rus": "Важно по ходу ответа показывать, как он устроен."}
+{"id": "1ace2562-05cf-4063-9894-7adfc2212251", "eng": "We need to take more responsibility for the work we do.", "rus": "Нам нужно брать больше ответственности за свою работу."}
+{"id": "a085f319-63ee-4ee8-9887-44bbfc42f024", "eng": "Bias toward action is a core Revolut value.", "rus": "Готовность действовать — одна из ключевых ценностей Revolut."}
+{"id": "d9f4638e-f83e-4516-adfd-02ac0e9b53a4", "eng": "Always lead with the main point, then go into the details.", "rus": "Всегда начинайте с главного, а затем переходите к деталям."}
+{"id": "87e67dec-e44f-4523-8ef0-908387408d8e", "eng": "Use an issue tree to break the problem down.", "rus": "Разбейте проблему на части с помощью дерева проблем."}
+{"id": "97460935-71c5-4671-9f5b-48d7bbc687ce", "eng": "Use the MECE principle. Your categories should cover everything without overlapping.", "rus": "Следуйте принципу MECE. Категории должны охватывать все варианты и не пересекаться."}
+{"id": "474966b6-c2e7-42bb-a84e-ad105af6db1d", "eng": "Form an educated guess about the root cause.", "rus": "Сделайте обоснованное предположение о первопричине."}
+{"id": "8a79d59b-fac8-4080-862e-d76902c15968", "eng": "Plot each project on a 2x2 matrix based on its impact and feasibility.", "rus": "Разместите проекты на матрице 2×2 по ожидаемому эффекту и сложности реализации."}
+{"id": "cdc815ae-181d-4cb3-a74e-4ace42c4edf1", "eng": "What would you actually do on Monday morning?", "rus": "Что бы вы на самом деле сделали в понедельник утром?"}
+{"id": "456aacdb-1076-4f20-a507-31dac207f4d9", "eng": "How quickly we deliver value can give us a real edge over competitors.", "rus": "Мы можем выиграть у конкурентов за счёт того, что быстрее даём клиентам ощутимый результат."}
+{"id": "386d355e-6788-45aa-99bf-7e56e2295aed", "eng": "Mitigate risk by requiring an abstraction layer.", "rus": "Минимизируйте риски, потребовав создания уровня абстракции."}
+{"id": "91d842cf-83cd-48c8-8526-648149bda71c", "eng": "Stakeholders are frustrated that we're wasting resources.", "rus": "Стейкхолдеры недовольны тем, что мы впустую тратим ресурсы."}
+{"id": "b606b835-500f-49c8-a60c-a95d3fdf097b", "eng": "The deadline was set for the end of the month and we just about met it.", "rus": "Дедлайн был установлен на конец месяца, и мы едва успели его соблюсти."}
+{"id": "fd22ca42-23ff-49ed-8494-e71cac03fb60", "eng": "This report is due on the 15th of July.", "rus": "Этот отчет должен быть готов к 15 июля."}
+{"id": "fe443a1a-0737-4ee1-bda2-b122c3ffc090", "eng": "This report is overdue.", "rus": "Срок сдачи этого отчёта уже прошёл."}
+{"id": "4ce51ce6-d700-4918-b708-736eff72efab", "eng": "We are running out of time.", "rus": "У нас заканчивается время."}
+{"id": "9200b4f0-f26a-4229-9fdb-5a9eb038dc85", "eng": "We are behind schedule.", "rus": "Мы отстаем от графика."}
+{"id": "8e87d57a-4753-41dd-b768-61dbbe742e22", "eng": "At the moment we are on schedule.", "rus": "На данный момент мы идем по графику."}
+{"id": "00c0f2dc-6920-452a-9808-4edf8b30a36a", "eng": "Going forward, work will be redistributed.", "rus": "В дальнейшем работа будет перераспределена."}
+{"id": "feea67dc-43de-40b8-8b9f-2d8295b8001d", "eng": "In the years ahead, electric cars will become more popular.", "rus": "В ближайшие годы электромобили станут популярнее."}
+{"id": "b7bbd570-f55b-4fa0-b484-eab5cc594d1a", "eng": "I don't foresee any problems getting this project approved.", "rus": "Я не предвижу никаких проблем с одобрением этого проекта."}
+{"id": "b7498f21-4bc7-4c3d-8d92-0ae951ac4f42", "eng": "We won't take on any more staff for the foreseeable future.", "rus": "В обозримом будущем мы не будем нанимать новых сотрудников."}
+{"id": "d58737ea-7369-4001-9377-22b90e9f8d61", "eng": "It's important to plan ahead when preparing the budget.", "rus": "Важно планировать заранее при подготовке бюджета."}
+{"id": "483d2552-c2e2-482a-b44f-72eef3366cfa", "eng": "We will task Anna with putting together the feasibility report.", "rus": "Мы поручим Анне подготовку отчета о целесообразности."}
+{"id": "d46a8ef0-c2df-471d-beb5-17602bb277e9", "eng": "We'll have to code a new program from scratch.", "rus": "Нам придется написать новую программу с нуля."}
+{"id": "aad1b1e8-f7dc-4ad1-8f5c-7b57bc5ba83c", "eng": "We've just got the green light from the CEO.", "rus": "Мы только что получили «зеленый свет» (разрешение) от генерального директора."}
+{"id": "c736785b-c665-4407-a173-5318f8a5c374", "eng": "Let's go over the report one more time.", "rus": "Давайте изучим этот отчет еще раз."}
+{"id": "82726157-0763-4d75-8f3a-24e2ee62277d", "eng": "I can't keep up with how fast things are changing.", "rus": "Я не успеваю за тем, как быстро всё меняется."}
+{"id": "0653e138-8509-4f80-9d82-c7004a7fbbb7", "eng": "The team is looking into the matter.", "rus": "Команда изучает этот вопрос."}
+{"id": "514f8779-c866-43c8-aed4-81dcf5d7746f", "eng": "I'll make up for being late by working overtime.", "rus": "Я компенсирую свое опоздание, поработав сверхурочно."}
+{"id": "2e6589b1-f33b-401a-963a-26d99b13d739", "eng": "He made up an excuse for missing the meeting.", "rus": "Он придумал оправдание своему отсутствию на встрече."}
+{"id": "6155b8b9-bf81-43db-b15f-62ae0ecc86c7", "eng": "She picked up some new technical skills during the project.", "rus": "Она освоила новые технические навыки в ходе работы над проектом."}
+{"id": "1fb87424-e11f-403d-ad14-2e719544b876", "eng": "Let's put off the meeting until next week.", "rus": "Давайте отложим встречу до следующей недели."}
+{"id": "1f00a004-7dfc-4b34-842f-87f1ca719f03", "eng": "They set up a new company in Berlin.", "rus": "Они основали новую компанию в Берлине."}
+{"id": "236d7d81-9d26-4ebd-b535-c69b3a96456e", "eng": "He didn't show up for the appointment.", "rus": "Он не явился на назначенную встречу."}
+{"id": "f9711c76-4419-4fbf-ad3c-eeb82a7e5729", "eng": "The startup really took off last year.", "rus": "Этот стартап действительно «выстрелил» (взлетел) в прошлом году."}
+{"id": "c42de5bb-9de4-494e-93fe-1bcff2df6143", "eng": "She turned down the job offer.", "rus": "Она отклонила предложение о работе."}
+{"id": "abcf3813-197e-444b-a5cd-023c1dba543f", "eng": "It all worked out in the end.", "rus": "В итоге всё получилось."}
+{"id": "69550bbe-5b93-41a1-955d-75ef18306e5b", "eng": "Focus on the most promising branches of your analysis.", "rus": "Сосредоточьтесь на самых перспективных направлениях анализа."}
+{"id": "8eebf4ef-77ec-4617-9e20-a6b61a932b78", "eng": "Apply the 80/20 rule: which 20% of factors drive 80% of impact?", "rus": "Применяйте правило 80/20: какие 20% факторов обеспечивают 80% результата?"}
+{"id": "2e97d26f-7b28-46f2-9f5f-0ec936e42cbf", "eng": "Instead of exhaustively exploring every branch, form an initial hypothesis.", "rus": "Вместо того чтобы исчерпывающе исследовать каждую ветвь, сформулируйте первоначальную гипотезу."}
+{"id": "4ed0c74a-7546-496e-beca-73c19a13c31c", "eng": "State your recommendation with one decisive sentence — no hedging.", "rus": "Сформулируйте свою рекомендацию одним решительным предложением, без уклончивых формулировок."}
+{"id": "4909230d-46ff-492f-a305-ac90e5f3aedd", "eng": "Acknowledge risks and outline next steps.", "rus": "Признайте возможные риски и наметьте следующие шаги."}
+{"id": "f394a2c2-6a60-49c5-af60-9e66da4ed3ad", "eng": "We need to clear whatever's blocking the data engineering team today.", "rus": "Нам нужно сегодня устранить то, что мешает работе команды дата-инженеров."}
+{"id": "a3d54877-11b1-435e-8e1a-f24a7530086c", "eng": "Bring the issue that's blocking the schema migration to the VP of Engineering.", "rus": "Сообщите вице-президенту по разработке, что мешает переносу схемы."}
+{"id": "46a0ac08-5011-4a9a-832f-662638b95a51", "eng": "The feature store is a genuine competitive differentiator.", "rus": "Хранилище признаков (feature store) — это реальное конкурентное преимущество."}
+{"id": "a92b85ed-b36f-4301-a642-7524471c2eff", "eng": "If we launch knowing that some groups will be disproportionately affected, we could face regulatory scrutiny.", "rus": "Если мы запустимся, зная, что некоторые группы пострадают сильнее других, у регуляторов могут возникнуть вопросы."}
+{"id": "d23b5f69-04a5-477e-b422-1aa68d9d7dc6", "eng": "Frame this as a business risk decision, not an ethics debate.", "rus": "Представьте это как решение о бизнес-рисках, а не как дискуссию об этике."}
+{"id": "ba8dfe75-1689-41c8-95e1-da71e4154545", "eng": "Reputational damage could cost significantly more than a 4–6 week delay.", "rus": "Репутационный ущерб может стоить значительно дороже, чем задержка на 4–6 недель."}
+{"id": "7dd93ce3-c18b-4d9b-b8ef-30c18ec7de75", "eng": "Every framework must be tailored to the specific case.", "rus": "Каждый фреймворк должен быть адаптирован под конкретный случай."}
+{"id": "039a2c67-aab5-4ae8-b4bc-2507debd837b", "eng": "If the answer depends on something, explain how you'd proceed.", "rus": "Если ответ зависит от обстоятельств, объясните, как будете действовать."}
+{"id": "9e3c70ba-2ec1-466e-8d22-db19f74e0cdb", "eng": "What makes the difference is a clear structure and a firm recommendation.", "rus": "Всё решают чёткая структура ответа и конкретная рекомендация."}
+{"id": "423c3e61-0eba-42ac-abdd-62028fdbb951", "eng": "We're only using this to build a prototype.", "rus": "Мы используем это только для создания прототипа."}
+{"id": "7ed8179c-508f-4b73-872c-985bf3f295f2", "eng": "We want to show what the full experience could look like for users.", "rus": "Мы хотим показать, как полноценная версия могла бы выглядеть для пользователей."}
+{"id": "6614a79a-8099-4c99-b12a-4972e6f7069d", "eng": "We turned a technical challenge into an opportunity for long-term product improvement.", "rus": "Мы превратили техническую проблему в возможность для долгосрочного улучшения продукта."}
+{"id": "962c212c-63cb-456c-8624-a153e06d7a3b", "eng": "We need to restore data flow.", "rus": "Нам нужно восстановить поток данных."}
+{"id": "f254f66f-e37c-4cc6-b004-776c028c8b36", "eng": "We need to make sure it doesn't happen again.", "rus": "Нужно сделать так, чтобы это не повторилось."}
+{"id": "1518e5aa-1731-4524-901c-cb4e330f409c", "eng": "We aim to deliver working solutions fast.", "rus": "Мы стараемся быстро выпускать рабочие решения."}
+{"id": "9e0e0657-a3eb-441a-beca-c9ee422a3ed0", "eng": "We should avoid over-engineering.", "rus": "Нам следует избегать излишне сложных решений."}
+{"id": "5eb63be5-d61d-42f6-bde4-3cfd3ac8aabc", "eng": "We need to validate our assumptions.", "rus": "Нам нужно проверить наши предположения."}
+{"id": "8c0a2a99-a339-4c26-92f2-d1976a0a38c3", "eng": "We can adjust course if needed.", "rus": "При необходимости мы можем скорректировать курс."}
+{"id": "0d010fbc-cd7e-420c-a31d-2e561af23bc4", "eng": "This helps me stay productive throughout the day.", "rus": "Это помогает мне сохранять продуктивность весь день."}
+{"id": "6f4fc3bc-2437-4ac3-b1b0-8c76bc1885c4", "eng": "I propose forming a cross-functional task force.", "rus": "Я предлагаю создать межфункциональную рабочую группу."}
+{"id": "c2e9839e-2a63-458a-9b55-75f9a9b69f82", "eng": "We draw on their expertise and work through problems together.", "rus": "Мы опираемся на их опыт и вместе решаем проблемы."}
+{"id": "da9d636b-5285-45ed-b4ed-3209a553f731", "eng": "Our goal is to streamline workflows and enhance data reliability.", "rus": "Наша цель — оптимизировать рабочие процессы и повысить надёжность данных."}
+{"id": "0f233297-254f-448f-8bc6-70966e2631c9", "eng": "I get their support by listening to their concerns and showing how the proposal helps them reach their goals.", "rus": "Чтобы заручиться их поддержкой, я выслушиваю их опасения и показываю, как предложение поможет им достичь своих целей."}
+{"id": "a67a4233-fd5a-404c-be42-c544fd55abae", "eng": "I identified a pattern and discovered a correlation.", "rus": "Я выявил закономерность и обнаружил корреляцию."}
+{"id": "fde91f2c-e548-4114-ab16-0b060a7f4f81", "eng": "I made that choice with my long-term career goals in mind.", "rus": "Я принял это решение с учётом своих долгосрочных карьерных целей."}
+{"id": "f1b19cf1-a81d-4f15-afd4-200edff3237f", "eng": "We got it working without having to build an interface from scratch.", "rus": "Мы запустили решение без разработки интерфейса с нуля."}
+{"id": "15f73c82-4eb7-42df-945d-cd975de02058", "eng": "I built a lightweight layer that translated user input into search queries.", "rus": "Я создал лёгкий слой, преобразующий ввод пользователя в поисковые запросы."}
+{"id": "25b3d3b6-c75f-4866-ade4-a726a6a021f0", "eng": "We use feature flags to roll out changes incrementally.", "rus": "Мы используем флаги функций для постепенного внедрения изменений."}
+{"id": "ae6ed20d-4cc1-4fe3-ac04-1daf8ef0183f", "eng": "We chose a phased rollout with incremental improvements.", "rus": "Мы выбрали поэтапное внедрение с последовательными улучшениями."}
+{"id": "8fb5fc95-c5c1-4b89-9270-326dcc7f6337", "eng": "I led a structured discussion and helped the group reach an agreement.", "rus": "Я провёл обсуждение по плану и помог участникам прийти к согласию."}
+{"id": "1e14b9d8-4d1e-4048-b1ce-e7c36bcf1721", "eng": "This gave stakeholders access to more up-to-date data.", "rus": "Благодаря этому стейкхолдеры стали получать более свежие данные."}
+{"id": "346d36a2-da05-4f9f-84b6-43c303687bc0", "eng": "I give the team room to make decisions and make sure we're working toward the same goals.", "rus": "Я даю команде свободу принимать решения и слежу, чтобы мы двигались к общим целям."}
+{"id": "be85a760-b9ee-4b9e-9615-d12978148cdd", "eng": "We look for potential bottlenecks early and address them before they slow us down.", "rus": "Мы заранее ищем и устраняем узкие места, пока они не затормозили работу."}
+{"id": "ec976f75-4edd-4ca0-82a2-53d0f0167337", "eng": "I prioritize tasks and break them into manageable steps.", "rus": "Я расставляю приоритеты в задачах и разбиваю их на выполнимые этапы."}
+{"id": "c2adb66e-39f7-464b-9ca9-874d044af63b", "eng": "We plan the project around the skills and tools we have.", "rus": "Мы определяем объём проекта с учётом навыков команды и доступных инструментов."}
+{"id": "3e3f768a-9b4d-48a6-9e9b-b7095de3b69b", "eng": "What's the main goal of the project, and how will we know if we've achieved it?", "rus": "Какова главная цель проекта и как мы поймём, что достигли её?"}
+{"id": "c676a44f-0939-45a3-b607-52e9e937ba6e", "eng": "Could you briefly explain what the problem is?", "rus": "Не могли бы вы вкратце объяснить, в чем заключается проблема?"}
+{"id": "7953abcc-aa57-4645-b4bc-3cdbe7926a0b", "eng": "What do you think is the likely cause of the problem?", "rus": "Какова, по вашему мнению, вероятная причина проблемы?"}
+{"id": "4126ceb6-b3eb-4a2b-bf63-9d5ece950a23", "eng": "Well, off the top of my head, I'd say that...", "rus": "Ну, навскидку я бы сказал, что..."}
+{"id": "3a8c63b4-b174-42d8-8ddc-d91b14d36935", "eng": "Is there anything that could block us?", "rus": "Что-нибудь может нам помешать?"}
+{"id": "eb9f5f91-3886-47c8-b7ba-e194b6542a39", "eng": "Avoid jumping to conclusions about the effectiveness.", "rus": "Избегайте поспешных выводов об эффективности."}
+{"id": "d10fd0e4-3df6-4574-b5c9-9e45694f8479", "eng": "Let's check for outliers to get a clearer picture.", "rus": "Давайте проверим, есть ли выбросы, чтобы лучше понять картину."}
+{"id": "cd9c4ef0-be43-46fb-add8-91402a1a8721", "eng": "We can draw conclusions when we have more data.", "rus": "Сделаем выводы, когда будет больше данных."}
+{"id": "aaf89acd-6268-4599-a10e-d037b38793d7", "eng": "We're not going to account for seasonality.", "rus": "Мы не будем учитывать сезонность."}
+{"id": "b0a4685b-98ec-4a41-8068-ae6b80b28907", "eng": "Stakeholders sometimes have to put off making some decisions.", "rus": "Заинтересованным сторонам иногда приходится откладывать принятие решений."}
+{"id": "0adb0a9b-ad81-4a7c-8d45-a14ceb3950e9", "eng": "It'll help us stay up to date on what's happening.", "rus": "Так мы сможем оставаться в курсе событий."}
+{"id": "256eb5ab-7966-4b39-ab64-2b51bd6c5806", "eng": "We can answer stakeholders' questions much faster.", "rus": "Мы сможем гораздо быстрее отвечать на вопросы стейкхолдеров."}
+{"id": "4c579fd4-0d02-4b34-89e6-3877b742f5ff", "eng": "This would really speed up the processing.", "rus": "Это действительно ускорит обработку."}
+{"id": "508b6be3-5103-4eff-8a66-e38e2b4238ed", "eng": "Explain what we can learn from the data and what it means for our next steps.", "rus": "Объясните, какие выводы можно сделать из данных и что они значат для дальнейших действий."}
+{"id": "bd8bfc62-d2e9-4d97-9718-11f8b8bcb84e", "eng": "It might be reasonable to change the approach.", "rus": "Было бы разумно изменить подход."}
+{"id": "8430c287-d3f1-4f3d-9c61-64de747346cc", "eng": "Let's see how much it helped us make a better decision.", "rus": "Давайте оценим, насколько это помогло нам принять более удачное решение."}
+{"id": "a4ef9db0-51e5-4766-91ac-4c5007c2ce1f", "eng": "We need to distinguish between loyal and occasional customers.", "rus": "Нам нужно различать постоянных клиентов и тех, кто покупает время от времени."}
+{"id": "9a44ab45-0913-4f10-9420-27deacc3944f", "eng": "Let's conduct a cost-benefit analysis.", "rus": "Давайте проведём анализ затрат и выгод."}
+{"id": "eb84e696-dfb6-4678-9d36-2c47311999b4", "eng": "It all boils down to one single problem.", "rus": "Все сводится к одной-единственной проблеме."}
+{"id": "a3b696a0-575d-4d9f-a69b-695b18f3e183", "eng": "The heart of the matter is that...", "rus": "Суть дела в том, что..."}
+{"id": "e7f88db4-2009-4ad6-8ece-466b8c2ac8ac", "eng": "I can't stress enough how important this is.", "rus": "Трудно переоценить, насколько это важно."}
+{"id": "5d05f539-2ece-484b-897e-7e7e22eba1dd", "eng": "We should check for duplicates and make sure the data is accurate.", "rus": "Нужно проверить, нет ли дублей и точны ли данные."}
+{"id": "ca06bf7c-e7bc-43da-abda-d0baf341ea55", "eng": "The model should scale as demand grows.", "rus": "Модель должна масштабироваться по мере роста нагрузки."}
+{"id": "fe780b83-97c3-420d-b582-e822dc2b0a95", "eng": "We need to detect a drop in active users.", "rus": "Нам нужно обнаружить спад числа активных пользователей."}
+{"id": "67ca272f-8065-4009-91c5-b2877042833e", "eng": "We should see the bigger picture.", "rus": "Нам следует видеть картину в целом."}
+{"id": "d505f2ab-184e-4b53-b2b1-d266a1ea00f2", "eng": "First, understand the underlying logic and the scope of the task.", "rus": "Сначала поймите лежащую в основе логику и объём задачи."}
+{"id": "2f3035eb-5269-4cd1-84e9-473b4ffb0c5e", "eng": "Always justify your assumptions.", "rus": "Всегда обосновывайте свои предположения."}
+{"id": "d7bb5bb1-baf0-4854-8db9-7bc4074d49a7", "eng": "Walk the interviewer through your reasoning.", "rus": "Объясните интервьюеру, как вы пришли к своему выводу."}
+{"id": "5f2836bf-183f-4ce8-b057-e705ee435635", "eng": "This can lead to a biased or inaccurate estimate.", "rus": "Из-за этого оценка может быть необъективной или неточной."}
+{"id": "0ccc76c1-64fb-40c5-a296-8a43461c8bf9", "eng": "Let's drill down into this category.", "rus": "Давайте разберём эту категорию подробнее."}
+{"id": "31578f17-11d0-4874-8216-58923fbcc8e1", "eng": "Let's take a closer look at this.", "rus": "Давайте взглянем на это поближе."}
+{"id": "bf52f39a-a654-4f31-8979-ca19170d5bfb", "eng": "Try to anticipate possible questions.", "rus": "Постарайтесь предвидеть возможные вопросы."}
+{"id": "2dc42b28-6a00-4945-997d-24904bd27727", "eng": "So far, we've been hitting our target.", "rus": "Пока мы выполняем план."}
+{"id": "a5d0af7b-ef6a-42b1-be01-9682c67d9923", "eng": "The vast majority of issues are high priority.", "rus": "Подавляющее большинство задач имеют высокий приоритет."}
+{"id": "56de8b54-177d-4db5-be3a-e8d41a4d907d", "eng": "It takes roughly 70% longer than it did in Q1.", "rus": "Сейчас это занимает примерно на 70% больше времени, чем в первом квартале."}
+{"id": "7bc7a3bc-b841-46a9-a6e6-b8c26f729fc3", "eng": "There is a clear upward or downward trend.", "rus": "Наблюдается чёткая тенденция к росту или снижению."}
+{"id": "c02a6486-2a69-4ddd-bd00-db1d8c5d74d7", "eng": "Revenue decreased unexpectedly.", "rus": "Выручка неожиданно снизилась."}
+{"id": "ddea2de1-c60c-4b8e-ade4-329ab76cdbe8", "eng": "It might be worth focusing on this.", "rus": "Возможно, на этом стоит сосредоточиться."}
+{"id": "d8759261-024a-46d2-92ff-2ece54e59276", "eng": "Now, turning to the next point.", "rus": "Теперь перейдём к следующему пункту."}
+{"id": "3c5419fa-cd3b-476c-a1a8-5763e0fa1e09", "eng": "I'd like to walk you through the numbers behind our findings.", "rus": "Хочу показать, на каких цифрах основаны наши выводы."}
+{"id": "b9cd4c01-0d5c-48ab-8fc8-0afaf5ac5475", "eng": "That about wraps it up.", "rus": "На этом, пожалуй, всё."}
+{"id": "39834d08-8b73-4da4-bbfb-bcc1aa5ef27e", "eng": "That's a little outside the scope of our presentation.", "rus": "Это немного выходит за рамки нашей презентации."}
+{"id": "f1781bcd-bbd7-4fb1-8ad6-1c01f23ada37", "eng": "I'll get back to you on that.", "rus": "Я ещё отвечу вам на этот вопрос."}
+{"id": "75e79980-2c14-4607-89d8-0f37dd963c2f", "eng": "Thanks for making the time to come.", "rus": "Спасибо, что нашли время прийти."}
+{"id": "e18f19e2-3285-43e2-837b-4dbda4ebaff9", "eng": "I have a track record of delivering results.", "rus": "Я уже не раз показывал, что умею добиваться результатов."}
+{"id": "65579e4b-689a-457a-aae9-235d3675362e", "eng": "I'm looking for a role that's a better fit for my career goals.", "rus": "Я ищу позицию, которая лучше соответствует моим карьерным целям."}
+{"id": "23826ad7-5dc6-4104-acfe-9c0d1e9b4ef6", "eng": "I take full responsibility and communicate transparently.", "rus": "Я беру на себя полную ответственность и общаюсь открыто."}
+{"id": "298b8b24-fae5-4c89-a06c-fc314c98a004", "eng": "We need to assess the risks carefully and deal with problems early.", "rus": "Нужно внимательно оценить риски и решать проблемы на раннем этапе."}
+{"id": "64c7431e-a099-4872-8df8-e4c72137a5cb", "eng": "These are skills I've since honed to prevent similar issues.", "rus": "Это навыки, которые я с тех пор отточил, чтобы предотвратить подобные проблемы."}
+{"id": "a3facf73-063a-4111-b3c8-418158e73852", "eng": "These principles are foundational to my work.", "rus": "Эти принципы являются основополагающими для моей работы."}
+{"id": "8f6e2455-7383-474c-9a30-32650f1366dc", "eng": "I set SMART goals: specific, measurable, achievable, relevant, and time-bound.", "rus": "Я ставлю цели по SMART: конкретные, измеримые, достижимые, актуальные и со сроком выполнения."}
+{"id": "21d1651a-85c7-4889-b1fd-261fb0b86975", "eng": "We managed to get the situation under control and deliver the project on schedule.", "rus": "Нам удалось взять ситуацию под контроль и сдать проект в срок."}
+{"id": "546dc04e-3f9f-4a75-be34-ac4d16794cd4", "eng": "I approach the situation with respect and professionalism.", "rus": "Я подхожу к ситуации с уважением и профессионализмом."}
+{"id": "edd064ed-a311-47ba-8765-36d6d8349a72", "eng": "We always adhere to ethical standards and company policies.", "rus": "Мы всегда придерживаемся этических норм и политики компании."}
+{"id": "a7928b85-f53e-4d6a-81a1-86e2fc97e4d4", "eng": "I help people develop their skills while keeping a good working relationship with them.", "rus": "Я помогаю коллегам развивать навыки и поддерживаю с ними хорошие рабочие отношения."}
+{"id": "9d3d51ea-3ba4-40f5-9cfc-00e2d8aacb44", "eng": "I thrive in ambiguous situations by breaking down complex problems.", "rus": "Я чувствую себя уверенно в неоднозначных ситуациях, разбивая сложные задачи на части."}
+{"id": "220b5549-eca0-4ce3-8b1c-b8aaaf82b271", "eng": "I give people responsibilities that play to their strengths.", "rus": "Я распределяю обязанности с учётом сильных сторон каждого."}
+{"id": "e36c33bf-60e0-4745-80e1-0cb752b9590a", "eng": "I focus on making data-driven decisions.", "rus": "Я делаю упор на принятие решений на основе данных."}
+{"id": "54256610-8b21-4bb7-99bc-249ea5e25ae0", "eng": "I use the MECE principle to break problems into distinct parts that cover the whole issue.", "rus": "Я применяю принцип MECE: разбиваю проблему на части, которые не пересекаются и вместе охватывают её целиком."}
+{"id": "6533264c-63e6-4947-adf8-bfd91c06cfed", "eng": "I start with my recommendation and then explain how I got there.", "rus": "Я сначала даю рекомендацию, а потом объясняю, как к ней пришёл."}
+{"id": "26f1fb58-5300-4377-a1c8-305ba553686e", "eng": "I take responsibility for seeing things through.", "rus": "Я беру на себя ответственность за то, чтобы довести дело до конца."}
+{"id": "9e68347d-d325-4e1d-aad8-bf45f7e2ac75", "eng": "You need to rewire your thinking.", "rus": "Тебе нужно перестроить своё мышление."}
+{"id": "bb538578-a299-4a23-ab10-4a0ce3b06242", "eng": "Identify what information is important and what is not.", "rus": "Определите, какая информация важна, а какая — нет."}
+{"id": "5622db6b-e523-498b-9276-efa506f11f8d", "eng": "This is like pruning branches of a logic tree.", "rus": "Это похоже на отсечение ветвей логического дерева."}
+{"id": "7748ae5b-26fe-4416-8cec-6a68fa8360b5", "eng": "Form an educated guess or initial hypothesis.", "rus": "Сформируйте обоснованную догадку или первоначальную гипотезу."}
+{"id": "31bf4b3f-cf7e-4ff8-be42-f9b7472b97a5", "eng": "Signpost every transition in your speech.", "rus": "Обозначайте каждый логический переход в своей речи."}
+{"id": "cba0b46e-6005-475a-b5ce-e59c243a6dfa", "eng": "Never go silent — narrate your thought process.", "rus": "Никогда не молчите — озвучивайте свой ход мыслей."}
+{"id": "c93ed8d4-85b2-4ae5-b01f-f09072ec6be8", "eng": "Always answer the 'so what?' question.", "rus": "Всегда отвечайте на вопрос «и что из этого следует?»."}
+{"id": "ac8f299e-c136-4e4e-b0a8-0a94796e4596", "eng": "We'd rather try something and learn from it than wait for the perfect plan.", "rus": "Мы предпочитаем действовать и учиться на практике, а не ждать идеального плана."}
+{"id": "0c45a9d5-08cd-4739-99a9-8fbbf9c1bb07", "eng": "We need to spell out exactly how this will work in practice.", "rus": "Нужно чётко объяснить, как это будет работать на практике."}
+{"id": "00180324-6cb7-4af6-b2d9-4b72b9fb015b", "eng": "We built an abstraction layer over the vendor's APIs.", "rus": "Мы создали слой абстракции над API вендора."}
+{"id": "b88d98e9-1793-4082-ab50-9c3c10f9a87d", "eng": "We start with a Minimum Viable Model or Product.", "rus": "Мы начинаем с минимально жизнеспособной модели или продукта."}
+{"id": "54f85e05-9f45-41b0-b983-c7db604b3ef2", "eng": "We prefer a phased rollout.", "rus": "Мы предпочитаем поэтапное развёртывание."}
+{"id": "a79517df-40ea-4348-82c1-4c841184925e", "eng": "We consider the Total Cost of Ownership.", "rus": "Мы учитываем совокупную стоимость владения."}
+{"id": "fc007faa-0237-41e5-bce5-b5e875303d3a", "eng": "I will escalate the blocker to the VP of Engineering.", "rus": "Я эскалирую проблему вице-президенту по разработке."}
+{"id": "7a0809fa-0bb5-445c-995c-d1ec75d5b3df", "eng": "These are projects we're starting from scratch.", "rus": "Эти проекты мы начинаем с нуля."}
+{"id": "c4dd6f0e-f254-4d9a-956c-f55595982a48", "eng": "We save time by leveraging existing data infrastructure.", "rus": "Мы экономим время, используя существующую инфраструктуру данных."}
+{"id": "39d43212-5252-4890-bc7a-88ca04f39964", "eng": "Under no circumstances should it reach production.", "rus": "Ни при каких обстоятельствах это не должно попасть в продакшн."}
+{"id": "66500ccd-48c2-4c09-8b71-4aa850400839", "eng": "This could cause reputational damage.", "rus": "Это может нанести репутационный ущерб."}
+{"id": "fd4505f6-fe4f-4238-9b19-9be60c2a07f8", "eng": "We need a defensible model or decision.", "rus": "Нам нужна обоснованная модель или решение."}
+{"id": "604421a1-a40d-418e-8b19-65cd0bed861f", "eng": "We need to figure out how these ideas fit together.", "rus": "Нужно понять, как связаны эти идеи."}
+{"id": "aa7e4c6c-0f72-4d23-a95b-46651f89fb0e", "eng": "I'm currently blocked on this task.", "rus": "Я пока не могу продвинуться с этой задачей."}
+{"id": "40e6ebd1-7bd3-4880-bd3f-3b232535eace", "eng": "Let me know if you need a hand with the report.", "rus": "Дай знать, если тебе нужна помощь с отчётом."}
+{"id": "b4aa8bb8-38c7-4df0-ad88-b799a24f6c15", "eng": "We can reach a compromise despite our differences.", "rus": "Мы можем прийти к компромиссу, несмотря на наши разногласия."}
+{"id": "521782bc-544e-427d-98ff-4b19c807c953", "eng": "I soften the tone to avoid escalating the conflict.", "rus": "Я смягчаю тон, чтобы избежать эскалации конфликта."}
+{"id": "36c2e2a0-f1a2-4933-a42a-3555c0b2300a", "eng": "It all boils down to building consensus through open communication.", "rus": "Всё сводится к достижению консенсуса через открытое общение."}
+{"id": "1c9c4a49-9993-4135-b324-dc8c3bb45d2c", "eng": "Let's put egos aside and work towards the common goal.", "rus": "Давайте отбросим эго и будем работать на общую цель."}
+{"id": "4ad2e910-944e-4729-bdb0-7eab0b8b3806", "eng": "We don't always see eye to eye, but we work well together.", "rus": "Наши взгляды не всегда совпадают, но мы хорошо работаем вместе."}
+{"id": "8443d2f3-4c57-4391-af39-b13b5a432d5c", "eng": "I suggest postponing this matter until tomorrow.", "rus": "Я предлагаю отложить этот вопрос до завтра."}
+{"id": "b091ee41-ef4f-4291-b634-2b1ead1a4015", "eng": "I hope this message finds you well.", "rus": "Надеюсь, у вас всё хорошо."}
+{"id": "641c3bd8-dbf2-4b89-80d3-37d5f7ad2269", "eng": "Let's take a quiz.", "rus": "Давайте пройдём тест."}
+{"id": "3c8f70cc-c34c-4db8-aefb-afb113047e0a", "eng": "I ran into a major roadblock.", "rus": "Я столкнулся с серьёзным препятствием."}
+{"id": "a92a8b2f-e59d-4723-9921-650c619aa944", "eng": "I take a fail-fast approach and test ideas early so we can drop the ones that don't work.", "rus": "Я придерживаюсь подхода fail fast: проверяю идеи на раннем этапе, чтобы быстро отсеять те, что не работают."}
+{"id": "b39519ad-53b6-4229-97a2-a283ab6468bc", "eng": "I have too many things on my plate.", "rus": "У меня слишком много дел."}
+{"id": "b4d39f96-8520-4ade-bc6f-e600a503582b", "eng": "This helps me stay locked in on one task.", "rus": "Это помогает мне полностью сосредоточиться на одной задаче."}
+{"id": "5ccd671c-8ffb-446e-ae80-5d45bf3cb163", "eng": "I need to identify the root cause.", "rus": "Мне нужно определить первопричину."}
+{"id": "8a254f65-b3dd-46af-b2b0-668acd3c8e48", "eng": "Initially, I faced resistance from the team.", "rus": "Поначалу я столкнулся с сопротивлением со стороны команды."}
+{"id": "ba814a37-f1aa-42d7-9067-53eaabfbc549", "eng": "I met with them to get a better sense of what they expected.", "rus": "Я встретился с ними, чтобы лучше понять их ожидания."}
+{"id": "a8de2b8f-d9f7-481a-9352-ccd039c457fd", "eng": "The promised promotion did not materialize.", "rus": "Обещанное повышение так и не состоялось."}
+{"id": "47d12f01-eee9-4ace-a8b3-f28e272d3327", "eng": "I had to quickly get up to speed on the new technology.", "rus": "Мне пришлось быстро освоить новую технологию."}
+{"id": "a050f212-b4b3-4a51-80ed-64ea7f70cd9d", "eng": "I had to manage stakeholder expectations.", "rus": "Мне пришлось управлять ожиданиями заинтересованных сторон."}
+{"id": "95f6fd46-bccc-4d20-a291-d21e27587588", "eng": "We took steps to get the project back on track.", "rus": "Мы приняли меры, чтобы вернуть проект в нужное русло."}
+{"id": "581867d1-9051-47c9-99da-be2f435296e6", "eng": "We had to make the most of our limited resources.", "rus": "Нам пришлось максимально использовать наши ограниченные ресурсы."}
+{"id": "f7babe4c-ba13-4b0c-b966-aceaa820ef09", "eng": "This approach reduced our time to market by 30%.", "rus": "Этот подход сократил время вывода на рынок на 30%."}
+{"id": "ed4de740-4360-4c6f-8fd9-13890a185129", "eng": "ML tasks were de-prioritized in favor of other initiatives.", "rus": "Задачи по ML отодвигались на второй план в пользу других инициатив."}
+{"id": "5f64cb72-504c-4e5e-a2a1-27e9ed6eadac", "eng": "We delivered the feature without compromising code quality.", "rus": "Мы выпустили функцию, не жертвуя качеством кода."}
+{"id": "c4502609-2584-4a20-821f-818055a92a07", "eng": "I would describe my leadership style as results-oriented.", "rus": "Я бы описал свой стиль руководства как ориентированный на результат."}
+{"id": "d8c47a66-5f08-4b44-af58-0512a940744b", "eng": "I'm mostly a team player.", "rus": "Я в основном командный игрок."}
+{"id": "171248b6-0d11-467c-92a8-20373eb68124", "eng": "I received constructive feedback from stakeholders.", "rus": "Я получил конструктивную обратную связь от заинтересованных сторон."}
+{"id": "6f55c0ed-bd11-4554-afaa-d53f5058fe85", "eng": "I took immediate action to resolve the issue.", "rus": "Я немедленно принял меры для решения проблемы."}
+{"id": "5cd9f891-8f9d-4b0b-ba62-fef10dcb92c3", "eng": "I reassess priorities and reallocate resources if needed.", "rus": "При необходимости я пересматриваю приоритеты и перераспределяю ресурсы."}
+{"id": "d3407480-8b9d-445e-9b06-d150db21917c", "eng": "I delivered the project ahead of the deadline.", "rus": "Я сдал проект раньше срока."}
+{"id": "6d519968-ce6e-4895-aa1e-5d1899e3f4eb", "eng": "This experience showed me the value of making improvements one step at a time.", "rus": "Этот опыт показал мне, как полезно улучшать продукт небольшими шагами."}
+{"id": "0045d854-ff98-470a-a615-c4dc4685a06d", "eng": "I make a point of keeping up with new tools.", "rus": "Я стараюсь следить за новыми инструментами."}
+{"id": "24cc448d-7dd3-482b-bd83-71ca0331ac90", "eng": "We minimized disruptions to business operations.", "rus": "Мы свели к минимуму сбои в работе бизнеса."}
+{"id": "9613472f-1a96-436c-a248-7475599377ca", "eng": "Meticulous planning helped us mitigate the risks.", "rus": "Тщательное планирование помогло нам снизить риски."}
+{"id": "761dca44-8f39-413e-a7c6-0a80d371b4ca", "eng": "The metric drop coincided with the new release.", "rus": "Падение метрики совпало с новым релизом."}
+{"id": "4f128156-691b-4704-94ba-5cf13bc07ba6", "eng": "It was a valuable learning experience for the team.", "rus": "Это был ценный опыт для команды."}
+{"id": "89016168-56e7-478a-842c-a84c04f08677", "eng": "I deployed a hotfix while reindexing the data.", "rus": "Я развернул срочное исправление, одновременно переиндексируя данные."}
+{"id": "fc14b2a1-3182-4634-9f8b-4ce2fb7ab80d", "eng": "The client agreed to a compromise.", "rus": "Клиент согласился на компромисс."}
+{"id": "1e76485e-7869-4327-af30-6974fdec52d1", "eng": "We proposed alternatives and explained what impact each would have.", "rus": "Мы предложили несколько вариантов и объяснили, к чему приведёт каждый из них."}
+{"id": "9aa7b3ea-e33e-4e58-bf91-8f6a21d23713", "eng": "This approach became a template for future tasks.", "rus": "Этот подход стал шаблоном для будущих задач."}
+{"id": "bda9d02f-fd3e-405c-9468-10ee746bd312", "eng": "I needed some time to figure out the root cause.", "rus": "Мне нужно было время, чтобы разобраться в первопричине."}
+{"id": "22e2d0e3-fd64-472c-9887-cba790c1f541", "eng": "It took them longer than expected to get access to the data.", "rus": "Они получили доступ к данным позже, чем рассчитывали."}
+{"id": "041fcb86-7e24-4b7f-ae13-c36be6df69bc", "eng": "The stakeholder appreciated the way we handled the situation.", "rus": "Заказчик оценил то, как мы справились с ситуацией."}
+{"id": "acac0bca-1631-4fae-8295-3d1f1275c5c2", "eng": "I emphasized that it was necessary to improve some things.", "rus": "Я подчеркнул, что необходимо кое-что улучшить."}
+{"id": "0774e3eb-61f0-4b29-b679-bf6d3e9b385c", "eng": "My analysis showed that some users didn't notice the button.", "rus": "Мой анализ показал, что некоторые пользователи не заметили кнопку."}
+{"id": "99a7a4cc-e1f3-4291-b5f1-d491e731f5d5", "eng": "I guess these are the main points of my story.", "rus": "Пожалуй, это основные моменты моего рассказа."}
+{"id": "d44f338a-3a4e-40ee-b1a6-709da226e36f", "eng": "We discovered that most people preferred the cheapest plan.", "rus": "Мы обнаружили, что большинство людей предпочли самый дешёвый тариф."}
+{"id": "bbb07178-ee1a-4b47-839a-20065dc0cde5", "eng": "I have to say that I've rarely found myself in such situations.", "rus": "Должен признать, я редко оказывался в подобных ситуациях."}
+{"id": "8fee7569-08c4-4869-b6a5-79f7ad2074cf", "eng": "I ended up writing another query.", "rus": "В итоге я написал ещё один запрос."}
+{"id": "8b97892c-c606-42dd-a0d0-eedaa9739f78", "eng": "My analysis showed that the problem was in the onboarding process.", "rus": "Анализ показал, что проблема была в процессе онбординга."}
+{"id": "c1299dc4-af9c-45ed-a855-a57ba2ee9aac", "eng": "Before getting business approval, we worked out the technical approach.", "rus": "Прежде чем получить одобрение бизнеса, мы проработали технический подход."}
+{"id": "e1a68d06-17b4-4ca9-85d1-477e7d6af763", "eng": "I think that's basically it.", "rus": "Пожалуй, вот и всё."}
+{"id": "24dd954c-ffa0-4bc0-b922-7f31887919fd", "eng": "As it turned out, quite a lot of employees forgot to log their work.", "rus": "Как выяснилось, довольно много сотрудников забывали фиксировать свою работу."}
+{"id": "bb9c59d2-8693-47a4-b1ca-087cd84d5c7a", "eng": "I showed the product owner how big the problem was.", "rus": "Я показал владельцу продукта, насколько серьёзной была проблема."}
+{"id": "685d6701-c8a0-4dc7-a0c3-2079c4dba54d", "eng": "We had the dashboard up and running by the end of the week.", "rus": "К концу недели дашборд был запущен и работал."}
+{"id": "890a14bc-57fe-422d-b7fb-928a00c58f14", "eng": "Much to my surprise, the data coverage only increased by 10%.", "rus": "К моему удивлению, охват данных вырос лишь на 10%."}
+{"id": "ee7c1d51-1b84-4fbf-9802-b5c626f364d0", "eng": "I was sure the process was up to standard.", "rus": "Я был уверен, что процесс соответствует стандартам."}
+{"id": "2fd8904c-cd6c-4ff4-ae49-805fbed014eb", "eng": "About 20% of orders weren't processed according to our standards.", "rus": "Около 20% заказов обработали с отклонениями от наших стандартов."}
+{"id": "8d78f93e-42a8-4d2f-b41e-2ecf682f6712", "eng": "A lot of orders were stuck in the system waiting to be processed.", "rus": "Многие заказы зависли в системе и так и не были обработаны."}
+{"id": "f077b504-6af8-4f41-83d6-26fcd201556f", "eng": "I apologized for the inconvenience and asked for more time.", "rus": "Я извинился за неудобства и попросил больше времени."}
+{"id": "c91ec5ab-21a3-4b4b-9462-b23a4307a045", "eng": "I needed all the data before I could continue.", "rus": "Чтобы продолжить, мне нужны были все данные."}
+{"id": "7a25fdd1-c80d-44ca-aa74-c977fece26d9", "eng": "I must admit I don't know the answer.", "rus": "Должен признать, я не знаю ответа."}
+{"id": "d53bcd67-ed87-41f6-9e14-e8573a1b04ea", "eng": "Can you send it to me by Monday?", "rus": "Можешь прислать мне это к понедельнику?"}
+{"id": "04108ba2-6b52-462c-8df5-0d71aecaf7f5", "eng": "I can complete the work under this contract in three weeks.", "rus": "Я могу выполнить работы по этому договору за три недели."}
+{"id": "b0592e32-cb61-492e-b8e8-e6f9ee71ed69", "eng": "We couldn't complete the project because we ran out of money.", "rus": "Мы не смогли завершить проект, потому что у нас закончились деньги."}
+{"id": "1787206f-fae1-431a-9332-8bce5b240fbb", "eng": "We are ahead of schedule.", "rus": "Мы опережаем график."}
+{"id": "f36007f1-b6a3-4470-b770-010e988d88b0", "eng": "The first task is to make a plan of action.", "rus": "Первая задача — составить план действий."}
+{"id": "c5548967-57e1-4425-8cfa-dc9c8ebdcd32", "eng": "He will head the project and pick his team.", "rus": "Он возглавит проект и подберёт свою команду."}
+{"id": "b8f23575-5492-4806-aa46-30ab4e2157d2", "eng": "I was tasked with putting together the feasibility report.", "rus": "Мне поручили подготовить технико-экономическое обоснование."}
+{"id": "139fc685-3137-4a57-a4e8-cccf2cd75200", "eng": "The project starts with a kick-off meeting.", "rus": "Проект начинается со стартового совещания."}
+{"id": "34d0a750-9375-4aa1-ad3a-28658f1b31dd", "eng": "We're just waiting for the sign-off.", "rus": "Мы просто ждём финального одобрения."}
+{"id": "6987fb49-e94b-4a09-82aa-f786d7783900", "eng": "Then we can move on to something else.", "rus": "Тогда мы сможем перейти к чему-то другому."}
+{"id": "5ebd6270-a7c2-4643-9f24-acf8e8105e76", "eng": "I see what you mean.", "rus": "Я понимаю, что ты имеешь в виду."}
+{"id": "7ec28c4d-5251-4b56-ae69-08674f9391c5", "eng": "I see what you're saying.", "rus": "Понимаю, о чём ты говоришь."}
+{"id": "db874424-dad1-45c8-902c-2c9a06e0ab4a", "eng": "The downside is that it takes more time.", "rus": "Обратная сторона в том, что это занимает больше времени."}
+{"id": "71d3c410-9cd6-4f94-9cf6-38f459fa8d81", "eng": "One of the limitations is that it doesn't scale well.", "rus": "Ограничение в том, что решение плохо масштабируется."}
+{"id": "f8a2552b-6238-49a2-ae0b-df42c82acc7f", "eng": "I'm sure you will see the benefits of this.", "rus": "Я уверен, вы увидите преимущества этого."}
+{"id": "ed2891e3-29e9-442d-8908-edde5a28f616", "eng": "This is a tried and tested approach.", "rus": "Это проверенный временем подход."}
+{"id": "efcdf520-5a0a-4e72-b2f4-dd71b5f2779c", "eng": "Thank you for taking the time to meet and discuss this.", "rus": "Спасибо, что нашли время встретиться и обсудить это."}
+{"id": "6c53e65a-c599-4313-8770-77f30ae7182e", "eng": "Here's a quick recap of what we talked about.", "rus": "Вот краткое резюме того, что мы обсудили."}
+{"id": "6648404d-7123-4ca1-83ca-c88b9d512a67", "eng": "Below is a summary of the action items and next steps.", "rus": "Ниже приведён список задач и дальнейших шагов."}
+{"id": "d2ae9a8c-af2e-4d06-9a0f-d69159802c8b", "eng": "I wanted to follow up with a quick summary of the key points from our conversation.", "rus": "Хочу кратко подытожить главное из нашего разговора."}
+{"id": "79895820-587a-43a7-aeed-4aeba8eaf2a7", "eng": "I've attached the file you asked for.", "rus": "Я прикрепил файл, который вы просили."}
+{"id": "c16d808f-7c17-42e3-a4ff-3775ff8afc22", "eng": "Feel free to reach out with any questions or concerns.", "rus": "Не стесняйтесь обращаться с любыми вопросами или замечаниями."}
+{"id": "35d13e7a-4894-447f-b03c-d0b62c4beea3", "eng": "Please let me know if there is anything I've missed.", "rus": "Пожалуйста, дайте знать, если я что-то упустил."}
+{"id": "e80bf12c-00ce-444f-9513-eefa2638d9e2", "eng": "Looking forward to talking to you next Monday.", "rus": "С нетерпением жду разговора с вами в следующий понедельник."}
+{"id": "eebfbb41-3f7d-4dcc-87de-b6e819ea1cc6", "eng": "I tend to think it's the best option.", "rus": "Я склонен считать, что это лучший вариант."}
+{"id": "abe952de-2732-4ad1-bcef-a01cef50289d", "eng": "If you ask me, we should start now.", "rus": "По-моему, нам стоит начать сейчас."}
+{"id": "76c72634-8d8f-4b29-9f9d-0e45b10617d8", "eng": "What are your thoughts on this?", "rus": "Что ты об этом думаешь?"}
+{"id": "7434b32d-0e12-48be-836b-d097c2883255", "eng": "Can I jump in here?", "rus": "Можно вклиниться?"}
+{"id": "c04986d5-f0a5-4600-a6eb-1e21ef4feeb8", "eng": "Sure, go ahead.", "rus": "Конечно, продолжай."}
+{"id": "875ae3f8-9823-4a9d-930a-9fbb19db7afa", "eng": "Could I just finish my point?", "rus": "Можно я закончу свою мысль?"}
+{"id": "3caef80b-ab26-4803-a394-17a90a1ca1c7", "eng": "I couldn't agree more.", "rus": "Полностью согласен."}
+{"id": "e7778688-39ae-41d6-8e3c-ccd129fae6f7", "eng": "That's a valid point.", "rus": "Это справедливое замечание."}
+{"id": "ff1c2d32-960a-4e50-93be-c67f4dd0af22", "eng": "You have a point there, but I still disagree.", "rus": "В этом есть смысл, но я всё же не согласен."}
+{"id": "12b97c0a-47d8-4ca5-86be-d6d1cd4849d1", "eng": "I'm not so sure about that.", "rus": "Я не совсем в этом уверен."}
+{"id": "a9e0cad6-8f5e-468b-b4e9-cf4a4c6ab50d", "eng": "I would disagree with that.", "rus": "Я бы с этим не согласился."}
+{"id": "e0ff2385-9b4d-454e-9f06-6c3eb8f027fb", "eng": "What if we tried a different approach?", "rus": "Что, если мы попробуем другой подход?"}
+{"id": "bd9c4a67-ef27-4949-914e-0de364c1c02e", "eng": "Why don't we test both options?", "rus": "Почему бы нам не протестировать оба варианта?"}
+{"id": "f55fc919-c9fa-4460-8b19-c8f709fdafa1", "eng": "We need to increase the engagement rate.", "rus": "Нам нужно повысить уровень вовлечённости."}
+{"id": "9287607b-71a1-4527-9f31-553f3e0165a3", "eng": "This is just a quick fix, not a permanent solution.", "rus": "Это лишь временное решение, а не постоянное."}
+{"id": "e0fc03bc-4647-4011-b9d7-59fc5037f2e3", "eng": "We finally settled on a solution.", "rus": "В конце концов мы остановились на одном решении."}
+{"id": "e6515015-0e9a-4a3f-a4e3-58663cd10427", "eng": "We plan to roll out the new feature next week.", "rus": "Мы планируем выпустить новую функцию на следующей неделе."}
+{"id": "9308d1d9-f086-4337-b105-4e89c85a2991", "eng": "We opted for a low-cost solution.", "rus": "Мы выбрали недорогое решение."}
+{"id": "d4c2e377-d9cd-44bc-beda-b130bc6c2131", "eng": "The extra effort really paid off.", "rus": "Дополнительные усилия действительно окупились."}
+{"id": "2508d85a-72d4-4093-9c06-c4fe9cf52709", "eng": "The solution should meet the needs of the client.", "rus": "Решение должно соответствовать потребностям клиента."}
+{"id": "de2b863f-2c99-434b-8598-84c6e4f93f68", "eng": "We run the risk of missing the deadline.", "rus": "Мы рискуем не уложиться в срок."}
+{"id": "fcd89752-1636-4e39-95fa-81bfbffe38db", "eng": "I pointed out that the process was flawed.", "rus": "Я указал, что процесс несовершенен."}
+{"id": "5e2b7420-b802-45dc-8992-f31906b50ba6", "eng": "Before choosing one solution, we tested both of them.", "rus": "Прежде чем выбрать одно решение, мы протестировали оба."}
+{"id": "2986ac8d-2fd6-4762-8cd0-0274207b19e8", "eng": "While doing the experiment, I got some unexpected results.", "rus": "Во время эксперимента я получил неожиданные результаты."}
+{"id": "3457a966-a9a8-45d5-9815-52b419a92d49", "eng": "What we did was test both approaches.", "rus": "Мы протестировали оба подхода."}
+{"id": "38521ab3-89f9-4acf-b0fe-b0312f13f85a", "eng": "What do you mean by that?", "rus": "Что ты имеешь в виду?"}
+{"id": "f564c282-5168-4b0a-8152-99136b622d1f", "eng": "Could you elaborate on that?", "rus": "Не мог бы ты пояснить подробнее?"}
+{"id": "851b3ef1-2d54-449a-bdcf-6338ac193060", "eng": "If I understand you correctly, you want us to prioritize this task.", "rus": "Если я правильно понимаю, вы хотите, чтобы мы поставили эту задачу на первое место."}
+{"id": "669fe0c0-046e-4f21-ab45-934734dc3fc2", "eng": "Sorry, I didn't catch that. Could you say the last bit again?", "rus": "Извините, я не расслышал. Не могли бы вы повторить последнюю часть?"}
+{"id": "264e55ae-f820-4226-994a-3b09a8f97068", "eng": "Thank you for clearing that up.", "rus": "Спасибо, что прояснили это."}
+{"id": "5f2892f4-b91a-498f-95ee-f5212da747eb", "eng": "Thank you for the clarification.", "rus": "Спасибо за уточнение."}
+{"id": "70243dcf-878a-42af-839f-a35dbc3ade4f", "eng": "Let me explain why I'm asking this.", "rus": "Позвольте объяснить, почему я об этом спрашиваю."}
+{"id": "226f4298-e2c8-4a76-9f16-a5f2894bca8b", "eng": "To make sure we're on the same page, let me sum up what we've discussed.", "rus": "Чтобы убедиться, что мы понимаем друг друга, позвольте подытожить то, что мы обсудили."}
+{"id": "a4c6aa96-1582-454f-afef-1c61c89cd2b5", "eng": "So, just to recap, here's what we agreed on.", "rus": "Итак, вкратце — вот о чём мы договорились."}
+{"id": "9ae537a8-a9b0-4633-984d-96f14c90138f", "eng": "How would you define the success of this project?", "rus": "Как мы поймём, что проект удался?"}
+{"id": "a4850a84-b5b0-4555-8354-f15bed31b250", "eng": "Can you provide me with an overview of the system?", "rus": "Не могли бы вы дать мне общее представление о системе?"}
+{"id": "444d3337-1224-4e57-adc1-6f9c2913ef67", "eng": "What sort of time frame do you have in mind?", "rus": "Какие сроки вы имеете в виду?"}
+{"id": "ad7fd1d9-48be-4b71-9188-2163c59a6513", "eng": "When is the report due?", "rus": "Когда нужно сдать отчёт?"}
+{"id": "0cbcbfee-b3e9-4fcd-bfdc-8352d67e23b3", "eng": "What metrics are we going to focus on?", "rus": "На каких метриках мы сосредоточимся?"}
+{"id": "acb816ce-0f16-4ddd-9501-51f7650c51b4", "eng": "What format would you like the results in?", "rus": "В каком формате вы хотели бы получить результаты?"}
+{"id": "5814d7b3-5f63-48a5-892a-49d00d412887", "eng": "Let me make sure I've got it right.", "rus": "Позвольте убедиться, что я всё правильно понял."}
+{"id": "c1d93e31-888c-444d-939e-bd7edb3d525e", "eng": "Well, the first thing I'd probably do is check the logs.", "rus": "Ну, первое, что я, наверное, сделал бы — это проверил логи."}
+{"id": "92098cbe-e8c7-44e5-8282-9981e752257e", "eng": "What I'm trying to say is that we need more data.", "rus": "Я пытаюсь сказать, что нам нужно больше данных."}
+{"id": "5388dab7-ff75-4baa-be52-7590b54eea26", "eng": "Does that make sense?", "rus": "Понятно, что я имею в виду?"}
+{"id": "8fc666d7-54f7-4faa-b753-91050926d6b8", "eng": "So that's basically how I would approach it.", "rus": "Вот, в общем-то, как я бы к этому подошёл."}
+{"id": "c5fd36a1-89b1-4284-aafa-35b40992461c", "eng": "Let me think about this for a second.", "rus": "Дайте мне секунду подумать."}
+{"id": "ba92330d-774e-4293-b9f0-2af02aa6a82e", "eng": "Off the top of my head, I'd say around ten percent.", "rus": "Навскидку я бы сказал около десяти процентов."}
+{"id": "0b78f877-c2ec-48f7-9f93-a09825dfe215", "eng": "That's a good question.", "rus": "Хороший вопрос."}
+{"id": "23ef7b60-ad38-4e4e-a813-ff8b69ea3d97", "eng": "As I see it, this is the main issue.", "rus": "На мой взгляд, это главная проблема."}
+{"id": "3668229d-a5bd-4ac8-8055-eb70f8e2a48a", "eng": "From my point of view, we should wait.", "rus": "С моей точки зрения, нам стоит подождать."}
+{"id": "9d268ea3-84ed-435e-ab87-e3c23c95d171", "eng": "In a nutshell, the process is too slow.", "rus": "Если вкратце, процесс слишком медленный."}
+{"id": "ab4d9a2c-92f5-464a-87f9-64af72d52d92", "eng": "To sum up, we need more resources.", "rus": "Если подытожить, нам нужно больше ресурсов."}
+{"id": "26b5e572-fc62-48ce-9b05-29e6dfec5746", "eng": "Let me give you a bit of background first.", "rus": "Сначала расскажу, с чего всё началось."}
+{"id": "475908b0-8e50-43bc-a41f-dde2514a5107", "eng": "Right now, the data we have is out of date.", "rus": "Данные, которые у нас сейчас есть, устарели."}
+{"id": "e3181cf5-6e0e-43a7-aa20-a90b7b8aa601", "eng": "This will allow us to calculate the conversion.", "rus": "Это позволит нам рассчитать конверсию."}
+{"id": "803f6f85-ace9-414d-a27c-6f7906d2e9f6", "eng": "Is that something you can help with?", "rus": "Вы можете с этим помочь?"}
+{"id": "500723f3-4ac2-4ff5-b156-63084f5b4d1c", "eng": "Would you be able to help with that?", "rus": "Не могли бы вы помочь с этим?"}
+{"id": "9de1f7d2-3a2f-42ff-b38a-1172d691b346", "eng": "How long do you think it will take?", "rus": "Как думаешь, сколько времени это займёт?"}
+{"id": "99bfc35a-8363-4b01-a314-d01b3b861d3f", "eng": "It's difficult to make a prediction since we don't have the purchase history.", "rus": "Сложно сделать прогноз, поскольку у нас нет истории покупок."}
+{"id": "d8ab6f52-db95-4b86-955f-eeb608580ed3", "eng": "The events don't load fast enough, which may result in delays.", "rus": "События загружаются недостаточно быстро, что может привести к задержкам."}
+{"id": "4f71e595-d756-4255-9f47-33e567f9ae55", "eng": "We need to add an event so that we can calculate the conversion.", "rus": "Нам нужно добавить событие, чтобы мы могли рассчитать конверсию."}
+{"id": "c3b3ae1f-4c37-49fe-b825-f8bf0342a8b2", "eng": "That could lead to changes in the analytics models.", "rus": "Это может привести к изменениям в аналитических моделях."}
+{"id": "ccf71a99-e8e7-4876-a85b-b51cb9a378fd", "eng": "Let me walk you through my main findings.", "rus": "Расскажу, что мне удалось выяснить."}
+{"id": "8eb20c35-3f1c-4b21-ac3a-7199040ec303", "eng": "Here's what I found when I analyzed the data.", "rus": "Вот что показал анализ данных."}
+{"id": "c0a77952-6be4-4109-8905-4fa50f249459", "eng": "As you can see from this chart, the correlation is strong.", "rus": "Как видно из этого графика, корреляция сильная."}
+{"id": "7b3357c5-1bb1-4f9a-acf0-b38eab446099", "eng": "It's safe to say that there is a positive correlation.", "rus": "Можно с уверенностью сказать, что существует положительная корреляция."}
+{"id": "d3f87b34-6097-4cad-b431-acb2ff90ab67", "eng": "This is a strong indicator that demand is growing.", "rus": "Это явный признак того, что спрос растёт."}
+{"id": "8f7742e5-c302-45f3-889b-b1067879c2ea", "eng": "It would probably make sense to focus on one concept.", "rus": "Вероятно, имеет смысл сосредоточиться на одной концепции."}
+{"id": "a66dbf1b-ffc2-4f0f-bcb9-9c70943257e0", "eng": "It's probably worth double-checking the data.", "rus": "Вероятно, стоит перепроверить данные."}
+{"id": "29bb075e-6704-41f7-9d41-01ab23b00b5b", "eng": "These scenarios suggest that revenue will grow.", "rus": "Эти сценарии позволяют предположить, что выручка вырастет."}
+{"id": "1a121e2b-cca4-4ebf-b218-6c3c26101c6a", "eng": "Let's not jump to conclusions.", "rus": "Давай не будем спешить с выводами."}
+{"id": "a5043ce6-766e-456a-965a-e133d18c8bbf", "eng": "Sounds like a good idea.", "rus": "Звучит как хорошая идея."}
+{"id": "941323ad-58a5-43b8-81c3-558547c23c23", "eng": "I'll see what I can do.", "rus": "Посмотрю, что можно сделать."}
+{"id": "02d08961-25c1-471f-b653-bfe24ba61b3c", "eng": "Well, that makes sense then.", "rus": "А, тогда понятно."}
+{"id": "00fbf9d0-5df7-4519-8c78-7d370aba4ab0", "eng": "I guess we're good to go.", "rus": "Пожалуй, мы готовы начинать."}
+{"id": "1bfbe639-5696-4ad1-bb8d-2756fda18e46", "eng": "I've become better at communicating clearly.", "rus": "Я научился яснее выражать свои мысли."}
+{"id": "2ae193d5-b43e-46d1-8e15-6e4c5b8087b3", "eng": "The feedback made me feel proud of what I'd achieved.", "rus": "После этих отзывов я почувствовал гордость за проделанную работу."}
+{"id": "ae0072ba-8d51-46e6-b866-3af978006063", "eng": "I believe there's still room for improvement in this area.", "rus": "Полагаю, в этой области всё ещё есть куда расти."}
+{"id": "8ca5de1e-a7ad-4552-97f0-281dabf6a681", "eng": "I've never been involved in mentoring, and I'd like to give it a try.", "rus": "Я никогда не занимался наставничеством и хотел бы попробовать."}
+{"id": "82922729-f2b0-4544-b381-0bec483eb45a", "eng": "I really benefited from the webinar.", "rus": "Вебинар оказался для меня очень полезным."}
+{"id": "6e395226-5182-4dda-b787-266fae7fc19d", "eng": "The training course helped me expand my knowledge in the field.", "rus": "Учебный курс помог мне расширить знания в этой области."}
+{"id": "7827a3b1-3a36-46d4-ad52-7fa384a3a14f", "eng": "I'd like to try mentoring a group.", "rus": "Я хотел бы попробовать себя в роли наставника группы."}
+{"id": "5496e790-29b3-46ec-a4ea-feba4ab360e8", "eng": "One thing I'm going to do is take a training course.", "rus": "Я планирую, среди прочего, пройти курс."}
+{"id": "23452f52-cef8-4fe1-b1ac-63e2402ca783", "eng": "I intend to develop this skill further.", "rus": "Я намерен развивать этот навык дальше."}
+{"id": "c1c5d8c5-18dd-4f16-8ba8-c0e50650d23b", "eng": "I'd like to focus on mentoring over the next six months.", "rus": "В ближайшие полгода я хотел бы сосредоточиться на наставничестве."}
+{"id": "2db4b82a-1d06-4867-90ed-105dc9930c2e", "eng": "I'm really happy with how the project went.", "rus": "Я очень доволен тем, как прошёл проект."}
+{"id": "7a14212a-785d-4d1c-8753-9b4765ceb8d3", "eng": "I've put a lot of effort into communicating goals clearly.", "rus": "Я приложил много усилий, чтобы ясно объяснить команде цели."}
+{"id": "b437b792-b32e-4870-a2bd-badb1c3248d3", "eng": "I feel I'm making progress with meeting facilitation.", "rus": "Мне кажется, я делаю успехи в проведении встреч."}
+{"id": "9bab9a64-dde6-4fe9-b298-286509c15cb0", "eng": "I feel I did a great job leading the team.", "rus": "Считаю, что я отлично справился с руководством командой."}
+{"id": "a70d898c-60ff-4793-89ce-7a7d735e07c4", "eng": "At first, I struggled to stay within the time limit.", "rus": "Поначалу мне было трудно укладываться в отведённое время."}
+{"id": "04afa6cb-9c17-42f0-aba2-beb985da9471", "eng": "I'd like to get better at working with AWS.", "rus": "Мне хотелось бы лучше освоить AWS."}
+{"id": "151df48c-1958-44a0-8532-a31cf7345513", "eng": "I think I could get better at making decisions.", "rus": "Думаю, мне стоит поработать над тем, как я принимаю решения."}
+{"id": "301cd799-2b84-4b5a-a113-efff96cbb1e7", "eng": "Here's an area I want to work on.", "rus": "Вот область, над которой я хочу поработать."}
+{"id": "9ed0a201-2176-4804-8bdd-2aa558e8cf79", "eng": "This is what I've learned from it.", "rus": "Вот что я из этого вынес."}
+{"id": "d8a5e8e7-640f-48e9-87ff-b366ea626f1e", "eng": "My data storytelling skills have improved.", "rus": "Я стал лучше рассказывать о результатах анализа."}
+{"id": "fc5cbd2f-5aa9-4a08-b44e-7dcfa6cb3dbf", "eng": "A training course on negotiations may be helpful for me.", "rus": "Курс по переговорам может быть мне полезен."}
+{"id": "416f374e-436f-48ba-8142-835fb2dd48c6", "eng": "I've taken part in creating a training program for junior analysts.", "rus": "Я принял участие в создании программы обучения для младших аналитиков."}
+{"id": "338b919c-a11e-4c65-8dfb-ac93ac40c588", "eng": "I felt really proud when I first demonstrated my dashboard.", "rus": "Я испытал настоящую гордость, когда впервые представил свой дашборд."}
+{"id": "1933f308-288f-43c1-9db9-122a7976cd8d", "eng": "We all stayed in sync and dealt with misunderstandings promptly.", "rus": "Мы все действовали слаженно и оперативно устраняли недопонимания."}
+{"id": "30d4ff0c-cf52-465e-a1b7-59a797b05a8c", "eng": "When the stakeholders went off-topic, I brought them back to the point.", "rus": "Когда заинтересованные стороны отклонялись от темы, я возвращал их к сути."}
+{"id": "d455440d-e543-4a9a-bbf8-1763dddec49f", "eng": "I like to take the initiative on new tasks.", "rus": "Мне нравится проявлять инициативу в новых задачах."}
+{"id": "30f87c22-7124-4ae2-b641-fb46b74f7105", "eng": "I started sending out follow-up emails after each meeting.", "rus": "Я начал рассылать письма с итогами после каждой встречи."}
+{"id": "6ba1df33-e734-4865-bbe8-2d28e040e206", "eng": "This experience lets me see things from a different perspective.", "rus": "Этот опыт позволяет мне взглянуть на вещи под другим углом."}
+{"id": "6856d606-591d-4f68-bd96-89666933552e", "eng": "When it comes to negotiating, I'm still learning.", "rus": "Когда дело доходит до переговоров, мне ещё есть чему учиться."}
+{"id": "f64f18ba-e075-4b04-b76d-264e5891bcb8", "eng": "I tend to rely on past experience.", "rus": "Я склонен полагаться на прошлый опыт."}
+{"id": "e926d42f-499e-4e1d-a6f9-9b2226a6f6cc", "eng": "We need to take seasonality into account.", "rus": "Нам нужно учитывать сезонность."}
+{"id": "9c9dc1c0-a065-422c-b3e6-3c792640c079", "eng": "We used last year's figures as a benchmark.", "rus": "Мы использовали прошлогодние показатели как ориентир."}
+{"id": "1a4a4785-5944-4936-86c3-f7045a0bb543", "eng": "These early results look promising.", "rus": "Эти первые результаты выглядят многообещающе."}
+{"id": "23b4efbe-894d-410f-839c-6c1cf52f4836", "eng": "This approach is applicable to other regions.", "rus": "Этот подход применим и к другим регионам."}
+{"id": "7de515c3-a791-461e-895d-c256d365f94d", "eng": "We had to make an assumption about the missing values.", "rus": "Нам пришлось сделать допущение о недостающих значениях."}
+{"id": "74decabb-44d8-46eb-8fd4-68dd454125d2", "eng": "If we hover over a point, a tooltip appears.", "rus": "Если навести курсор на точку, появляется всплывающая подсказка."}
+{"id": "579de0f7-8807-419d-ac5e-4ff9602ac4af", "eng": "Click a region to see only the data for that region.", "rus": "Нажмите на регион, чтобы увидеть данные только по нему."}
+{"id": "738a6b26-97bb-40b0-bbd3-49ba3b4bbb6b", "eng": "Profits fell sharply this quarter.", "rus": "Прибыль резко упала в этом квартале."}
+{"id": "d269833d-f4a4-4736-9de8-a0eaea9fb6b9", "eng": "Sales rose slightly compared to last year.", "rus": "Продажи слегка выросли по сравнению с прошлым годом."}
+{"id": "5a7d94ad-9814-4d9e-8c32-a3f43af41d4b", "eng": "There was a dramatic decline in revenue.", "rus": "Произошло резкое падение выручки."}
+{"id": "283fd87f-7f77-45b3-99d0-b9bd8d8b597a", "eng": "Sales went up by a third.", "rus": "Продажи выросли на треть."}
+{"id": "8fee875a-f899-4507-a843-46afe760f216", "eng": "Just under 10% of the bugs are low priority.", "rus": "Чуть менее 10% ошибок имеют низкий приоритет."}
+{"id": "62388a9d-81e0-4293-af89-fa24d3184489", "eng": "A little over half of the users are satisfied.", "rus": "Чуть более половины пользователей довольны."}
+{"id": "e0af3b01-a419-415f-9a39-844589db9a12", "eng": "I'll be happy to answer your questions as we go along.", "rus": "Я с удовольствием отвечу на ваши вопросы по ходу."}
+{"id": "1a965395-db68-4a29-8127-f8e3a8ffd97e", "eng": "I'll leave some time for questions at the end.", "rus": "Я оставлю немного времени для вопросов в конце."}
+{"id": "c6f9d1ed-d31b-4c4e-8d47-ad4c4a684e91", "eng": "I'll follow up by sharing the slides.", "rus": "После встречи я пришлю слайды."}
+{"id": "9ce28589-203b-46a5-aafc-0efa039fe458", "eng": "Thank you for bringing that up.", "rus": "Спасибо, что подняли этот вопрос."}
+{"id": "3f0ecf1d-f5d8-4086-ba55-a33d15ad756f", "eng": "I'm not completely sure, but I'll find that out for you.", "rus": "Я не совсем уверен, но я это для вас выясню."}
+{"id": "d8c2dc26-5635-4dab-b658-8a6c1e2b3726", "eng": "Do you mind if we discuss it after the demo?", "rus": "Не возражаете, если мы обсудим это после демонстрации?"}
+{"id": "feb84a6c-1834-4de7-8630-ab542500260c", "eng": "The upside of this solution is that it loads faster.", "rus": "Плюс этого решения в том, что оно загружается быстрее."}
+{"id": "b5bc4b29-05cb-4e3d-ad1b-1d55d3e84d6d", "eng": "One point in support of that is the speed of implementation.", "rus": "Один довод в пользу этого — скорость внедрения."}
+{"id": "2447efb8-d8b4-42bc-a6f2-1edaabae481f", "eng": "An argument in favor of this method is that we won't have to refresh it manually.", "rus": "Аргумент в пользу этого метода в том, что не придётся обновлять вручную."}
+{"id": "b20b461e-057c-45a8-bb33-31bfbdfc74d2", "eng": "The drawback of this visualization is that it takes up a lot of space.", "rus": "Недостаток этой визуализации в том, что она занимает много места."}
+{"id": "ff416b83-744c-4e3d-830c-116cb34d0a4f", "eng": "One drawback is that it takes longer to process.", "rus": "Один из минусов — обработка занимает больше времени."}
+{"id": "2872c3b8-ab4b-472a-89c2-279280309abf", "eng": "I can see both sides of the issue.", "rus": "Я понимаю обе стороны."}
+{"id": "f1ee25f7-5d56-4a8a-99da-f313f96b5e4f", "eng": "His off-the-cuff suggestion turned out to be a good one.", "rus": "Его спонтанное предложение оказалось удачным."}
+{"id": "613597e3-bfc8-4e08-a337-4491b03fa35a", "eng": "There's some truth to what you're saying, but there may be a few problems.", "rus": "В твоих словах есть доля правды, но могут возникнуть некоторые проблемы."}
+{"id": "67f6296b-afa8-4925-a848-571c1a8bfba3", "eng": "I'm afraid I see it differently.", "rus": "Боюсь, я смотрю на это иначе."}
+{"id": "acad7b64-4dd9-4653-bcba-0050cc5818f2", "eng": "I'm sorry, but I have to disagree with you.", "rus": "Извините, но я вынужден с вами не согласиться."}
+{"id": "49da09d5-6569-4805-b560-8025befb4ae8", "eng": "My suggestion would be to run some tests before implementing the changes.", "rus": "Я бы предложил провести несколько тестов, прежде чем внедрять изменения."}
+{"id": "c9dd6b9d-3ac0-42cf-899a-d74657aadd66", "eng": "It's great when you can build on other people's ideas.", "rus": "Здорово, когда удаётся развивать идеи других."}
+{"id": "6c6c8e5e-a260-4437-aabb-f655f3ca83b9", "eng": "Our subcontractors failed to meet the terms of the agreement.", "rus": "Наши подрядчики не выполнили условия договора."}
+{"id": "436ea9e8-0079-4baf-bb78-882b40cc0acf", "eng": "We develop new services to meet our customers' needs.", "rus": "Мы разрабатываем новые услуги, чтобы лучше отвечать потребностям клиентов."}
+{"id": "918cbf74-a54b-46c4-b923-f774d34d5708", "eng": "I've done some research on this, and here's what I found.", "rus": "Я провёл небольшое исследование на эту тему, и вот что выяснил."}
+{"id": "a0bb74c4-384f-4685-9ad9-415f5f9cc2a8", "eng": "We can try out different options to see which works best.", "rus": "Мы можем опробовать разные варианты, чтобы понять, какой сработает лучше."}
+{"id": "3cf79411-d911-45ec-b276-0992d8b08e91", "eng": "There's a relationship between a company's reputation and its profit.", "rus": "Существует взаимосвязь между репутацией компании и её прибылью."}
+{"id": "b810bf7c-f406-4ca8-bfbe-b0f53bb67271", "eng": "I wish I'd found out about this request before the sprint started.", "rus": "Жаль, что я не узнал об этом запросе до начала спринта."}
+{"id": "2cdb23b4-a312-4f7a-b3a6-9361db16f289", "eng": "I had a hard time figuring out how to reprioritize my tasks.", "rus": "Мне было трудно решить, за какие задачи взяться в первую очередь."}
+{"id": "30cb604b-e8e3-4ecc-b96e-99bbbcdee748", "eng": "The machine isn't powerful enough, and as a result, it's slowing us down.", "rus": "Машина недостаточно мощная, и в результате она нас замедляет."}
+{"id": "ad28779d-9596-4cee-b8fd-7efef991eb65", "eng": "I thought it was very helpful to discuss the estimates as a team.", "rus": "Мне показалось очень полезным обсудить оценки всей командой."}
+{"id": "5606c4e7-f5a4-464f-9323-581bfe6dddf3", "eng": "It was really nice to see how the team came to a decision on their own.", "rus": "Было приятно видеть, как команда самостоятельно пришла к решению."}
+{"id": "ae0efb3a-ba85-449d-9a9f-8a0521bbb255", "eng": "I think it would be very helpful if we could have a weekly tech meet-up.", "rus": "Думаю, было бы очень полезно проводить еженедельную техническую встречу."}
+{"id": "3ea464ce-825e-4a26-ba86-9c6584d8bf87", "eng": "It might be better to put such tasks on hold.", "rus": "Возможно, такие задачи лучше отложить."}
+{"id": "1fb56281-6cea-455a-a359-b105674e22a1", "eng": "We've got to make sure all the drivers are installed.", "rus": "Мы должны убедиться, что все драйверы установлены."}
+{"id": "dfeb5ae5-cccc-4f17-8f4e-78a9193d68a5", "eng": "Sorry to interrupt.", "rus": "Извините, что перебиваю."}
+{"id": "b34f7497-50dd-4b5d-a13b-4d2d8bac921c", "eng": "Sorry to butt in.", "rus": "Простите, что вмешиваюсь."}
+{"id": "24fcf3dd-a305-4d42-8c99-139657b5be98", "eng": "Can I just say something here?", "rus": "Можно я кое-что здесь скажу?"}
+{"id": "9d597a2b-c157-4781-881c-fd557f150cfa", "eng": "Sorry, just one more thing.", "rus": "Извините, ещё один момент."}
+{"id": "0b7230ab-66e4-4ee5-90a5-a3260f4e7298", "eng": "I suppose that's a little off topic.", "rus": "Пожалуй, это немного не по теме."}
+{"id": "608d9f56-5858-47e1-bb68-4c75ca97829d", "eng": "Can we park that until the end of the meeting?", "rus": "Можем отложить это до конца встречи?"}
+{"id": "250f591d-1e0d-4ac4-8101-48d985ab7fd9", "eng": "Sorry, that's not what I mean.", "rus": "Извините, я не это имел в виду."}
+{"id": "be54e575-f323-4c31-8e5d-e030669f576c", "eng": "Sorry if I didn't make that clear.", "rus": "Извините, если я выразился неясно."}
+{"id": "bbad1119-9d0f-4ac7-9d03-73e6b7111a59", "eng": "Let's not try to squeeze them into this sprint.", "rus": "Давайте не будем пытаться впихнуть их в этот спринт."}
+{"id": "318d94ce-76ac-4d20-ad4b-b962888740d4", "eng": "We scheduled a meeting to sync up on the new policies.", "rus": "Мы назначили встречу, чтобы сверить понимание новых правил."}
+{"id": "29249b1e-2a9c-47ad-8f50-e6b7a60662a4", "eng": "It might be better to stick to what we agreed on.", "rus": "Возможно, лучше придерживаться того, о чём мы договорились."}
+{"id": "38621c50-9e68-4c95-8601-7d4f555c35d3", "eng": "Let's do a quick sanity check before we ship.", "rus": "Давайте быстро всё перепроверим, прежде чем выпускать."}
+{"id": "3f6b8844-326d-47a5-955f-c32bbe0b8018", "eng": "That's an interesting point, but we don't have time to go into it right now.", "rus": "Мысль интересная, но сейчас у нас нет времени подробно её обсудить."}
+{"id": "372707f1-3b7c-493f-addb-65e90a77959a", "eng": "I'm on track.", "rus": "Я укладываюсь в срок."}
+{"id": "983a4d81-92d9-45de-bc94-db790decc562", "eng": "Today I'll carry on working on it.", "rus": "Сегодня я продолжу над этим работать."}
+{"id": "641f2d0a-2c4c-4671-a0fe-bd0abc2ef348", "eng": "Let me know how that goes, OK?", "rus": "Дай знать, как пойдёт, хорошо?"}
+{"id": "5d4dd569-206f-4402-ab99-fde70bc78062", "eng": "I'll have it done by Wednesday.", "rus": "Я закончу это к среде."}
+{"id": "c6dbb8f5-0765-4bfd-811f-d451649ad167", "eng": "I expect to finish it by Friday at the latest.", "rus": "Рассчитываю закончить не позднее пятницы."}
+{"id": "c08aba8e-fcf8-4461-807d-3a95fc387f3b", "eng": "I'll be working on this task until Wednesday.", "rus": "Я буду работать над этой задачей до среды."}
+{"id": "c318fb78-a3de-49af-bdda-9cf1108fdb0e", "eng": "As a ballpark figure, I'd say fifteen hours.", "rus": "Навскидку — часов пятнадцать."}
+{"id": "9103a102-eb25-44cf-baf5-b27c782217f6", "eng": "My original estimate is a bit off.", "rus": "Моя первоначальная оценка немного неточна."}
+{"id": "16a43d5b-7039-422e-99e9-a09737859d66", "eng": "It's a bit too complex to rush through.", "rus": "Это слишком сложно, чтобы делать наспех."}
+{"id": "e3c16f61-31ba-49c4-8c4f-bdf23f89aa74", "eng": "I'm afraid it's not a very good idea to rush this.", "rus": "Боюсь, торопиться с этим — не лучшая идея."}
+{"id": "265dfc0f-2c24-4126-9eff-2bf92349be14", "eng": "I'm not sure it'd be possible.", "rus": "Не уверен, что это будет возможно."}
+{"id": "5aab77ee-32f6-4eef-8306-095f0cb57475", "eng": "I might not be able to finish it in this sprint.", "rus": "Возможно, я не успею закончить это в этом спринте."}
+{"id": "49c55ee9-2c39-4c8f-9183-2ebdae2ce2b0", "eng": "That may be a bit problematic.", "rus": "С этим могут возникнуть сложности."}
+{"id": "fa0b849c-2fb4-4b00-b063-5b8572e428c9", "eng": "Would it be a good idea to postpone the release?", "rus": "Может, стоит отложить релиз?"}
+{"id": "6af16e7b-0cff-4358-b86e-ae7d32ff35d5", "eng": "How about breaking the task down into smaller pieces?", "rus": "Как насчёт того, чтобы разбить задачу на части поменьше?"}
+{"id": "8d5a730c-30d1-45d0-8e81-fe112048b5ef", "eng": "How does that sound to you?", "rus": "Как тебе такое?"}
+{"id": "3263da51-3bcb-41f1-8501-cfe797ddcf6b", "eng": "We won't be able to fit all the tasks in this sprint.", "rus": "Мы не успеем сделать все задачи за этот спринт."}
+{"id": "7cfaebf5-5dee-4fd5-bdbd-b98d317c580d", "eng": "It might make sense to reshuffle the priorities for these tasks.", "rus": "Возможно, стоит пересмотреть приоритеты этих задач."}
+{"id": "546b3596-5fc9-426a-b523-f1ede043f7ff", "eng": "We need to allow time for data cleansing.", "rus": "Нам нужно заложить время на очистку данных."}
+{"id": "451ebde1-c922-4e5f-8348-3148961a2686", "eng": "Let's go over the backlog to see what's left.", "rus": "Давайте пройдёмся по бэклогу и посмотрим, что осталось."}
+{"id": "6c9e779c-69f2-41b9-96df-b886c1242b01", "eng": "We'll have to leave out the low-priority task this week.", "rus": "На этой неделе нам придётся исключить низкоприоритетную задачу."}
+{"id": "64e03b6e-f4ab-4be9-8db4-8b67f852bfa7", "eng": "I'm not sure this solution is feasible.", "rus": "Я не уверен, что это решение осуществимо."}
+{"id": "e5b8a199-7c61-4122-af66-51db14c03b1b", "eng": "The meeting with the stakeholder went well.", "rus": "Встреча со стейкхолдером прошла хорошо."}
+{"id": "cec7261f-8919-4295-b022-c610fe9eea7c", "eng": "It seemed that the requirements were unclear.", "rus": "Казалось, что требования были нечёткими."}
+{"id": "61dbd4a5-0b94-4df5-af29-a927f239564a", "eng": "Despite the tight deadline, we managed to deliver.", "rus": "Несмотря на сжатые сроки, нам удалось всё выполнить."}
+{"id": "8650d211-0ee6-4e47-a1ed-077482312f48", "eng": "Although we disagreed at first, we were able to reach an agreement.", "rus": "Хотя сначала мы не соглашались, нам удалось прийти к согласию."}
+{"id": "ce6b612b-0bc8-4dc1-a84d-cf9cfdab6523", "eng": "I expressed my concerns about the timeline.", "rus": "Я выразил свои опасения по поводу сроков."}
+{"id": "85e12a0c-48b2-4932-b824-d3c2f27468eb", "eng": "I'll look into the issue.", "rus": "Я разберусь с этой проблемой."}
+{"id": "98a0a3df-905f-40ee-8bb0-e3bed196ad5d", "eng": "We managed to sort out the problem.", "rus": "Нам удалось уладить проблему."}
+{"id": "3193c904-afd9-423a-8c36-d8472940cd08", "eng": "The task is blocked for the time being.", "rus": "Пока что задача заблокирована."}
+{"id": "9f89ff3f-f70c-4600-8d26-22d589942148", "eng": "What's preventing you from completing it?", "rus": "Что мешает тебе это завершить?"}
+{"id": "f37cd40a-6a9e-46e6-bfef-24473b83f7d1", "eng": "Sorry, you were breaking up a little.", "rus": "Извини, тебя было плохо слышно."}
+{"id": "95d6f06b-67bf-4d96-9d05-b42dae905bcc", "eng": "Could you run it by me one more time?", "rus": "Не мог бы ты объяснить мне это ещё раз?"}
+{"id": "34290363-65f0-47ca-a1ee-969162cd9478", "eng": "As far as I know, the events were added last week.", "rus": "Насколько я знаю, события добавили на прошлой неделе."}
+{"id": "df460518-6c47-424f-aff8-d7ed37320f22", "eng": "The team added them last week, if I'm not mistaken.", "rus": "Команда добавила их на прошлой неделе, если не ошибаюсь."}
+{"id": "926ac0c3-2d6f-4030-97c4-927a60993576", "eng": "This drop doesn't seem to have anything to do with the downloads.", "rus": "Похоже, это падение никак не связано с загрузками."}
+{"id": "1dd959c7-2265-40f4-9fe6-def755888911", "eng": "Users from these cities make up a large proportion of our customers.", "rus": "Пользователи из этих городов составляют значительную долю наших клиентов."}
+{"id": "7628fd62-8f37-48eb-afb5-0777778a5524", "eng": "I want to see where users drop off in the funnel.", "rus": "Я хочу понять, на каком этапе воронки уходят пользователи."}
+{"id": "eda3635e-23bc-4bee-8c61-560e510169f5", "eng": "To be more precise, three new screens were added.", "rus": "Если точнее, было добавлено три новых экрана."}
+{"id": "4e7cf27f-6002-454c-a02f-ce8f340b7fd2", "eng": "It's not pleasant, but these things happen.", "rus": "Приятного мало, но такое случается."}
+{"id": "82babba7-3dce-4562-9e1c-826479764cc3", "eng": "They aren't really making an effort to help.", "rus": "Они не особо стараются помочь."}
+{"id": "d3fe4b3c-5021-461a-b1cc-58a83810e4ad", "eng": "This can help reduce technical debt.", "rus": "Это может помочь сократить технический долг."}
+{"id": "05f758f7-a6ad-4f3c-aec6-99530d8d9d99", "eng": "Let me walk you through it.", "rus": "Давайте я объясню всё по шагам."}
+{"id": "efc712eb-91bb-4eeb-b930-4c15745b4583", "eng": "I'll try to fit this into two minutes.", "rus": "Постараюсь уложиться в две минуты."}
+{"id": "e0746f82-2449-4c5f-aae2-3e0483d02a30", "eng": "I'd like to highlight three things.", "rus": "Я хотел бы выделить три момента."}
+{"id": "6b2c9efb-388e-49b5-9a45-0902bf04ec7c", "eng": "Let me give you some context first.", "rus": "Сначала немного предыстории."}
+{"id": "e36f836e-97ae-4d16-b25c-a1e9a83c8935", "eng": "Moving on to what I actually did.", "rus": "Перехожу к тому, что я конкретно сделал."}
+{"id": "0d55ff0c-e441-4774-885b-af4618de7a62", "eng": "I won't dwell on the tech stack unless you want me to.", "rus": "Не буду подробно говорить о стеке, если только вам не интересно."}
+{"id": "de174afc-c341-4996-8b70-1a887fb82ba8", "eng": "That's it for the example.", "rus": "На этом с примером всё."}
+{"id": "fa54ea78-e9d8-40c2-9a9d-9e6dec216a20", "eng": "We set a target and hit it.", "rus": "Мы поставили цель и достигли её."}
+{"id": "f00fb2c7-d4fd-4796-8b6d-02faa8f1a09c", "eng": "So far, all guardrail metrics are green.", "rus": "Пока все контрольные метрики в зелёной зоне."}
+{"id": "e563f5be-e16b-43b9-94f9-542b0994944e", "eng": "A few things took longer than expected, but the delays were mostly predictable.", "rus": "Кое-что заняло больше времени, чем ожидалось, но задержки были в основном предсказуемы."}
+{"id": "a3dea432-65ee-4460-8700-b9fabd9511a4", "eng": "We fell a little behind because we took on too much, but we caught up in the next sprint.", "rus": "Мы немного отстали, потому что взяли на себя слишком много, но наверстали в следующем спринте."}
+{"id": "415dcef2-2312-4e3c-b5fa-52226de43bea", "eng": "We limited the impact, and both metrics stayed within their target ranges.", "rus": "Мы смягчили последствия, и оба показателя остались в целевых диапазонах."}
+{"id": "211d95ef-99f0-40f2-872b-42733925430f", "eng": "We caught up in the next sprint.", "rus": "Мы наверстали отставание в следующем спринте."}
+{"id": "76353151-76f3-4cc8-8fc9-a502645174f4", "eng": "I owned it.", "rus": "Я взял ответственность на себя."}
+{"id": "ded4d8da-2e84-49f7-8037-570b532a4ad6", "eng": "It's a one-way door, so I wanted to be careful.", "rus": "Это необратимое решение, поэтому я хотел быть осторожным."}
+{"id": "bfe7aadc-d53b-4cb1-baab-98b6a593c004", "eng": "I didn't want to be overly cautious, but I wanted to be responsible.", "rus": "Я не хотел быть чрезмерно осторожным, но хотел действовать ответственно."}
+{"id": "1695b725-827b-43c8-b059-a1bf217e41e2", "eng": "We agreed on a consistent set of tools so we wouldn't end up with too many to maintain.", "rus": "Мы договорились об общем наборе инструментов, чтобы потом не пришлось поддерживать слишком много разных решений."}
+{"id": "f88d7bfa-6bec-414e-a6b9-d8e6e0af7c4e", "eng": "I wanted to make sure we had a couple of backup plans.", "rus": "Я хотел убедиться, что у нас есть пара запасных планов."}
+{"id": "62c2ab5f-cf81-41ab-a5a5-ea09ce6a6bec", "eng": "Crawl first, then walk, then run.", "rus": "Начнём с простого и будем постепенно усложнять."}
+{"id": "aa648fd7-4b30-4728-ba51-a272fe5f597c", "eng": "I don't have a crystal ball, but my best guess is this.", "rus": "Точно сказать не могу, но вот что мне кажется наиболее вероятным."}
+{"id": "2d1dc4f4-c6ba-4981-9851-c66c02dbd50d", "eng": "Let me come back to you on that.", "rus": "Я уточню и отвечу вам позже."}
+{"id": "05c11c9f-50a4-40ca-8efc-e3ba6466a124", "eng": "Big kudos to the team.", "rus": "Огромное спасибо команде."}
+{"id": "78c772a5-b7f1-44dd-a6a3-5f35a4f01f3b", "eng": "He took on work outside his usual role to keep a critical part of the release on schedule.", "rus": "Он взял на себя работу за пределами своих обычных обязанностей, чтобы завершить ключевой этап релиза в срок."}
+{"id": "01680687-8419-4ab9-b909-d51cc53c4e91", "eng": "No one was left behind.", "rus": "Никого не бросили."}
+{"id": "0e756e69-400e-42ce-87aa-ff0c477a00ba", "eng": "The sooner you get on board, the better.", "rus": "Чем раньше вы подключитесь, тем лучше."}
+{"id": "ab7ddf29-2899-4099-b5e8-4e3887978ce9", "eng": "That's all I wanted to cover. I'm happy to go into more detail on any of it.", "rus": "Это всё, о чём я хотел рассказать. Если нужно, могу подробнее остановиться на любом пункте."}
+{"id": "0b3f3f7e-d4a6-4684-bbed-e759499312d6", "eng": "Does that answer the question, or should I go into more detail?", "rus": "Это отвечает на ваш вопрос, или рассказать подробнее?"}
+{"id": "dd88d8f9-a810-4a7e-9850-4b98f2dcc690", "eng": "Over to you.", "rus": "Передаю слово вам."}
+{"id": "9cca3fa8-4395-45f1-bdb7-a9a379430f10", "eng": "I put together a business case using a back-of-the-envelope estimate.", "rus": "Я подготовил бизнес-обоснование на основе грубой оценки."}
+{"id": "bc7d87af-0ad1-4955-86ab-c778d983ea70", "eng": "Let's disagree and commit for now, then revisit the decision once we see the results.", "rus": "Даже если мы не согласны, давайте поддержим принятое решение. Вернёмся к нему, когда увидим результаты."}
+{"id": "5d260980-60a6-4d94-b3d0-754493c21c1a", "eng": "I decide upfront when to stop and build the simplest proof of concept that can measure the improvement.", "rus": "Я заранее определяю, при каких условиях стоит остановиться, и делаю самый простой прототип, который позволит измерить эффект."}
+{"id": "45605e9c-628d-48d4-beeb-8ac4090c674c", "eng": "If we're running late, a quick, honest update is better than going quiet.", "rus": "Если мы не укладываемся в срок, лучше коротко и честно сообщить об этом, чем молчать."}
+{"id": "b05d9042-4d37-49ba-9e6d-b95b6a18058c", "eng": "I believe in failing fast so we can move on quickly when an idea doesn't work.", "rus": "Я за то, чтобы быстро проверять идеи и не тратить время на те, что не работают."}
+{"id": "66b25dc2-1d1a-4c48-9502-eda6934d5d81", "eng": "I had to quickly get up to speed and help the team.", "rus": "Мне нужно было быстро войти в курс дела и помочь команде."}
+{"id": "766f5ccd-721e-4267-be76-b3d99357077b", "eng": "Let's get on with the task at hand.", "rus": "Давайте продолжим текущую задачу."}
+{"id": "97e2cf29-6a9b-4c05-9365-6f9b8cf674d9", "eng": "I will figure it out.", "rus": "Я разберусь с этим."}
+{"id": "a5bc8021-4357-40f5-906d-fe7e81e92078", "eng": "I highlighted the need for better monitoring after the incident.", "rus": "После инцидента я подчеркнул необходимость улучшить мониторинг."}
+{"id": "5fd65d7d-cfe9-4389-840c-8a68138ccb4f", "eng": "My analysis showed that the drop was caused by the new app release.", "rus": "Анализ показал, что показатель снизился из-за новой версии приложения."}
+{"id": "133d4292-e7ec-46ba-a3e5-331ec2e31ea7", "eng": "My analysis showed that most false alarms came from one city.", "rus": "Мой анализ показал, что большинство ложных срабатываний приходилось на один город."}
+{"id": "a7344075-7152-4631-924c-95281c2b5594", "eng": "I think that covers everything from my side.", "rus": "Думаю, с моей стороны это всё."}
+{"id": "d0410ad9-b8b5-4db9-95e2-3f2ec25c2687", "eng": "As it turned out, the root cause was a timezone mismatch.", "rus": "Как выяснилось, первопричиной было несоответствие часовых поясов."}
+{"id": "98b38708-8c87-47d0-8e74-ed79add9af73", "eng": "We discovered that the feature was computed in UTC during training.", "rus": "Мы обнаружили, что при обучении этот признак рассчитывался в UTC."}
+{"id": "0e2463bb-590d-4d31-bf36-202b200c9e23", "eng": "I must admit I underestimated the complexity of the migration.", "rus": "Должен признать, я недооценил сложность миграции."}
+{"id": "9704e4d6-8ed5-4e55-894f-015a19f72f8e", "eng": "I have to say that I've rarely seen such a clear result.", "rus": "Должен сказать, что я редко видел такой чёткий результат."}
+{"id": "2260eef6-8f81-4df5-b1d0-5297d6f1c6ea", "eng": "While reviewing the dashboard, I discovered that some data was missing.", "rus": "Просматривая дашборд, я обнаружил, что часть данных отсутствует."}
+{"id": "9a10791b-6c7d-4c8a-8ca6-21a8894753df", "eng": "I found the bug when I was comparing the training and production code.", "rus": "Я нашёл баг, когда сравнивал код обучения с продакшен-кодом."}
+{"id": "d35dba97-7c1d-415c-b04b-b1df04096f8b", "eng": "What I did was set up a weekly sync with the data team.", "rus": "Я организовал еженедельный созвон с командой данных."}
+{"id": "fd4155b9-6d86-4aa4-b114-e9340ce610a6", "eng": "I tackled it by breaking the task down into smaller steps.", "rus": "Я взялся за задачу, разбив её на небольшие шаги."}
+{"id": "01a2575e-b0b6-44ea-9ecb-24839ff97428", "eng": "We have a bit of a problem with the latest release.", "rus": "У нас небольшая проблема с последним релизом."}
+{"id": "eff9cc2c-2cf1-49b2-9a32-4eb964f8d2ff", "eng": "Once access was granted, we could finally get on with the analysis.", "rus": "Как только нам дали доступ, мы наконец смогли продолжить анализ."}
+{"id": "e24b398c-6f60-4a01-95f3-55f5430abc64", "eng": "We need to address this issue before the release.", "rus": "Нам нужно разобраться с этой проблемой до релиза."}
+{"id": "f3bfc4fe-dc16-469b-a0d2-5fe479bfdf98", "eng": "The client was dissatisfied with the quality of the report.", "rus": "Клиент был недоволен качеством отчёта."}
+{"id": "4a8602e4-2700-45c2-aadf-079c0dd96036", "eng": "We still need to figure out why the numbers don't match.", "rus": "Нам ещё нужно разобраться, почему цифры не сходятся."}
+{"id": "f8c524e2-1e11-47c3-8640-80859bc2845f", "eng": "If we don't get the data today, we'll miss the deadline.", "rus": "Если мы не получим данные сегодня, мы не уложимся в дедлайн."}
+{"id": "dd0185cf-a0c8-44f3-a58a-a56bdf4c6122", "eng": "We ran into delays because of the vendor's API limits.", "rus": "Работа задержалась из-за ограничений API поставщика."}
+{"id": "52b17764-8448-4f6a-9174-01a8112f698a", "eng": "I'll handle communication with the client.", "rus": "Я возьму на себя общение с клиентом."}
+{"id": "6b2e3453-b54e-4110-bf4b-64762a1232e8", "eng": "I found an error in the data when I was analyzing the logs.", "rus": "Я нашёл ошибку в данных, когда анализировал логи."}
+{"id": "3f71430b-274c-4102-bd81-ccbf2a8bb4b5", "eng": "We've hit a snag with the deployment, but we should have it fixed soon.", "rus": "При развёртывании возникла заминка, но скоро мы с ней разберёмся."}

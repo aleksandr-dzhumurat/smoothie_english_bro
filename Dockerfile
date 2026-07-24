@@ -6,6 +6,10 @@ ENV PYTHONPATH=/srv \
 
 WORKDIR /srv/
 
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends ffmpeg \
+    && rm -rf /var/lib/apt/lists/*
+
 COPY requirements.txt /srv/
 RUN python3.12 -m pip install --no-cache-dir -r requirements.txt
 

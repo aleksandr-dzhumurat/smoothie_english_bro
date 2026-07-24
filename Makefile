@@ -15,6 +15,7 @@ run: stop
 	docker run -d --rm \
 		--env-file ${CURRENT_DIR}/.env  \
 		-v ${CURRENT_DIR}/src:/srv/src \
+		-v ${CURRENT_DIR}/english_phone_Interview_preparing:/srv/english_phone_Interview_preparing:ro \
 		-v ${CURRENT_DIR}/data/tmp:/tmp \
 	    --name ${CONTAINER_NAME} \
 		adzhumurat/english_bro:latest
@@ -22,7 +23,7 @@ run: stop
 stop:
 	docker rm -f ${CONTAINER_NAME} || true
 
-run-debug:
+run-debug: stop
 	docker run -it --rm \
 		--env-file ${CURRENT_DIR}/.env  \
 		-v ${CURRENT_DIR}/src:/srv/src \
@@ -51,8 +52,9 @@ chat:
 	python3 src/gemini_adapter.py
 
 deploy:
-	rsync -avz -e "ssh -i $(SSH_KEY)" --exclude='data/' --exclude='.git/' --exclude='.env' \
+	rsync -avz -e "ssh -i $(SSH_KEY)" --exclude='data/' --exclude='.git/' --exclude='.env' --exclude='__pycache__/' --exclude='*.pyc' \
 		$(CURRENT_DIR)/src \
+		$(CURRENT_DIR)/english_phone_Interview_preparing \
 		$(CURRENT_DIR)/requirements.txt \
 		$(CURRENT_DIR)/Makefile \
 		${DEPLOY_USERNAME}@${PROD_HOST}:/home/${DEPLOY_USERNAME}/${PROJECT_NAME}/

@@ -1,3 +1,4 @@
+import sqlite3
 import time
 import uuid
 import aiosqlite
@@ -58,12 +59,56 @@ async def setup_database():
             session_state TEXT NOT NULL DEFAULT 'translate'
         )
         ''')
-        
+        try:
+            await db.execute("ALTER TABLE sessions ADD COLUMN interview_question_id INTEGER")
+        except sqlite3.OperationalError:
+            pass  # the column already exists
+        try:
+            await db.execute("ALTER TABLE sessions ADD COLUMN quiz_answer TEXT")
+        except sqlite3.OperationalError:
+            pass  # the column already exists
+
+        await db.execute('''
+        CREATE TABLE IF NOT EXISTS grammar_attempts (
+            attempt_id TEXT PRIMARY KEY,
+            user_id INTEGER NOT NULL,
+            theme TEXT NOT NULL,
+            unit INTEGER,
+            question_number INTEGER NOT NULL,
+            picked_position INTEGER NOT NULL,
+            correct_position INTEGER NOT NULL,
+            timestamp INTEGER NOT NULL
+        )
+        ''')
+        await db.execute('CREATE INDEX IF NOT EXISTS grammar_attempts_user ON grammar_attempts (user_id)')
         await db.commit()
+
+
+async def save_grammar_attempt(attempt_id, user_id, theme, unit, question_number, picked, correct):
+    """Record one graded answer; repeated callbacks cannot count it twice."""
+    async with aiosqlite.connect(DB_PATH) as db:
+        await db.execute('''
+            INSERT INTO grammar_attempts
+                (attempt_id, user_id, theme, unit, question_number,
+                 picked_position, correct_position, timestamp)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+            ON CONFLICT(attempt_id) DO NOTHING
+        ''', (attempt_id, user_id, theme, unit, question_number, picked, correct, int(time.time())))
+        await db.commit()
+
+
+async def get_grammar_stats(user_id):
+    """Return (answered, correct) for a Telegram user."""
+    async with aiosqlite.connect(DB_PATH) as db:
+        async with db.execute('''
+            SELECT COUNT(*), COALESCE(SUM(picked_position = correct_position), 0)
+            FROM grammar_attempts WHERE user_id = ?
+        ''', (user_id,)) as cursor:
+            return await cursor.fetchone()
 
 async def save_message(message_id, chat_id, user_id, message_text, reply_to_message_id=None, session_id=None):
     """Save a sent message to the database."""
-    print(f"Saving message {message_id} in chat {chat_id}: {message_text!r}")
+    print(f"Saving message {message_id} in chat {chat_id} ({len(message_text or '')} chars)")
     try:
         async with aiosqlite.connect(DB_PATH) as db:
             await db.execute(
@@ -104,17 +149,20 @@ async def get_message_by_id(message_id, chat_id):
         print(f"Error retrieving message {message_id} in chat {chat_id}: {e}")
         return None
 
-
-async def get_messages_by_session(session_id, limit=None):
-    """Return list of message_text strings for the given session_id, latest first if limit is set."""
+async def get_messages_by_session(session_id, limit=None, *, user_id=None):
+    """Return session messages in chronological order, optionally filtered by sender."""
     try:
         async with aiosqlite.connect(DB_PATH) as db:
+            query = "SELECT message_text FROM messages WHERE session_id = ?"
+            args = [session_id]
+            if user_id is not None:
+                query += " AND user_id = ?"
+                args.append(user_id)
             if limit is not None:
-                query = "SELECT message_text FROM messages WHERE session_id = ? ORDER BY timestamp DESC LIMIT ?"
-                args = (session_id, limit)
+                query += " ORDER BY timestamp DESC, rowid DESC LIMIT ?"
+                args.append(limit)
             else:
-                query = "SELECT message_text FROM messages WHERE session_id = ? ORDER BY timestamp"
-                args = (session_id,)
+                query += " ORDER BY timestamp, rowid"
             async with db.execute(query, args) as cursor:
                 rows = await cursor.fetchall()
                 messages = [row[0] for row in rows]
@@ -138,24 +186,36 @@ async def create_session(user_id):
     return session_id
 
 
-async def set_session_state(session_id, state):
-    """Update the session_state for the given session_id."""
+async def set_session_state(session_id, state, *, quiz_answer=None):
+    """Update the mode and keep a pending translation only in quiz mode."""
     async with aiosqlite.connect(DB_PATH) as db:
         await db.execute(
-            "UPDATE sessions SET session_state = ? WHERE session_id = ?",
-            (state, session_id)
+            "UPDATE sessions SET session_state = ?, quiz_answer = ? WHERE session_id = ?",
+            (state, quiz_answer if state == 'quiz' else None, session_id)
+        )
+        await db.commit()
+
+
+async def set_interview_question(session_id, question_id):
+    """Store the id of the interview question waiting for an answer (None clears it)."""
+    async with aiosqlite.connect(DB_PATH) as db:
+        await db.execute(
+            "UPDATE sessions SET interview_question_id = ? WHERE session_id = ?",
+            (question_id, session_id)
         )
         await db.commit()
 
 
 async def get_session(user_id):
-    """Return the active session for user_id (created within last 3600s).
+    """Return the active session for user_id (within 3600s or with a pending quiz).
     If none exists, create one and return it."""
     now = int(time.time())
     async with aiosqlite.connect(DB_PATH) as db:
         db.row_factory = aiosqlite.Row
         async with db.execute(
-            "SELECT * FROM sessions WHERE user_id = ? AND (? - created_at) < 3600 ORDER BY created_at DESC LIMIT 1",
+            """SELECT * FROM sessions WHERE user_id = ?
+               AND ((? - created_at) < 3600 OR (session_state = 'quiz' AND quiz_answer IS NOT NULL))
+               ORDER BY created_at DESC LIMIT 1""",
             (user_id, now)
         ) as cursor:
             row = await cursor.fetchone()
