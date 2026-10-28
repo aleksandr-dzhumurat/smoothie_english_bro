@@ -24,12 +24,19 @@ Give specific examples and describe how you gathered, analyzed, prioritized, and
 
 ## Self-Introduction — Experience Overview
 
-I am a machine learning engineer with over 5 years of experience. I have worked on a wide range of projects across various industries — including online cinema, entertainment, ride-hailing, and e-commerce — and within companies of all sizes, from early-stage startups to global enterprises. I've gained valuable experience in machine learning engineering, particularly in the field of recommender systems. I have a strong understanding of machine learning algorithms and hands-on experience with SQL and Python. I'm also skilled in data cleaning and transformation.
+I am a machine learning engineer with over 5 years of experience. I have worked on a wide range of projects across various industries — including online cinema, entertainment, ride-hailing, and e-commerce — and within companies of all sizes, from early-stage startups to global enterprises. I've gained valuable experience in machine learning engineering, particularly in recommender systems and safety scoring models. I have a strong understanding of machine learning algorithms and hands-on experience with SQL and Python. I'm also skilled in data cleaning and transformation.
 
 I used to lead cross-functional teams ranging from 3 to 11 contributors. I've been responsible for hiring and offboarding team members, as well as mentoring them to support their growth and career development. I was also responsible for stakeholder management and for preparing annual and quarterly plans for my team, aligning them with company-wide quarterly goals.
 
 ### Current Role
-I currently work as a Staff ML engineer at a small e-commerce technology company. In this role, I implemented models for inventory management, an AI shopping assistant, and a churn prediction classifier.
+I currently work as a Safety AI Tech Lead at inDrive. My team builds ML solutions for trip monitoring, safety scoring, and liveness checks, with the overarching goal of reducing safety incidents on the platform.
+
+As a hands-on tech lead:
+*   Turned safety risk scoring from a research idea into a production-ready system that handles live traffic.
+
+As an individual contributor:
+*   Designed a PydanticAI-based multi-agent framework that automates delivery order creation via WhatsApp chat.
+*   Automated the daily standup routine with LLM-based Jira task analysis.
 
 ### Previous Experience
 
@@ -37,12 +44,15 @@ I currently work as a Staff ML engineer at a small e-commerce technology company
 I started out as a data analyst at an online cinema called ivi, which is similar to the Russian version of Netflix. That role helped me gain hands-on experience with visualization, data cleansing, and BI tools like Tableau and PowerBI. I provided actionable insights to the business based on my analysis. Although my background is in data analysis, I've always had a strong interest in data science and machine learning. As I took on more responsibility, I was promoted to Senior machine learning engineer.
 
 **FunCorp (Entertainment)**
-Previously, I worked at FunCorp, an entertainment company, where I led a team of four ML engineers. We developed a smart content feed featuring entertaining videos and images, focused on humor and engagement. I collaborated closely with the Chief Product Officer and Chief Analyst. One of our main achievements was building and launching a classic two-stage recommender system.
+At FunCorp, I led a team of four ML engineers building a personalized feed of funny videos and images. I collaborated closely with the Chief Product Officer and Chief Analyst. One of our main achievements was building and launching a classic two-stage recommender system.
 
 **inDrive (Ride-Hailing)**
 After FunCorp, I worked as a data scientist at inDrive, a global ride-hailing company, where I gathered, analyzed, and interpreted driver-rider matching data to support product owners in improving the dispatch algorithm. I was part of a product team of four, with a primary focus on optimizing the marketplace. My main responsibility was managing the entire data preparation pipeline. The ML launch led to an impressive 7% improvement in our North Star metric.
 
 I worked with Google Cloud Platform, particularly leveraging tools like KubeFlow and BigQuery. A significant project I undertook was the development of a driver-rider matching algorithm. I also worked on enhancing a CatBoost model by introducing new features based on geo-points, designing and implementing a Kubeflow pipeline.
+
+**Sweed (E-commerce)**
+After inDrive, I joined Sweed, a small e-commerce technology company, as a Staff ML engineer. In this role, I implemented models for inventory management, an AI shopping assistant, and a churn prediction classifier. I then returned to inDrive to lead the Safety AI direction.
 
 ### Strengths
 *   Proactivity & Innovation
