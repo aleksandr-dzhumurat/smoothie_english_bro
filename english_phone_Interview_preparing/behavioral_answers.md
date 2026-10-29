@@ -1,6 +1,6 @@
 # Behavioral Interview Answers
 
-*Merged from: behave_questions.md, behavioral_interview_70_questions.md, self-intro.md, critical_thinking.md*
+*Merged from: behave_questions.md, behavioral_interview_70_questions.md, self-intro.md, critical_thinking.md. Updated after the Revolut Applied AI recruiter screen (Oct 28, 2026): new Revolut section added, generic answers tailored.*
 
 ---
 
@@ -19,12 +19,183 @@ Give specific examples and describe how you gathered, analyzed, prioritized, and
 
 *   [Yuriy Kashnitskiy: behavioral questions](https://www.linkedin.com/feed/update/urn:li:activity:7210627927418245120/)
 *   [Behavioral Interview Post](https://www.linkedin.com/feed/update/urn:li:activity:7067921863519129601)
+*   [Revolut — Our culture (5 values)](https://www.revolut.com/our-culture)
+
+---
+
+## Revolut — Applied AI Engineer: Interview Q&A
+
+### Recruiter screen — questions and model answers (continued)
+
+#### Walk me through your background (60–90 seconds)
+
+I'm an ML engineer with 5+ years of experience in entertainment, e-commerce and ride-hailing, in startups and in large companies. My strength is owning the whole cycle: framing the problem with product, building the data pipeline, modeling in Python and SQL, deploying the service and running the experiment.
+
+Now I lead the Safety AI team at inDrive, a global ride-hailing platform, similar to Uber, with 3 ML engineers whom I hired. We built a model that scores a trip for risk *before* it starts: if the score is high, the driver or passenger gets an additional check. We went from idea to experiment in two quarters, and in the Peru pilot incidents went down by [X%]. Now we're scaling it to the whole network. I also built a CV-based liveness detection service and an incident-ranking service that lets incident managers review the most serious cases first.
+
+Most of my production work is classical ML. On the GenAI side I've built [a PydanticAI multi-agent assistant that creates delivery orders in WhatsApp, a RAG shopping assistant, and LLM-based Jira standup automation]. That's why Applied AI fits me: product thinking plus hands-on building, in a domain like fincrime where ML reduces real harm.
+
+*Tips:* define the product in one clause ("ride-hailing, like Uber") so the recruiter doesn't have to ask. Finish with the link to the role. Keep sentences short.
+
+#### Tell me about the project with the biggest business impact: problem, solution, impact.
+
+**Option A (stronger: it has finished experiment results) — Safety risk scoring**
+- **Situation:** in LATAM, serious incidents (robbery, assault attempts) happen during trips, and support could only react after the fact.
+- **Task:** I led the team to detect risky trips *before* they start.
+- **Action:** framed the problem with product, built the data pipeline and the model that scores each trip, defined what happens at a high score (extra check for the driver or passenger), deployed the service on live traffic, and designed the A/B experiment in Peru.
+- **Result:** the experiment finished last month with positive results: incidents went down by [X%], with [guardrail, e.g. share of trips getting extra checks / conversion impact: X%]. The estimated saving is roughly [X] per month in insurance and legal costs. We're now scaling to the whole network.
+
+**Option B — Incident moderation (ranking) service**
+- **Situation:** inDrive gets a large flow of safety appeals, and incident managers review them manually. Serious cases (robbery, violence) waited in the same queue as minor ones, which means slower response and higher insurance and legal cost.
+- **Task:** prioritize the queue so managers see the most serious incidents first.
+- **Action:** my team and I built a ranking service that scores every appeal by severity; I designed the data preparation pipeline and the inference service, and agreed the API contract with the backend team.
+- **Result:** offline, the model reaches recall of about 0.8 on serious incidents within the top [X%] of the queue, versus about [baseline] if managers review in chronological order. That means the same coverage with [X%] fewer reviews, roughly [X] hours saved. The A/B test is running; the key metrics are time-to-review for serious cases and handling cost.
+
+*Avoid:* "give me a second", and giving recall without baseline, volume or business meaning.
+
+#### Do you have specific business metrics, like revenue generated or cost saved?
+
+The experiment for the ranking service is still running, so I can't share final online numbers. But I built the business case with a back-of-the-envelope model: [appeals per day] × [share of serious incidents] × [average cost of a serious incident: insurance, legal] × [share we now handle faster]. That gives roughly [X] per month, plus about [X] reviewer hours saved. For the safety scoring project, incidents in the Peru pilot went down by [X%].
+
+*Avoid:* "I don't have any specific numbers". For a role built on unit economics this is the most damaging answer. An approximate, labeled estimate is far better than none.
+
+#### How did the idea originate? Did it come from product, or from you?
+
+The PM raised the pain point: the incident queue was not prioritized. Then I took the lead on discovery. I ran kickoffs with the PM and the incident managers to understand how they judge severity, turned that into features, and proposed *ranking* instead of classification, because the managers' capacity is fixed. I defined the success metric, built the pipeline and the service, and agreed the contract with backend. In this role I want to do the same from the very start, including finding the opportunity myself.
+
+#### Why are you looking outside your current company, and what do you want in the new place?
+
+I'm proud of what we built at inDrive, and I want the next step. First, scope: I want to own the whole product cycle, from finding the opportunity to the pitch, and use GenAI/LLMs to move core metrics. Second, domain: safety work showed me I do my best work where ML directly reduces harm, and fraud and financial crime at Revolut is the same logic at a larger scale, with rich transaction data. Third, relocation: inDrive supports relocation only to Cyprus or Serbia, while a hub like the UAE or London fits my plans.
+
+*Avoid:* calling your previous work (the recommender system) unimportant. Say "this work has a more direct impact" instead.
+
+#### Tell me about your management experience.
+
+For the first two quarters at inDrive I was an individual contributor, then I became the lead of 3 ML engineers, and I hired the whole team. I set priorities and the roadmap together with product, review designs, mentor, and stay hands-on. Under this setup we shipped [two] products to experiment within [X months]. Earlier I led teams of 3 to 11 people, including hiring, offboarding, and quarterly planning.
+
+#### Do you have any questions for us? (never answer "no")
+
+Pick 2–3:
+- Which business verticals are open for this role right now, and how is the vertical chosen?
+- What does success look like in the first 6 months? How many POCs usually reach leadership buy-in?
+- What is the LLM stack and tooling the team uses (models, evals, infra budget)?
+- What do visa and relocation support look like for the UAE / UK?
+- Any tips for the business problem-solving and ML fundamentals rounds?
+
+#### What are your salary expectations?
+
+*(Likely asked in a later call; recruiter said they'd "catch up on other details later".)* Based on the market for this level in [UAE/UK] I'm targeting [range]. I'm flexible depending on the total package. Could you share the range for this role? *Research the range first; don't give a number you haven't checked.*
+
+#### Are you interviewing with other companies?
+
+I'm talking to a few companies, but Revolut is a top choice for me because of the ownership model and the fincrime domain. I can move fast: my notice period is one month.
+
+*(Say this only if it's true.)*
+
+#### Last time the case round didn't go well. What's different now?
+
+Last time the format was new to me. Since then I've practiced it with a clear structure: clarify the goal, size the opportunity, ask for the data, build the solution, check unit economics, and name risks. I've also run more business-impact projects at work, where I had to estimate the value before building.
+
+#### What GenAI / LLM experience do you have?
+
+I've built three things. First, a RAG shopping assistant at Sweed that helps customers fill their carts, prototyped with scraped competitor product data when our own catalog lacked rich descriptions; the demo led to a catalog enrichment initiative. Second, a PydanticAI multi-agent framework that creates delivery orders from WhatsApp chats. Third, an LLM-based Jira analysis that automates our daily standup. [Add: how you evaluated quality, cost per request, and what you'd improve.] My production ML is mostly classical, so GenAI is where I'm growing fastest, and this role is the way to apply it at scale.
+
+---
+
+### Applied AI role — additional behavioral questions
+
+#### Tell me about a time you owned a product from idea to production, almost alone.
+
+*Use the safety risk scoring story:* the research idea became a system on live traffic. Highlight what *you* personally did: problem framing with product, data pipeline, model, service, experiment design, rollout. Close with the result [X%] and what you'd do differently (for example: involve backend and support earlier, set guardrail metrics from day one).
+
+#### Tell me about a time you built a POC with minimal resources and pitched it.
+
+- **Situation:** at Sweed we wanted a conversational shopping assistant, but our product catalog had no rich text descriptions.
+- **Action:** I built a RAG prototype in [X weeks] alone, and to prove the full experience I used scraped competitor data strictly for prototyping.
+- **Result:** the demo impressed stakeholders and started a discussion on systematically enriching our own catalog. Close with the lesson: prove value cheaply, then ask for resources.
+
+*Optional:* add one line on the cost of the prototype (for example, LLM cost per conversation of [X]) to show the unit-economics mindset.
+
+#### How do you validate an AI idea with unit economics?
+
+I use four lines: **value per case × volume × expected lift − cost = monthly value**, then payback time.
+- *Value per case:* cost of an incident, a fraud loss, an analyst hour, a support contact.
+- *Volume:* cases per day in the chosen vertical.
+- *Lift:* how much better than today's process (get a baseline first; assume a range, not a point).
+- *Cost:* LLM tokens (tokens per request × price × requests), infra, human review for edge cases, maintenance.
+
+Then I test the sensitivity (what if lift is half?), define kill criteria, and build the cheapest POC that can measure the lift. Example: for incident ranking, [appeals/day] × [share of serious] × [cost per serious incident] × [share handled faster] − [infra + maintenance].
+
+#### Tell me about a time you pitched an idea to senior leadership and got buy-in.
+
+*Use the scaling of safety scoring from the Peru pilot to the whole network.* Structure of the pitch: problem and metric → prototype or experiment result → unit economics → risks and guardrails → the ask (people, budget, timeline). Mention what leadership challenged and how you answered it. [Add a real example of the questions they asked.]
+
+#### Tell me about a time you went above and beyond. (Bar Raiser)
+
+*Story: the daily standup bot (details in product_idea.md).*
+
+- **Situation:** our daily standups started with people reading through Jira and reporting status by hand. Task descriptions were often incomplete (no current state, target state or action plan), and the team lead had to chase people for updates. It was not my job as an ML tech lead, and nobody asked me to fix it.
+- **Task:** remove this routine and make task quality visible, without adding a new tool or a new process for people.
+- **Action:** on my own initiative, I built a bot that runs on schedule every weekday (skips weekends). It:
+  - fetches the active tasks from a configured Jira filter, excluding epics;
+  - posts the standup reminder to the team's Slack channel, with tasks grouped by assignee and people mentioned by Slack ID;
+  - analyzes each task with an LLM (Gemini via Vertex AI, temperature 0.1, structured output with a Pydantic schema): is the current state, target state and action plan complete, is there recent activity and comment progress;
+  - posts feedback in a thread, with a ready-to-send message to the assignee, only for tasks that need action;
+  - posts an "all clear" message that mentions the team lead when everything is fine.
+  
+  I used structured JSON output (decision, findings, required actions, `is_action_required`) so the reports are consistent and easy to check, plus retries with exponential backoff for reliability. I built it with a cheap model and in my spare time, so the running cost is very low [add: about $X per month].
+- **Result:** [X minutes saved per person per day / X% of tasks now with a complete plan / the team lead no longer chases updates / the team adopted it]. It became a reusable pattern for [other teams / other Jira filters], because the filter and the channel are configurable.
+- **Lesson:** look for leverage beyond my own task list, start with a small working version, and use LLMs where the work is repetitive and judgment is simple.
+
+*Why it fits Revolut:* it shows ownership without being asked (Get It Done), a simple product that makes colleagues' work easier (Deliver WOW), and a lean GenAI POC that solved a real process problem. *Be ready for follow-ups:* how you evaluated the LLM's decisions (false alarms vs missed tasks), how you chose the model and the cost per run, and what you'd improve next (for example, an eval set with human labels).
+
+*Alternative (shorter, if the interviewer wants a second example):* the PydanticAI multi-agent framework that creates delivery orders from WhatsApp chats.
+
+#### Tell me about a time a model looked good offline but disappointed in production.
+
+*Use the Recall@5 story:* offline metrics were fine, but production Recall@5 was lower. I segmented by user cohort, found un-authorized users with very low metrics, traced it to feedback (likes) not being sent to Kafka for them, wrote a bug report, and the fix restored performance. Lesson (relevant to the ranking service, which has offline metrics only): define online metrics and segment checks *before* launch.
+
+#### How do you handle the trade-off between catching fraud/risk and hurting good users? (false positives)
+
+In safety scoring the action at a high score is an *additional check*, not a ban, so a false positive costs friction instead of a lost customer. I pick the threshold by comparing the cost of friction with the cost of a missed incident, track guardrail metrics (conversion, share of trips with checks, complaint rate), keep humans in the loop for the highest-impact decisions, and monitor drift by segment. [Add a real number: share of trips checked, or conversion impact.] The same logic applies to fincrime alerts.
+
+#### Tell me about how you hired your team. What do you look for? (Dream Team)
+
+I hired all 3 engineers on my team. *(Adjust to what you really did.)* I defined the profile first (what the team lacked), used [take-home / technical / system design / behavioral stages], and looked for three things: [solid fundamentals, ownership, communication]. I held the bar even when it slowed hiring, because [one sentence on what it gave you: for example, the team shipped X without hand-holding].
+
+#### Tell me about a time you gave candid, difficult feedback. (Dream Team)
+
+Use the SBI structure: **S**ituation (specific moment), **B**ehavior (what you saw, no judgement), **I**mpact (effect on team or product), then agree the next step. [Add a real example with the result.] Also show you recognize good work: you are deliberately working on giving positive feedback too.
+
+#### Tell me about a time you were not satisfied with a "good enough" result. (Never Settle)
+
+We could have stopped with an offline model for safety scoring. I pushed to deploy it on live traffic, run a real experiment in Peru, measure incidents instead of proxy metrics, and then scale it to the whole network. [Add one detail on what you improved after the first results.]
+
+#### Where could LLMs create leverage in fincrime? (case prep, role-specific)
+
+Present these as *hypotheses to validate*, not facts:
+1. **Alert triage and summarization:** an LLM summarizes the case and evidence for an analyst; metric: handling time per alert. This mirrors your incident-ranking service (prioritize first, then speed up the review).
+2. **Prioritization of alert queues:** the same ranking idea as incident moderation; metric: share of serious cases found in the top [X%] of the queue.
+3. **Analyst copilot** for investigation notes and SAR/report drafting; metric: hours saved per case, quality checked by sampling.
+
+For each: first ask for the baseline (volume, cost per case, current false-positive rate), then run the unit-economics test above.
+
+---
+
+### Mistakes from the Oct 28 screen — don't repeat
+
+1. No numbers for business impact. Always bring a figure or a labeled estimate.
+2. Not one mention of GenAI/LLMs, which is the core of the role. Mention it in the intro and in "why this role".
+3. Negatives: "I really don't want to go back to Cyprus", "last time I failed", calling your previous project unimportant.
+4. No questions at the end. Always ask 2–3.
+5. Filler and long explanations ("how to say", "give me a second", explaining what ride-hailing is). Use short sentences and structure answers in 3 parts: situation → what I did → result.
+6. Receiving the idea instead of originating it. Stress discovery, framing and ownership.
 
 ---
 
 ## Self-Introduction — Experience Overview
 
-I am a machine learning engineer with over 5 years of experience. I have worked on a wide range of projects across various industries — including online cinema, entertainment, ride-hailing, and e-commerce — and within companies of all sizes, from early-stage startups to global enterprises. I've gained valuable experience in machine learning engineering, particularly in recommender systems and safety scoring models. I have a strong understanding of machine learning algorithms and hands-on experience with SQL and Python. I'm also skilled in data cleaning and transformation.
+I am a machine learning engineer with over 5 years of experience. I have worked on a wide range of projects across various industries — including online cinema, entertainment, ride-hailing, and e-commerce — and within companies of all sizes, from early-stage startups to global enterprises. I've gained valuable experience in machine learning engineering, particularly in recommender systems and safety scoring models. I have a strong understanding of machine learning algorithms and hands-on experience with SQL and Python. I'm also skilled in data cleaning and transformation. On the GenAI side I've built LLM-based agents and a RAG assistant (see below), and I like owning a product from the first idea to production.
 
 I used to lead cross-functional teams ranging from 3 to 11 contributors. I've been responsible for hiring and offboarding team members, as well as mentoring them to support their growth and career development. I was also responsible for stakeholder management and for preparing annual and quarterly plans for my team, aligning them with company-wide quarterly goals.
 
@@ -32,7 +203,10 @@ I used to lead cross-functional teams ranging from 3 to 11 contributors. I've be
 I currently work as a Safety AI Tech Lead at inDrive. My team builds ML solutions for trip monitoring, safety scoring, and liveness checks, with the overarching goal of reducing safety incidents on the platform.
 
 As a hands-on tech lead:
-*   Turned safety risk scoring from a research idea into a production-ready system that handles live traffic.
+*   Turned safety risk scoring from a research idea into a production-ready system that handles live traffic. It scores a trip for risk before it starts; the Peru pilot reduced incidents by [X%] and it is now being scaled to the whole network.
+*   Built a CV-based liveness detection service.
+*   Built an incident-ranking service that puts serious appeals (robbery, violence) at the top of the incident managers' queue (offline recall about 0.8; online experiment running).
+*   Hired the whole team of 3 ML engineers.
 
 As an individual contributor:
 *   Designed a PydanticAI-based multi-agent framework that automates delivery order creation via WhatsApp chat.
@@ -59,9 +233,10 @@ After inDrive, I joined Sweed, a small e-commerce technology company, as a Staff
 *   Experimentation & Metrics-Driven Approach
 *   Cross-Functional Collaboration & Communication
 *   Strong ML/AI Expertise
+*   End-to-end Ownership (idea → pipeline → service → experiment → business case)
 
 ### Weaknesses
-*   **Deep Learning Exp:** One of my current limitations is that deep learning is not yet part of my core skill set. However, I have a strong foundation in ML and I'm actively working to deepen my knowledge through hands-on practice and study.
+*   **Depth in deep learning / LLM internals:** Most of my production work is classical ML, although I've also shipped a CV-based liveness service and LLM agents. I'm deepening the foundations (LLM evaluation, fine-tuning, [what you are studying now]) through hands-on projects, and for an Applied AI role I treat it as my main growth area.
 *   **Giving Feedback:** Another area I'm working on is giving positive feedback to colleagues. While I naturally focus on problem-solving and areas for improvement, I've realized the importance of recognizing what's going well. I'm becoming more intentional about expressing appreciation.
 
 ### Closing Statements
@@ -158,9 +333,11 @@ A routine audit uncovered a misconfigured S3 bucket exposing user data. I restri
 
 We had a custom reporting system, and every new report request created a heavy workload for both designers and front-end developers. I proposed building an MVP version of the reports using Metabase, an open-source analytics tool. This allowed us to quickly generate visualizations and dashboards without involving design or front-end teams. Stakeholders were able to explore data on their own, it reduced custom report requests, and gave the team more time for higher-impact work.
 
-### Why did you leave your last job?
+### Why did you leave your previous job?
 
-I decided to leave my previous role because it wasn't an ML-first environment — machine learning tasks were often de-prioritized in favor of other initiatives. My goal is to join a company where machine learning is a core part of the product and directly contributes to business outcomes.
+I left my previous role because machine learning was not the core of the product there, and ML tasks were often de-prioritized in favor of other initiatives. I wanted an environment where ML directly drives business outcomes, and that's what I found in the Safety AI direction.
+
+*For "why are you leaving inDrive now", use the answer in the Revolut section above.*
 
 ### Describe a situation where you had to work with a difficult coworker.
 
@@ -168,7 +345,7 @@ In my previous role, I worked with a colleague who frequently scheduled same-day
 
 ### What's your leadership style?
 
-I would describe my leadership style as results-oriented. I believe that effort is important, but ultimately it's the outcomes that matter. I focus on empowering team members to make decisions within their areas of expertise while providing clear guidance and support. I emphasize setting measurable goals and regularly tracking progress.
+I would describe my leadership style as results-oriented. I believe that effort is important, but ultimately it's the outcomes that matter. I focus on empowering team members to make decisions within their areas of expertise while providing clear guidance and support. I emphasize setting measurable goals and regularly tracking progress. I hired my whole team of 3, and I stay hands-on enough to review designs and code while owning priorities and the roadmap together with product.
 
 ### How do you stay updated with industry trends?
 
@@ -176,7 +353,9 @@ I stay updated by following thought leaders on LinkedIn and subscribing to sever
 
 ### Why do you want to work here?
 
-I want to work here because I admire your focus on innovation and making a difference in the world. I've heard great things about how you support employee growth, which fits well with my career goals.
+*Revolut version:* Three reasons. First, the role: owning the product cycle from discovery to a pitch, with GenAI/LLMs and unit economics, is exactly the next step after leading a team and shipping ML products. Second, the domain: my safety work showed me I do my best work where ML reduces real harm, and fincrime at Revolut is the same logic at a larger scale, with rich transaction data. Third, the standard: your values (Never Settle, Get It Done) match how I work, and the relocation to a hub like the UAE or London fits my plans.
+
+*Generic version (other companies):* I want to work here because I admire your focus on innovation and making a difference. I've heard great things about how you support employee growth, which fits well with my career goals. [Add 1–2 company-specific facts.]
 
 ### What is your preferred work style?
 
@@ -204,7 +383,11 @@ I take a proactive approach. I initiate a private conversation to understand the
 
 ### What do you consider your most significant professional achievement?
 
-Leading a cross-functional team as a product owner to successfully launch a data product that reduced time to market by 30%. Although we were slightly behind schedule since it was my first product, the project had a strong positive impact. It highlighted my leadership and project management skills.
+Pick by the question:
+
+1. **Safety risk scoring (most recent):** took a research idea to a production system on live traffic; the Peru experiment showed incidents going down by [X%], and it's now being scaled globally.
+2. **Driver-rider matching at inDrive:** the ML launch improved our North Star metric by 7%.
+3. **Product-owner story (older):** led a cross-functional team to launch a data product that reduced time to market by 30%. We were slightly behind schedule since it was my first product, but the impact was strong. Use it only if asked about product ownership.
 
 ### What's your approach to setting and achieving career goals?
 
@@ -232,7 +415,7 @@ I stay calm and focused by prioritizing tasks and breaking them into manageable 
 
 ### Can you discuss working on a project with limited resources?
 
-In a previous role, we had a project with only one ML engineer available. I decided to postpone building a full ML platform and instead focused on using our existing infrastructure. By aligning the project scope with available skills and tools, we delivered a successful outcome within the constraints.
+In a previous role, we had a project with only one ML engineer available. I decided to postpone building a full ML platform and instead focused on using our existing infrastructure. By aligning the project scope with available skills and tools, we delivered a successful outcome within the constraints. Result: [time to first working version], [cost], used by [X]. This is the same lean approach I'd use in the Applied AI role: prove value cheaply with a POC, then ask for resources.
 
 ---
 
@@ -288,16 +471,18 @@ Critical thinking skills include things like identifying other people's needs, c
 *(Generic template answers from "70 Toughest Interview Questions")*
 
 ### Why should we hire you?
-You should hire me because I bring a unique combination of technical expertise, leadership experience, and a proven track record of delivering results.
+You should hire me because I combine three things this role needs. First, I own the full cycle: at inDrive I took safety scoring from an idea to live traffic and a measured result ([X%] fewer incidents in the pilot). Second, I work lean: I build a prototype alone first, then ask for resources (for example, the RAG shopping assistant demo at Sweed). Third, I think in business terms and leadership terms: I led and hired a team, and I already build LLM agents. I want to bring that to fincrime.
 
 ### Where do you see yourself in 5 years?
-In five years, I see myself in a leadership role within the company, possibly in a senior project management position. I'm dedicated to continuous growth.
+In five years I see myself as a senior Applied AI engineer or lead who has taken several AI products from idea to scale in one business vertical, and who is growing a small team around them. I want to be the person leadership trusts with a new high-stakes problem. I'm dedicated to continuous growth.
 
 ### What do you know about our company?
-I've thoroughly researched your company and am impressed by your innovative products and commitment to sustainability.
+*Revolut version:* Revolut is a global fintech that keeps expanding its product lines, and it works with a large volume of transaction data, which is exactly where ML and now LLMs can move core metrics. The Applied AI role puts engineers next to business verticals (fincrime, business, retail, CX) and lets them own a product from discovery to a pitch. I also read your five values (Never Settle, Dream Team, Think Deeper, Get It Done, Deliver WOW) and recognize my way of working in them. [Add 1–2 recent facts or product launches you checked on revolut.com or the Revolut blog.]
+
+*Generic version:* I've thoroughly researched your company and am impressed by your innovative products. [Add 1–2 specific facts.]
 
 ### What motivates you in your career?
-What motivates me is the opportunity to continually learn and grow professionally. I thrive when I can tackle new challenges and expand my skill set.
+What motivates me is working on problems where ML has a visible effect on real people and the business, like reducing safety incidents, and continually learning while doing it. I thrive when I can tackle new challenges, own the result, and expand my skill set.
 
 ### How do you handle constructive criticism?
 I welcome constructive criticism as an opportunity for growth. I actively listen, ask clarifying questions, and express gratitude for the input.
@@ -317,8 +502,77 @@ I promoted cultural sensitivity, encouraged open communication, and leveraged ea
 ### What's the most innovative idea you've implemented?
 I introduced an automated data analysis tool that significantly reduced manual data entry and processing time, improving efficiency by 40%.
 
+*More recent (GenAI) example:* I automated our daily standup with LLM-based Jira task analysis, and I built a PydanticAI multi-agent framework that creates delivery orders from WhatsApp chats. Result: [minutes saved per person per day / orders handled without a human].
+
 ### What role do mentorship and professional development play in your career?
 Mentorship and professional development are vital. I actively seek mentorship from experienced professionals and continually invest in professional development opportunities.
 
 ### How do you ensure your work aligns with the company's mission?
 I regularly refer to the company's mission and values as guiding principles. I ensure my actions, decisions, and projects align with these values.
+
+---
+
+## Revolut — Applied AI Engineer: Process, Values, Screen Q&A
+
+*Added after the Oct 28 recruiter screen. `[X]` = insert your real number. Never invent one; if you have no exact figure, give a clearly labeled estimate ("roughly", "back-of-the-envelope").*
+
+### Role in one sentence
+
+Applied AI Engineer = solo owner of the whole product cycle: pick a high-stakes business vertical (fincrime, business, retail, CX…) → run discovery → validate with unit economics → build a POC/prototype alone in the first couple of months → pitch to senior leadership → if approved, get resources and a team. Focus: aggressively using GenAI/LLMs to move core business metrics, with minimal resources at the start.
+
+### Hiring process (as described by the recruiter)
+
+| # | Round | What to expect | Prep |
+|---|-------|----------------|------|
+| 1 | Recruiter screen | Done (Oct 28) | — |
+| 2 | ML fundamentals | Theory: statistics, maths, probability, A/B testing, "dates back to uni time" | Study from prep materials; it is nearly impossible to pass without them |
+| 3 | System design | Map out an end-to-end solution from scratch for a given scenario | Practice ML + LLM system design (data, model, serving, monitoring, cost) |
+| 4 | Business problem-solving case | With a senior leader; gather data and insights to crack a business case | Weak spot last time. Drill the framework below |
+| 5 | Bar Raiser (behavioral) | Past projects, strong deliverables, going above and beyond, matched to the 5 values | Use this file; map stories to values |
+| 6 | Team fit | With a specific business vertical | Prepare domain questions (fincrime etc.) |
+
+**Case framework (round 4):** clarify the goal and the metric → size the opportunity → list data you need and ask for it → segment and find the biggest driver → propose a solution (start with the simplest) → unit economics (value per case × volume × lift − cost) → risks and guardrails → next steps. Think out loud and ask for data instead of guessing.
+
+### Revolut values → which story to use
+
+Source: [Revolut — Our culture](https://www.revolut.com/our-culture)
+
+| Value | What they look for | Your story from this file |
+|-------|-------------------|---------------------------|
+| **Never Settle** | Excellence, pushing beyond current results | Safety risk scoring: from research idea to live traffic, then a real experiment, then global scaling |
+| **Dream Team** | High bar for talent, candid and direct feedback | You hired the whole team of 3; feedback story below |
+| **Think Deeper** | Decisions by logic and evidence, find the root cause | Recall@5 investigation (un-authorized users, Kafka); metrics drop by `app_version`; Kafka vs ClickHouse row count |
+| **Get It Done** | Grit, urgency, full ownership, contingency plans | Elasticsearch assistant under a tight deadline; pre-configured report instead of a web app; ownership of the incident-ranking service |
+| **Deliver WOW** | Simple, high-quality products that make others' work easier | RAG shopping assistant demo; Metabase self-serve reports; LLM standup automation; ranking service that saves incident managers' time |
+
+---
+
+### Recruiter screen — questions and model answers
+
+#### Have you been in a hiring process with us before?
+
+Yes, about 4–5 months ago, for an AI project management role. Since then I've moved into a tech lead position and delivered several ML products end-to-end (safety scoring, liveness detection, incident prioritization), so this hands-on Applied AI role is a much better fit for me.
+
+*Avoid:* "Last time I failed this round." Say instead: "I've prepared specifically for the business case round since then."
+
+#### Does the Applied AI role sound interesting to you?
+
+Very much. What attracts me is the full-cycle ownership. At inDrive, a PM brought the incident prioritization problem, and I turned it into a data pipeline, an inference service and a backend contract with a small team. I'd like to go one step earlier and own the discovery and the unit economics too. I also like the idea of pitching a prototype to leadership to unlock resources, because that is how I already work: prove value cheaply first, then scale.
+
+*Avoid:* only saying "I like working with product and lean resources". Name the specifics: ownership, POC, pitch, unit economics, GenAI.
+
+#### Where are you based, and would you relocate to the UAE, UK or Cyprus?
+
+UAE and the UK are my preferred options. I've already lived in Cyprus for two years, so I'd rather explore a new hub. I'm ready to relocate.
+
+*Avoid:* negative tone about a location ("I really don't want to go back"), and irrelevant details like the Serbian work permit.
+
+#### Citizenship, work permit and visa
+
+I hold Russian citizenship only. Could you tell me how Revolut handles visa and relocation support for the UAE and the UK, and what the usual timeline is?
+
+*Why:* this is your biggest practical risk, so ask early instead of waiting.
+
+#### What is your notice period?
+
+One month. I'd use it for a clean handover of my team's projects, and I'm happy to align on a start date that works for you.
